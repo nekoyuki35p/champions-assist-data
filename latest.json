@@ -1,0 +1,405 @@
+{
+  "schemaVersion": "0.1.0",
+  "dataVersion": "sample.2026.10.18.1",
+  "meeting": {
+    "id": "cm_2026_10_sample",
+    "title": "10月チャンピオンズミーティング",
+    "shortTitle": "10月チャンミ",
+    "year": 2026,
+    "month": 10,
+    "status": "upcoming",
+    "startDate": null,
+    "endDate": null
+  },
+  "course": {
+    "venue": "東京",
+    "surface": "turf",
+    "distance": 2000,
+    "distanceCategory": "middle",
+    "direction": "left",
+    "season": "autumn",
+    "weather": "sunny",
+    "groundCondition": "firm",
+    "courseTags": [
+      "東京レース場",
+      "芝",
+      "2000m",
+      "左回り",
+      "秋",
+      "晴",
+      "良"
+    ]
+  },
+  "runningStyles": {
+    "nige": {
+      "displayName": "逃げ",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2000,
+          "operator": ">=",
+          "display": "2000+"
+        },
+        "stamina": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1100,
+          "operator": ">=",
+          "display": "1100+"
+        },
+        "wisdom": {
+          "value": 1400,
+          "operator": ">=",
+          "display": "1400+"
+        }
+      },
+      "recommendedAptitudes": [],
+      "skills": [
+        {
+          "id": "sample_nige_s",
+          "name": "サンプル逃げ加速",
+          "aliases": [
+            "サンプル逃げ加速"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "終盤加速の表示確認用サンプル。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_nige_a",
+          "name": "サンプル逃げ速度",
+          "aliases": [
+            "サンプル逃げ速度"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "中盤速度の表示確認用サンプル。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_nige_b",
+          "name": "サンプル逃げ緑",
+          "aliases": [
+            "サンプル逃げ緑"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 40,
+          "isRecommended": true,
+          "reason": "条件付きスキルの表示確認用サンプル。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        }
+      ],
+      "notes": [],
+      "sourceIds": [
+        "source_sample"
+      ],
+      "updatedAt": "2026-10-18T21:30:00+09:00"
+    },
+    "senko": {
+      "displayName": "先行",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2000,
+          "operator": ">=",
+          "display": "2000+"
+        },
+        "stamina": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1100,
+          "operator": ">=",
+          "display": "1100+"
+        },
+        "wisdom": {
+          "value": 1400,
+          "operator": ">=",
+          "display": "1400+"
+        }
+      },
+      "recommendedAptitudes": [],
+      "skills": [
+        {
+          "id": "sample_senko_s",
+          "name": "サンプル先行加速",
+          "aliases": [
+            "サンプル先行加速"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "先行向け加速の表示確認用サンプル。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_senko_a",
+          "name": "サンプル先行速度",
+          "aliases": [
+            "サンプル先行速度"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "先行向け速度の表示確認用サンプル。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_senko_b",
+          "name": "サンプル先行位置取り",
+          "aliases": [
+            "サンプル先行位置取り"
+          ],
+          "category": "positioning",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 40,
+          "isRecommended": true,
+          "reason": "位置取り系表示確認用サンプル。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        }
+      ],
+      "notes": [],
+      "sourceIds": [
+        "source_sample"
+      ],
+      "updatedAt": "2026-10-18T21:30:00+09:00"
+    },
+    "sashi": {
+      "displayName": "差し",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2000,
+          "operator": ">=",
+          "display": "2000+"
+        },
+        "stamina": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1100,
+          "operator": ">=",
+          "display": "1100+"
+        },
+        "wisdom": {
+          "value": 1400,
+          "operator": ">=",
+          "display": "1400+"
+        }
+      },
+      "recommendedAptitudes": [],
+      "skills": [
+        {
+          "id": "sample_sashi_s",
+          "name": "サンプル差し加速",
+          "aliases": [
+            "サンプル差し加速"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "差し向け加速の表示確認用サンプル。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_sashi_a",
+          "name": "サンプル差し速度",
+          "aliases": [
+            "サンプル差し速度"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "差し向け速度の表示確認用サンプル。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_sashi_b",
+          "name": "サンプル差し回復",
+          "aliases": [
+            "サンプル差し回復"
+          ],
+          "category": "recovery",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 40,
+          "isRecommended": true,
+          "reason": "回復カテゴリ表示確認用サンプル。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        },
+        {
+          "id": "sample_sashi_a2",
+          "name": "サンプル差し継承固有",
+          "aliases": [
+            "サンプル差し継承固有"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 65,
+          "isRecommended": true,
+          "reason": "継承固有カテゴリ表示確認用サンプル。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "source_sample"
+          ]
+        }
+      ],
+      "notes": [],
+      "sourceIds": [
+        "source_sample"
+      ],
+      "updatedAt": "2026-10-18T21:30:00+09:00"
+    },
+    "oikomi": {
+      "displayName": "追込",
+      "contentStatus": "waiting_article",
+      "targetStats": {
+        "speed": {
+          "value": null,
+          "operator": null,
+          "display": "―"
+        },
+        "stamina": {
+          "value": null,
+          "operator": null,
+          "display": "―"
+        },
+        "power": {
+          "value": null,
+          "operator": null,
+          "display": "―"
+        },
+        "guts": {
+          "value": null,
+          "operator": null,
+          "display": "―"
+        },
+        "wisdom": {
+          "value": null,
+          "operator": null,
+          "display": "―"
+        }
+      },
+      "recommendedAptitudes": [],
+      "skills": [],
+      "notes": [],
+      "sourceIds": [],
+      "updatedAt": null
+    }
+  },
+  "sources": [
+    {
+      "id": "source_sample",
+      "siteName": "ウマ娘ラボ",
+      "title": "サンプルデータ（実記事未接続）",
+      "url": "https://umamusumelabo.com/",
+      "articleType": "general",
+      "runningStyle": null,
+      "publishedAt": null,
+      "checkedAt": "2026-10-18T21:30:00+09:00"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-10-18T21:31:00+09:00",
+    "generator": "champions-assist-sample",
+    "sourceSite": "ウマ娘ラボ",
+    "isComplete": false,
+    "isSample": true,
+    "availableStyles": [
+      "nige",
+      "senko",
+      "sashi"
+    ],
+    "waitingStyles": [
+      "oikomi"
+    ]
+  }
+}
