@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.09.20260928.audit3",
+  "dataVersion": "2026.09.20260928.audit4-supportdeck1",
   "meeting": {
     "id": "cm_2026_09_arc_classic",
     "title": "9月凱旋門賞チャンミCLASSIC",
@@ -10058,7 +10058,7 @@
       "articleType": "style_guide",
       "runningStyle": "senko",
       "publishedAt": "2026-09-22",
-      "checkedAt": "2026-09-28T20:55:00+09:00"
+      "checkedAt": "2026-09-28T23:55:00+09:00"
     },
     {
       "id": "lab_arc_rear",
@@ -10068,7 +10068,7 @@
       "articleType": "style_guide",
       "runningStyle": "sashi,oikomi",
       "publishedAt": "2026-09-24",
-      "checkedAt": "2026-09-28T20:55:00+09:00"
+      "checkedAt": "2026-09-28T23:55:00+09:00"
     },
     {
       "id": "gamebiz_20260927_race_schedule",
@@ -10170,8 +10170,8 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2026-09-28T21:40:43+09:00",
-    "generator": "champions-assist-nige-source-audit-20260928",
+    "generatedAt": "2026-09-28T23:55:00+09:00",
+    "generator": "champions-assist-gaisenmon-supportdeck-audit-20260928",
     "sourceSite": "primary: ウマ娘ラボ / supplementary: 神ゲー攻略・GameWith",
     "isComplete": true,
     "isSample": false,
@@ -11115,13 +11115,142 @@
         ]
       }
     ],
-    "updatedAt": "2026-09-28T21:40:43+09:00",
+    "updatedAt": "2026-09-28T23:55:00+09:00",
     "sourceIds": [
       "lab_arc_course",
       "lab_arc_tier",
       "lab_arc_factor",
       "lab_arc_senko",
       "lab_arc_rear"
-    ]
+    ],
+    "supportDecks": {
+      "senko": {
+        "style": "senko",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_arc_senko",
+        "sourceUpdatedAt": "2026-09-22",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_tokai_teio",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "推奨スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": [
+              {
+                "supportCardId": "ssr_stamina_sakura_chiyono_o",
+                "reason": "スタミナ枠の代替候補。ウマ娘ラボでは採用可だが、メイショウドトウのほうを推奨。"
+              }
+            ]
+          },
+          {
+            "supportCardId": "ssr_wisdom_forever_young",
+            "role": "基本固定の賢さ枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      },
+      "sashi": {
+        "style": "sashi",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_arc_rear",
+        "sourceUpdatedAt": "2026-09-24",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_machikane_tannhauser",
+            "role": "差し用のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_wisdom_nice_nature",
+            "role": "差しの理想賢さ枠",
+            "alternatives": [
+              {
+                "supportCardId": "ssr_wisdom_forever_young",
+                "reason": "基本の賢さ候補。ウマ娘ラボでは、差しでナイスネイチャを採用できるならそちらが理想と記載。"
+              }
+            ]
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      },
+      "oikomi": {
+        "style": "oikomi",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_arc_rear",
+        "sourceUpdatedAt": "2026-09-24",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_mr_cb",
+            "role": "追込用のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_wisdom_forever_young",
+            "role": "基本の賢さ枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      }
+    }
   }
 }

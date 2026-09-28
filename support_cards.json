@@ -1,0 +1,65 @@
+{
+  "dataVersion": "2026.09.28.2",
+  "cards": {
+    "ssr_speed_airgroove": {
+      "name": "エアグルーヴ（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    "ssr_speed_efforia": {
+      "name": "エフフォーリア（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    "ssr_speed_tokai_teio": {
+      "name": "トウカイテイオー（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    "ssr_stamina_meisho_doto": {
+      "name": "メイショウドトウ（スタミナ）",
+      "rarity": "SSR",
+      "type": "stamina",
+      "artAsset": null
+    },
+    "ssr_wisdom_forever_young": {
+      "name": "フォーエバーヤング（賢さ）",
+      "rarity": "SSR",
+      "type": "wisdom",
+      "artAsset": null
+    },
+    "ssr_friend_tazuna": {
+      "name": "駿川たづな（友人）",
+      "rarity": "SSR",
+      "type": "friend",
+      "artAsset": null
+    },
+    "ssr_stamina_sakura_chiyono_o": {
+      "name": "サクラチヨノオー（スタミナ）",
+      "rarity": "SSR",
+      "type": "stamina",
+      "artAsset": null
+    },
+    "ssr_speed_machikane_tannhauser": {
+      "name": "マチカネタンホイザ（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    "ssr_wisdom_nice_nature": {
+      "name": "ナイスネイチャ（賢さ）",
+      "rarity": "SSR",
+      "type": "wisdom",
+      "artAsset": null
+    },
+    "ssr_speed_mr_cb": {
+      "name": "ミスターシービー（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    }
+  }
+}
