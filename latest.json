@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.10.20260928.1",
+  "dataVersion": "2026.10.20260928.2",
   "meeting": {
     "id": "cm_2026_10_classic_kyoto2200",
     "title": "10月チャンピオンズミーティングCLASSIC",
@@ -94,7 +94,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerVariant": null,
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
         },
         {
           "id": "nige_hiryujoun",
@@ -138,7 +143,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
         },
         {
           "id": "nige_angling",
@@ -161,7 +171,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "セイウンスカイ",
+          "ownerVariant": null,
+          "ownerDisplayName": "セイウンスカイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/282549"
         },
         {
           "id": "nige_seimen",
@@ -205,7 +220,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ビワハヤヒデ",
+          "ownerVariant": "メカ",
+          "ownerDisplayName": "ビワハヤヒデ（メカ）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/470252"
         },
         {
           "id": "nige_cacao",
@@ -228,7 +248,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ミホノブルボン",
+          "ownerVariant": "バレンタイン",
+          "ownerDisplayName": "ミホノブルボン（バレンタイン）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/316749"
         },
         {
           "id": "nige_tareuma",
@@ -465,7 +490,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerVariant": null,
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
         },
         {
           "id": "senko_chokkakou",
@@ -530,7 +560,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
         },
         {
           "id": "senko_joy",
@@ -553,7 +588,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ナリタトップロード",
+          "ownerVariant": "クリスマス",
+          "ownerDisplayName": "ナリタトップロード（クリスマス）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/475689"
         },
         {
           "id": "senko_summer_hare",
@@ -574,7 +614,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "アグネスタキオン",
+          "ownerVariant": "水着",
+          "ownerDisplayName": "アグネスタキオン（水着）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/410733"
         },
         {
           "id": "senko_makkou",
@@ -617,7 +662,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "アーモンドアイ",
+          "ownerVariant": null,
+          "ownerDisplayName": "アーモンドアイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/545815"
         },
         {
           "id": "senko_hop",
@@ -640,7 +690,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "フサイチパンドラ",
+          "ownerVariant": null,
+          "ownerDisplayName": "フサイチパンドラ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/509287"
         },
         {
           "id": "senko_musubi",
@@ -660,7 +715,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "メジロラモーヌ",
+          "ownerVariant": "花嫁",
+          "ownerDisplayName": "メジロラモーヌ（花嫁）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/499935"
         },
         {
           "id": "senko_tareuma",
@@ -895,7 +955,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerVariant": null,
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
         },
         {
           "id": "sashi_kakeori",
@@ -959,7 +1024,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
         },
         {
           "id": "sashi_faith",
@@ -982,7 +1052,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ジャングルポケット",
+          "ownerVariant": null,
+          "ownerDisplayName": "ジャングルポケット",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
         },
         {
           "id": "sashi_kasukeido",
@@ -1004,7 +1079,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "サトノクラウン",
+          "ownerVariant": "水着",
+          "ownerDisplayName": "サトノクラウン（水着）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/511943"
         },
         {
           "id": "sashi_cattleya",
@@ -1027,7 +1107,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ジェンティルドンナ",
+          "ownerVariant": "花嫁",
+          "ownerDisplayName": "ジェンティルドンナ（花嫁）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
         },
         {
           "id": "sashi_onechance",
@@ -1093,7 +1178,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "メジロドーベル",
+          "ownerVariant": null,
+          "ownerDisplayName": "メジロドーベル",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/307788"
         },
         {
           "id": "sashi_vivace",
@@ -1115,7 +1205,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "サウンズオブアース",
+          "ownerVariant": null,
+          "ownerDisplayName": "サウンズオブアース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/446540"
         },
         {
           "id": "sashi_tareuma",
@@ -1350,7 +1445,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerVariant": null,
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
         },
         {
           "id": "oikomi_kyukouka",
@@ -1413,7 +1513,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
         },
         {
           "id": "oikomi_faith",
@@ -1436,7 +1541,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ジャングルポケット",
+          "ownerVariant": null,
+          "ownerDisplayName": "ジャングルポケット",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
         },
         {
           "id": "oikomi_cattleya",
@@ -1459,7 +1569,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ジェンティルドンナ",
+          "ownerVariant": "花嫁",
+          "ownerDisplayName": "ジェンティルドンナ（花嫁）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
         },
         {
           "id": "oikomi_kireaji",
@@ -1502,7 +1617,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "ウインバリアシオン",
+          "ownerVariant": null,
+          "ownerDisplayName": "ウインバリアシオン",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/477919"
         },
         {
           "id": "oikomi_kanata",
@@ -1526,7 +1646,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "メジロドーベル",
+          "ownerVariant": null,
+          "ownerDisplayName": "メジロドーベル",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/307788"
         },
         {
           "id": "oikomi_vivace",
@@ -1548,7 +1673,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "サウンズオブアース",
+          "ownerVariant": null,
+          "ownerDisplayName": "サウンズオブアース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/446540"
         },
         {
           "id": "oikomi_kodou",
@@ -1569,7 +1699,12 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "ownerCharacter": "オグリキャップ",
+          "ownerVariant": null,
+          "ownerDisplayName": "オグリキャップ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/258032"
         },
         {
           "id": "oikomi_tareuma",
@@ -1781,6 +1916,8 @@
       "sashi",
       "oikomi"
     ],
-    "waitingStyles": []
+    "waitingStyles": [],
+    "skillOwnerInfoUpdatedAt": "2026-09-28T13:10:00+09:00",
+    "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与"
   }
 }
