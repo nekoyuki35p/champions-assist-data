@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.09.20260928.2",
+  "dataVersion": "2026.09.20260928.4",
   "meeting": {
     "id": "cm_2026_09_classic_longchamp2400",
     "title": "9月チャンピオンズミーティングCLASSIC（凱旋門賞）",
@@ -69,7 +69,12 @@
             "lab_202609_gaisenmon_factor",
             "lab_202609_longchamp_course",
             "utools_202609_runner"
-          ]
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerVariant": null,
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
         },
         {
           "id": "nige_shoubu",
@@ -115,7 +120,12 @@
             "lab_202609_gaisenmon_factor",
             "lab_202609_longchamp_course",
             "utools_202609_runner"
-          ]
+          ],
+          "ownerCharacter": "セイウンスカイ",
+          "ownerVariant": null,
+          "ownerDisplayName": "セイウンスカイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/282549"
         },
         {
           "id": "nige_appare",
@@ -139,7 +149,12 @@
             "lab_202609_gaisenmon_factor",
             "lab_202609_longchamp_course",
             "utools_202609_runner"
-          ]
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
         },
         {
           "id": "nige_joy",
@@ -160,7 +175,12 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "ownerCharacter": "ナリタトップロード",
+          "ownerVariant": "クリスマス",
+          "ownerDisplayName": "ナリタトップロード（クリスマス）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/475689"
         },
         {
           "id": "nige_summer",
@@ -179,14 +199,18 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "ownerCharacter": "アグネスタキオン",
+          "ownerVariant": "水着",
+          "ownerDisplayName": "アグネスタキオン（水着）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/410733"
         },
         {
           "id": "nige_hiryu",
           "name": "飛龍乗雲",
           "aliases": [
-            "飛龍乗雲",
-            "追い風に乗って"
+            "飛龍乗雲"
           ],
           "category": "other",
           "grade": "A",
@@ -199,7 +223,14 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "family": {
+            "id": "hiryujoun",
+            "lowerSkills": [
+              "追い風に乗って"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "nige_peerless",
@@ -218,7 +249,12 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "ownerCharacter": "アーモンドアイ",
+          "ownerVariant": null,
+          "ownerDisplayName": "アーモンドアイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/545815"
         },
         {
           "id": "nige_shouri",
@@ -239,7 +275,12 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "ownerCharacter": "ビワハヤヒデ",
+          "ownerVariant": "メカ",
+          "ownerDisplayName": "ビワハヤヒデ（メカ）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/470252"
         },
         {
           "id": "nige_cacao",
@@ -260,7 +301,12 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_factor"
-          ]
+          ],
+          "ownerCharacter": "ミホノブルボン",
+          "ownerVariant": "バレンタイン",
+          "ownerDisplayName": "ミホノブルボン（バレンタイン）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/316749"
         },
         {
           "id": "nige_barcarolle",
@@ -324,7 +370,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り◯",
             "右回り"
           ],
@@ -340,14 +385,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "nige_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘◯",
             "秋ウマ娘"
           ],
@@ -363,14 +414,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "nige_longchamp",
           "name": "ロンシャンレース場○",
           "aliases": [
             "ロンシャンレース場○",
-            "ロンシャンレース場◎",
             "ロンシャンレース場◯",
             "ロンシャンレース場"
           ],
@@ -386,14 +443,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "longchamp_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ロンシャンレース場◎"
+            ]
+          }
         },
         {
           "id": "nige_root_distance",
           "name": "根幹距離○",
           "aliases": [
             "根幹距離○",
-            "根幹距離◎",
             "根幹距離◯",
             "根幹距離"
           ],
@@ -409,14 +472,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "根幹距離◎"
+            ]
+          }
         },
         {
           "id": "nige_bad_track",
           "name": "道悪○",
           "aliases": [
             "道悪○",
-            "道悪◎",
             "道悪◯",
             "道悪"
           ],
@@ -432,14 +501,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "bad_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
         },
         {
           "id": "nige_sunny",
           "name": "晴れの日○",
           "aliases": [
             "晴れの日○",
-            "晴れの日◎",
             "晴れの日◯",
             "晴れの日"
           ],
@@ -455,7 +530,14 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "sunny_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "晴れの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -511,14 +593,18 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerVariant": null,
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
         },
         {
           "id": "senko_oute",
           "name": "王手",
           "aliases": [
-            "王手",
-            "会心の一歩"
+            "王手"
           ],
           "category": "acceleration",
           "grade": "S",
@@ -534,7 +620,14 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "family": {
+            "id": "oute",
+            "lowerSkills": [
+              "会心の一歩"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "senko_yuuki",
@@ -581,7 +674,6 @@
           "name": "中距離直線○",
           "aliases": [
             "中距離直線○",
-            "中距離直線◎",
             "中距離直線◯",
             "中距離直線"
           ],
@@ -597,14 +689,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_senko"
-          ]
+          ],
+          "family": {
+            "id": "middle_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離直線◎"
+            ]
+          }
         },
         {
           "id": "senko_middle_corner",
           "name": "中距離コーナー○",
           "aliases": [
             "中距離コーナー○",
-            "中距離コーナー◎",
             "中距離コーナー◯",
             "中距離コーナー"
           ],
@@ -620,14 +718,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_senko"
-          ]
+          ],
+          "family": {
+            "id": "middle_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離コーナー◎"
+            ]
+          }
         },
         {
           "id": "senko_senko_straight",
           "name": "先行直線○",
           "aliases": [
             "先行直線○",
-            "先行直線◎",
             "先行直線◯",
             "先行直線"
           ],
@@ -642,14 +746,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_senko"
-          ]
+          ],
+          "family": {
+            "id": "leader_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "先行直線◎"
+            ]
+          }
         },
         {
           "id": "senko_senko_corner",
           "name": "先行コーナー○",
           "aliases": [
             "先行コーナー○",
-            "先行コーナー◎",
             "先行コーナー◯",
             "先行コーナー"
           ],
@@ -664,7 +774,14 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_senko"
-          ]
+          ],
+          "family": {
+            "id": "leader_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "先行コーナー◎"
+            ]
+          }
         },
         {
           "id": "senko_joy",
@@ -687,7 +804,12 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "ナリタトップロード",
+          "ownerVariant": "クリスマス",
+          "ownerDisplayName": "ナリタトップロード（クリスマス）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/475689"
         },
         {
           "id": "senko_summer",
@@ -708,7 +830,12 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "アグネスタキオン",
+          "ownerVariant": "水着",
+          "ownerDisplayName": "アグネスタキオン（水着）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/410733"
         },
         {
           "id": "senko_appare",
@@ -731,7 +858,12 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
         },
         {
           "id": "senko_tsubomi",
@@ -752,7 +884,12 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "ニシノフラワー",
+          "ownerVariant": null,
+          "ownerDisplayName": "ニシノフラワー",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/327403"
         },
         {
           "id": "senko_seirios",
@@ -774,7 +911,12 @@
             "lab_202609_gaisenmon_senko",
             "lab_202609_gaisenmon_factor",
             "utools_202609_leader"
-          ]
+          ],
+          "ownerCharacter": "シリウスシンボリ",
+          "ownerVariant": null,
+          "ownerDisplayName": "シリウスシンボリ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/409689"
         },
         {
           "id": "senko_shippo",
@@ -1047,7 +1189,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り◯",
             "右回り"
           ],
@@ -1063,14 +1204,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "senko_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘◯",
             "秋ウマ娘"
           ],
@@ -1086,14 +1233,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "senko_longchamp",
           "name": "ロンシャンレース場○",
           "aliases": [
             "ロンシャンレース場○",
-            "ロンシャンレース場◎",
             "ロンシャンレース場◯",
             "ロンシャンレース場"
           ],
@@ -1109,14 +1262,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "longchamp_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ロンシャンレース場◎"
+            ]
+          }
         },
         {
           "id": "senko_root_distance",
           "name": "根幹距離○",
           "aliases": [
             "根幹距離○",
-            "根幹距離◎",
             "根幹距離◯",
             "根幹距離"
           ],
@@ -1132,14 +1291,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "根幹距離◎"
+            ]
+          }
         },
         {
           "id": "senko_bad_track",
           "name": "道悪○",
           "aliases": [
             "道悪○",
-            "道悪◎",
             "道悪◯",
             "道悪"
           ],
@@ -1155,14 +1320,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "bad_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
         },
         {
           "id": "senko_sunny",
           "name": "晴れの日○",
           "aliases": [
             "晴れの日○",
-            "晴れの日◎",
             "晴れの日◯",
             "晴れの日"
           ],
@@ -1178,7 +1349,14 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "sunny_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "晴れの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -1232,14 +1410,18 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerVariant": null,
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
         },
         {
           "id": "sashi_oute",
           "name": "王手",
           "aliases": [
-            "王手",
-            "会心の一歩"
+            "王手"
           ],
           "category": "acceleration",
           "grade": "S",
@@ -1255,7 +1437,14 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "family": {
+            "id": "oute",
+            "lowerSkills": [
+              "会心の一歩"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "sashi_kageyori",
@@ -1302,7 +1491,6 @@
           "name": "中距離直線○",
           "aliases": [
             "中距離直線○",
-            "中距離直線◎",
             "中距離直線◯",
             "中距離直線"
           ],
@@ -1318,14 +1506,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "middle_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離直線◎"
+            ]
+          }
         },
         {
           "id": "sashi_middle_corner",
           "name": "中距離コーナー○",
           "aliases": [
             "中距離コーナー○",
-            "中距離コーナー◎",
             "中距離コーナー◯",
             "中距離コーナー"
           ],
@@ -1341,14 +1535,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "middle_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離コーナー◎"
+            ]
+          }
         },
         {
           "id": "sashi_sashi_straight",
           "name": "差し直線○",
           "aliases": [
             "差し直線○",
-            "差し直線◎",
             "差し直線◯",
             "差し直線"
           ],
@@ -1363,14 +1563,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "betweener_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "差し直線◎"
+            ]
+          }
         },
         {
           "id": "sashi_sashi_corner",
           "name": "差しコーナー○",
           "aliases": [
             "差しコーナー○",
-            "差しコーナー◎",
             "差しコーナー◯",
             "差しコーナー"
           ],
@@ -1385,7 +1591,14 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "betweener_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "差しコーナー◎"
+            ]
+          }
         },
         {
           "id": "sashi_seirios",
@@ -1407,7 +1620,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "ownerCharacter": "シリウスシンボリ",
+          "ownerVariant": null,
+          "ownerDisplayName": "シリウスシンボリ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/409689"
         },
         {
           "id": "sashi_ad_astra",
@@ -1428,7 +1646,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
         },
         {
           "id": "sashi_faith",
@@ -1449,7 +1672,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "ownerCharacter": "ジャングルポケット",
+          "ownerVariant": null,
+          "ownerDisplayName": "ジャングルポケット",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
         },
         {
           "id": "sashi_cattleya",
@@ -1470,7 +1698,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_betweener"
-          ]
+          ],
+          "ownerCharacter": "ジェンティルドンナ",
+          "ownerVariant": "花嫁",
+          "ownerDisplayName": "ジェンティルドンナ（花嫁）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
         },
         {
           "id": "sashi_shippo",
@@ -1802,7 +2035,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り◯",
             "右回り"
           ],
@@ -1818,14 +2050,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "sashi_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘◯",
             "秋ウマ娘"
           ],
@@ -1841,14 +2079,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "sashi_longchamp",
           "name": "ロンシャンレース場○",
           "aliases": [
             "ロンシャンレース場○",
-            "ロンシャンレース場◎",
             "ロンシャンレース場◯",
             "ロンシャンレース場"
           ],
@@ -1864,14 +2108,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "longchamp_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ロンシャンレース場◎"
+            ]
+          }
         },
         {
           "id": "sashi_root_distance",
           "name": "根幹距離○",
           "aliases": [
             "根幹距離○",
-            "根幹距離◎",
             "根幹距離◯",
             "根幹距離"
           ],
@@ -1887,14 +2137,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "根幹距離◎"
+            ]
+          }
         },
         {
           "id": "sashi_bad_track",
           "name": "道悪○",
           "aliases": [
             "道悪○",
-            "道悪◎",
             "道悪◯",
             "道悪"
           ],
@@ -1910,14 +2166,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "bad_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
         },
         {
           "id": "sashi_sunny",
           "name": "晴れの日○",
           "aliases": [
             "晴れの日○",
-            "晴れの日◎",
             "晴れの日◯",
             "晴れの日"
           ],
@@ -1933,7 +2195,14 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "sunny_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "晴れの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -1987,14 +2256,18 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerVariant": null,
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
         },
         {
           "id": "oikomi_kunrin",
           "name": "君臨",
           "aliases": [
-            "君臨",
-            "渾身の足取り"
+            "君臨"
           ],
           "category": "acceleration",
           "grade": "S",
@@ -2010,7 +2283,14 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "family": {
+            "id": "kunrin",
+            "lowerSkills": [
+              "渾身の足取り"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "oikomi_chokusen_ikki",
@@ -2058,7 +2338,6 @@
           "name": "中距離直線○",
           "aliases": [
             "中距離直線○",
-            "中距離直線◎",
             "中距離直線◯",
             "中距離直線"
           ],
@@ -2074,14 +2353,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "middle_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離直線◎"
+            ]
+          }
         },
         {
           "id": "oikomi_middle_corner",
           "name": "中距離コーナー○",
           "aliases": [
             "中距離コーナー○",
-            "中距離コーナー◎",
             "中距離コーナー◯",
             "中距離コーナー"
           ],
@@ -2097,14 +2382,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "middle_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "中距離コーナー◎"
+            ]
+          }
         },
         {
           "id": "oikomi_oikomi_straight",
           "name": "追込直線○",
           "aliases": [
             "追込直線○",
-            "追込直線◎",
             "追込直線◯",
             "追込直線"
           ],
@@ -2119,14 +2410,20 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "chaser_straight",
+            "lowerSkills": [],
+            "upperSkills": [
+              "追込直線◎"
+            ]
+          }
         },
         {
           "id": "oikomi_oikomi_corner",
           "name": "追込コーナー○",
           "aliases": [
             "追込コーナー○",
-            "追込コーナー◎",
             "追込コーナー◯",
             "追込コーナー"
           ],
@@ -2141,7 +2438,14 @@
           ],
           "sourceIds": [
             "lab_202609_gaisenmon_sashi_oikomi"
-          ]
+          ],
+          "family": {
+            "id": "chaser_corner",
+            "lowerSkills": [],
+            "upperSkills": [
+              "追込コーナー◎"
+            ]
+          }
         },
         {
           "id": "oikomi_seirios",
@@ -2163,7 +2467,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "ownerCharacter": "シリウスシンボリ",
+          "ownerVariant": null,
+          "ownerDisplayName": "シリウスシンボリ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/409689"
         },
         {
           "id": "oikomi_ad_astra",
@@ -2184,7 +2493,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
         },
         {
           "id": "oikomi_faith",
@@ -2205,7 +2519,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "ownerCharacter": "ジャングルポケット",
+          "ownerVariant": null,
+          "ownerDisplayName": "ジャングルポケット",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
         },
         {
           "id": "oikomi_cattleya",
@@ -2226,7 +2545,12 @@
             "lab_202609_gaisenmon_sashi_oikomi",
             "lab_202609_gaisenmon_factor",
             "utools_202609_chaser"
-          ]
+          ],
+          "ownerCharacter": "ジェンティルドンナ",
+          "ownerVariant": "花嫁",
+          "ownerDisplayName": "ジェンティルドンナ（花嫁）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
         },
         {
           "id": "oikomi_shippo",
@@ -2556,7 +2880,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り◯",
             "右回り"
           ],
@@ -2572,14 +2895,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "oikomi_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘◯",
             "秋ウマ娘"
           ],
@@ -2595,14 +2924,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "oikomi_longchamp",
           "name": "ロンシャンレース場○",
           "aliases": [
             "ロンシャンレース場○",
-            "ロンシャンレース場◎",
             "ロンシャンレース場◯",
             "ロンシャンレース場"
           ],
@@ -2618,14 +2953,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "longchamp_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ロンシャンレース場◎"
+            ]
+          }
         },
         {
           "id": "oikomi_root_distance",
           "name": "根幹距離○",
           "aliases": [
             "根幹距離○",
-            "根幹距離◎",
             "根幹距離◯",
             "根幹距離"
           ],
@@ -2641,14 +2982,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "根幹距離◎"
+            ]
+          }
         },
         {
           "id": "oikomi_bad_track",
           "name": "道悪○",
           "aliases": [
             "道悪○",
-            "道悪◎",
             "道悪◯",
             "道悪"
           ],
@@ -2664,14 +3011,20 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "bad_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
         },
         {
           "id": "oikomi_sunny",
           "name": "晴れの日○",
           "aliases": [
             "晴れの日○",
-            "晴れの日◎",
             "晴れの日◯",
             "晴れの日"
           ],
@@ -2687,7 +3040,14 @@
           "sourceIds": [
             "lab_202609_longchamp_course",
             "gamewith_202609_course"
-          ]
+          ],
+          "family": {
+            "id": "sunny_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "晴れの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -2812,6 +3172,10 @@
       "sashi",
       "oikomi"
     ],
-    "waitingStyles": []
+    "waitingStyles": [],
+    "skillOwnerInfoUpdatedAt": "2026-09-28T13:10:00+09:00",
+    "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与",
+    "skillFamilyUpdatedAt": "2026-09-28T14:15:00+09:00",
+    "skillFamilyPolicy": "上下位スキルをaliasesから分離しfamily.lowerSkills/upperSkillsで管理"
   }
 }

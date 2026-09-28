@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.10.20260928.2",
+  "dataVersion": "2026.10.20260928.3",
   "meeting": {
     "id": "cm_2026_10_classic_kyoto2200",
     "title": "10月チャンピオンズミーティングCLASSIC",
@@ -105,8 +105,7 @@
           "id": "nige_hiryujoun",
           "name": "飛龍乗雲",
           "aliases": [
-            "飛龍乗雲",
-            "追い風に乗って"
+            "飛龍乗雲"
           ],
           "category": "acceleration",
           "grade": "A",
@@ -120,7 +119,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "hiryujoun",
+            "lowerSkills": [
+              "追い風に乗って"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "nige_appare",
@@ -280,7 +286,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り",
             "右回り◯"
           ],
@@ -296,14 +301,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "nige_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘",
             "秋ウマ娘◯"
           ],
@@ -319,14 +330,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "nige_non_root",
           "name": "非根幹距離○",
           "aliases": [
             "非根幹距離○",
-            "非根幹距離◎",
             "非根幹距離",
             "非根幹距離◯"
           ],
@@ -342,14 +359,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "non_root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "非根幹距離◎"
+            ]
+          }
         },
         {
           "id": "nige_kyoto",
           "name": "京都レース場○",
           "aliases": [
             "京都レース場○",
-            "京都レース場◎",
             "京都レース場",
             "京都レース場◯"
           ],
@@ -365,14 +388,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "kyoto_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "京都レース場◎"
+            ]
+          }
         },
         {
           "id": "nige_firm",
           "name": "良バ場○",
           "aliases": [
             "良バ場○",
-            "良バ場◎",
             "良バ場",
             "良バ場◯"
           ],
@@ -388,14 +417,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "firm_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "良バ場◎"
+            ]
+          }
         },
         {
           "id": "nige_cloudy",
           "name": "曇りの日○",
           "aliases": [
             "曇りの日○",
-            "曇りの日◎",
             "曇りの日",
             "曇りの日◯"
           ],
@@ -411,7 +446,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "cloudy_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "曇りの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -521,8 +563,7 @@
           "id": "senko_yume",
           "name": "夢の舞台へ",
           "aliases": [
-            "夢の舞台へ",
-            "憧れを越えて"
+            "夢の舞台へ"
           ],
           "category": "acceleration",
           "grade": "A",
@@ -537,7 +578,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "yume_no_butai",
+            "lowerSkills": [
+              "憧れを越えて"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "senko_appare",
@@ -747,7 +795,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り",
             "右回り◯"
           ],
@@ -763,14 +810,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "senko_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘",
             "秋ウマ娘◯"
           ],
@@ -786,14 +839,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "senko_non_root",
           "name": "非根幹距離○",
           "aliases": [
             "非根幹距離○",
-            "非根幹距離◎",
             "非根幹距離",
             "非根幹距離◯"
           ],
@@ -809,14 +868,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "non_root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "非根幹距離◎"
+            ]
+          }
         },
         {
           "id": "senko_kyoto",
           "name": "京都レース場○",
           "aliases": [
             "京都レース場○",
-            "京都レース場◎",
             "京都レース場",
             "京都レース場◯"
           ],
@@ -832,14 +897,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "kyoto_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "京都レース場◎"
+            ]
+          }
         },
         {
           "id": "senko_firm",
           "name": "良バ場○",
           "aliases": [
             "良バ場○",
-            "良バ場◎",
             "良バ場",
             "良バ場◯"
           ],
@@ -855,14 +926,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "firm_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "良バ場◎"
+            ]
+          }
         },
         {
           "id": "senko_cloudy",
           "name": "曇りの日○",
           "aliases": [
             "曇りの日○",
-            "曇りの日◎",
             "曇りの日",
             "曇りの日◯"
           ],
@@ -878,7 +955,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "cloudy_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "曇りの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -986,8 +1070,7 @@
           "id": "sashi_tenpu",
           "name": "天賦の才",
           "aliases": [
-            "天賦の才",
-            "頂を目指して"
+            "天賦の才"
           ],
           "category": "acceleration",
           "grade": "A",
@@ -1002,7 +1085,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "tenpu_no_sai",
+            "lowerSkills": [
+              "頂を目指して"
+            ],
+            "upperSkills": []
+          }
         },
         {
           "id": "sashi_ad_astra",
@@ -1237,7 +1327,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り",
             "右回り◯"
           ],
@@ -1253,14 +1342,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "sashi_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘",
             "秋ウマ娘◯"
           ],
@@ -1276,14 +1371,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "sashi_non_root",
           "name": "非根幹距離○",
           "aliases": [
             "非根幹距離○",
-            "非根幹距離◎",
             "非根幹距離",
             "非根幹距離◯"
           ],
@@ -1299,14 +1400,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "non_root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "非根幹距離◎"
+            ]
+          }
         },
         {
           "id": "sashi_kyoto",
           "name": "京都レース場○",
           "aliases": [
             "京都レース場○",
-            "京都レース場◎",
             "京都レース場",
             "京都レース場◯"
           ],
@@ -1322,14 +1429,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "kyoto_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "京都レース場◎"
+            ]
+          }
         },
         {
           "id": "sashi_firm",
           "name": "良バ場○",
           "aliases": [
             "良バ場○",
-            "良バ場◎",
             "良バ場",
             "良バ場◯"
           ],
@@ -1345,14 +1458,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "firm_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "良バ場◎"
+            ]
+          }
         },
         {
           "id": "sashi_cloudy",
           "name": "曇りの日○",
           "aliases": [
             "曇りの日○",
-            "曇りの日◎",
             "曇りの日",
             "曇りの日◯"
           ],
@@ -1368,7 +1487,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "cloudy_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "曇りの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -1731,7 +1857,6 @@
           "name": "右回り○",
           "aliases": [
             "右回り○",
-            "右回り◎",
             "右回り",
             "右回り◯"
           ],
@@ -1747,14 +1872,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
         },
         {
           "id": "oikomi_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
             "秋ウマ娘○",
-            "秋ウマ娘◎",
             "秋ウマ娘",
             "秋ウマ娘◯"
           ],
@@ -1770,14 +1901,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
         },
         {
           "id": "oikomi_non_root",
           "name": "非根幹距離○",
           "aliases": [
             "非根幹距離○",
-            "非根幹距離◎",
             "非根幹距離",
             "非根幹距離◯"
           ],
@@ -1793,14 +1930,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "non_root_distance",
+            "lowerSkills": [],
+            "upperSkills": [
+              "非根幹距離◎"
+            ]
+          }
         },
         {
           "id": "oikomi_kyoto",
           "name": "京都レース場○",
           "aliases": [
             "京都レース場○",
-            "京都レース場◎",
             "京都レース場",
             "京都レース場◯"
           ],
@@ -1816,14 +1959,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "kyoto_racecourse",
+            "lowerSkills": [],
+            "upperSkills": [
+              "京都レース場◎"
+            ]
+          }
         },
         {
           "id": "oikomi_firm",
           "name": "良バ場○",
           "aliases": [
             "良バ場○",
-            "良バ場◎",
             "良バ場",
             "良バ場◯"
           ],
@@ -1839,14 +1988,20 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "firm_track",
+            "lowerSkills": [],
+            "upperSkills": [
+              "良バ場◎"
+            ]
+          }
         },
         {
           "id": "oikomi_cloudy",
           "name": "曇りの日○",
           "aliases": [
             "曇りの日○",
-            "曇りの日◎",
             "曇りの日",
             "曇りの日◯"
           ],
@@ -1862,7 +2017,14 @@
           ],
           "sourceIds": [
             "umamusumelabo_202610_kyoto2200"
-          ]
+          ],
+          "family": {
+            "id": "cloudy_day",
+            "lowerSkills": [],
+            "upperSkills": [
+              "曇りの日◎"
+            ]
+          }
         }
       ],
       "notes": [
@@ -1918,6 +2080,8 @@
     ],
     "waitingStyles": [],
     "skillOwnerInfoUpdatedAt": "2026-09-28T13:10:00+09:00",
-    "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与"
+    "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与",
+    "skillFamilyUpdatedAt": "2026-09-28T14:15:00+09:00",
+    "skillFamilyPolicy": "上下位スキルをaliasesから分離しfamily.lowerSkills/upperSkillsで管理"
   }
 }
