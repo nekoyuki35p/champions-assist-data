@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.09.20260928.audit4-supportdeck1",
+  "dataVersion": "2026.09.20260929.audit4-supportdeck2-fallback",
   "meeting": {
     "id": "cm_2026_09_arc_classic",
     "title": "9月凱旋門賞チャンミCLASSIC",
@@ -11252,5 +11252,77 @@
         ]
       }
     }
-  }
+  },
+  "supportCardMaster": [
+    {
+      "supportCardId": "ssr_speed_airgroove",
+      "name": "エアグルーヴ（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_speed_efforia",
+      "name": "エフフォーリア（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_speed_tokai_teio",
+      "name": "トウカイテイオー（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_stamina_meisho_doto",
+      "name": "メイショウドトウ（スタミナ）",
+      "rarity": "SSR",
+      "type": "stamina",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_wisdom_forever_young",
+      "name": "フォーエバーヤング（賢さ）",
+      "rarity": "SSR",
+      "type": "wisdom",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_friend_tazuna",
+      "name": "駿川たづな（友人）",
+      "rarity": "SSR",
+      "type": "friend",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_stamina_sakura_chiyono_o",
+      "name": "サクラチヨノオー（スタミナ）",
+      "rarity": "SSR",
+      "type": "stamina",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_speed_machikane_tannhauser",
+      "name": "マチカネタンホイザ（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_wisdom_nice_nature",
+      "name": "ナイスネイチャ（賢さ）",
+      "rarity": "SSR",
+      "type": "wisdom",
+      "artAsset": null
+    },
+    {
+      "supportCardId": "ssr_speed_mr_cb",
+      "name": "ミスターシービー（スピード）",
+      "rarity": "SSR",
+      "type": "speed",
+      "artAsset": null
+    }
+  ]
 }
