@@ -1,0 +1,2817 @@
+{
+  "schemaVersion": "0.1.0",
+  "dataVersion": "2026.09.20260928.2",
+  "meeting": {
+    "id": "cm_2026_09_classic_longchamp2400",
+    "title": "9月チャンピオンズミーティングCLASSIC（凱旋門賞）",
+    "shortTitle": "9月チャンミCLASSIC",
+    "year": 2026,
+    "month": 9,
+    "status": "upcoming",
+    "startDate": "2026-09-29",
+    "endDate": null
+  },
+  "course": {
+    "venue": "ロンシャン",
+    "surface": "turf",
+    "distance": 2400,
+    "distanceCategory": "middle",
+    "direction": "right",
+    "season": "autumn",
+    "weather": "sunny",
+    "groundCondition": "heavy",
+    "courseTags": [
+      "ロンシャンレース場",
+      "芝",
+      "2400m",
+      "右回り",
+      "中距離",
+      "秋",
+      "晴",
+      "不良",
+      "根幹距離"
+    ]
+  },
+  "runningStyles": {
+    "nige": {
+      "displayName": "逃げ",
+      "contentStatus": "ready",
+      "targetStats": {},
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "ロンシャン芝2400mのため中距離適性Sを推奨。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "nige_supernova",
+          "name": "光れ！弾けろ！超新星爆発！",
+          "aliases": [
+            "光れ！弾けろ！超新星爆発！",
+            "光れ弾けろ超新星爆発",
+            "超新星爆発"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボで逃げ/先行の必須級継承加速として扱われ、U-toolsでも有効性を裏取り。",
+          "conditions": [
+            "逃げ",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_longchamp_course",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_shoubu",
+          "name": "勝負はここから！",
+          "aliases": [
+            "勝負はここから！"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 86,
+          "isRecommended": true,
+          "reason": "ロンシャン2400mで有効な加速候補。ウマ娘ラボを主軸にA整理。",
+          "conditions": [
+            "逃げ",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_longchamp_course",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_angling",
+          "name": "アングリング×スキーミング",
+          "aliases": [
+            "アングリング×スキーミング",
+            "アングリングスキーミング",
+            "アンスキ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "順位条件付きだが有効な終盤加速候補。",
+          "conditions": [
+            "逃げ",
+            "先頭条件"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_longchamp_course",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_appare",
+          "name": "あっぱれ大盤振る舞い！",
+          "aliases": [
+            "あっぱれ大盤振る舞い！",
+            "あっぱれ大盤振る舞い",
+            "あっぱれ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "前方脚質向けの有効な終盤加速候補。",
+          "conditions": [
+            "逃げ",
+            "前方順位"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_longchamp_course",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_joy",
+          "name": "Joy to the World",
+          "aliases": [
+            "Joy to the World",
+            "Joy to the world",
+            "Joy"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 78,
+          "isRecommended": true,
+          "reason": "逃げの継承候補として優先度が高い速度スキル。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_summer",
+          "name": "夏空ハレーション",
+          "aliases": [
+            "夏空ハレーション"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "逃げの継承速度候補として優先度高め。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_hiryu",
+          "name": "飛龍乗雲",
+          "aliases": [
+            "飛龍乗雲",
+            "追い風に乗って"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 74,
+          "isRecommended": true,
+          "reason": "逃げ向けの有力候補としてウマ娘ラボ側の設計を反映。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_peerless",
+          "name": "Peerless Heroine",
+          "aliases": [
+            "Peerless Heroine"
+          ],
+          "category": "inherited_unique",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 62,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_shouri",
+          "name": "勝利ヘ至ル累積",
+          "aliases": [
+            "勝利ヘ至ル累積",
+            "勝利へ至ル累積",
+            "勝利へ至る累積"
+          ],
+          "category": "inherited_unique",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 60,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_cacao",
+          "name": "オペレーション・Cacao",
+          "aliases": [
+            "オペレーション・Cacao",
+            "オペレーションCacao",
+            "Cacao"
+          ],
+          "category": "inherited_unique",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 58,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_barcarolle",
+          "name": "恵福バルカローレ",
+          "aliases": [
+            "恵福バルカローレ"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 56,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_vaudeville",
+          "name": "煌星のヴォードヴィル",
+          "aliases": [
+            "煌星のヴォードヴィル"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 54,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_guardian",
+          "name": "剛心鉄壁ガーディアン",
+          "aliases": [
+            "剛心鉄壁ガーディアン"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 52,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_right_turn",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り◎",
+            "右回り◯",
+            "右回り"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「右回り」に一致する緑スキル。",
+          "conditions": [
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "nige_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘◎",
+            "秋ウマ娘◯",
+            "秋ウマ娘"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 87,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「秋」に一致する緑スキル。",
+          "conditions": [
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "nige_longchamp",
+          "name": "ロンシャンレース場○",
+          "aliases": [
+            "ロンシャンレース場○",
+            "ロンシャンレース場◎",
+            "ロンシャンレース場◯",
+            "ロンシャンレース場"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 39,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「ロンシャン」に一致する緑スキル。",
+          "conditions": [
+            "ロンシャン"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "nige_root_distance",
+          "name": "根幹距離○",
+          "aliases": [
+            "根幹距離○",
+            "根幹距離◎",
+            "根幹距離◯",
+            "根幹距離"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 38,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「2400m・根幹距離」に一致する緑スキル。",
+          "conditions": [
+            "2400m・根幹距離"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "nige_bad_track",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪◎",
+            "道悪◯",
+            "道悪"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 37,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「不良バ場」に一致する緑スキル。",
+          "conditions": [
+            "不良バ場"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "nige_sunny",
+          "name": "晴れの日○",
+          "aliases": [
+            "晴れの日○",
+            "晴れの日◎",
+            "晴れの日◯",
+            "晴れの日"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 36,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「晴」に一致する緑スキル。",
+          "conditions": [
+            "晴"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "info",
+          "text": "S/A/Bはウマ娘ラボを主軸にChampions Assist向けへ正規化。U-toolsは発動位置・効果量の裏取り、GameWithは大会条件確認に限定。"
+        },
+        {
+          "type": "warning",
+          "text": "目標ステータスは今回の更新では未確定のため非表示。"
+        }
+      ],
+      "sourceIds": [
+        "lab_202609_gaisenmon_factor",
+        "lab_202609_longchamp_course",
+        "utools_202609_runner"
+      ],
+      "updatedAt": "2026-09-28T11:50:00+09:00"
+    },
+    "senko": {
+      "displayName": "先行",
+      "contentStatus": "ready",
+      "targetStats": {},
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "ロンシャン芝2400mのため中距離適性Sを推奨。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "senko_supernova",
+          "name": "光れ！弾けろ！超新星爆発！",
+          "aliases": [
+            "光れ！弾けろ！超新星爆発！",
+            "光れ弾けろ超新星爆発",
+            "超新星爆発"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボで先行の必須級継承加速。U-toolsでも有効性を裏取り。",
+          "conditions": [
+            "先行",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_oute",
+          "name": "王手",
+          "aliases": [
+            "王手",
+            "会心の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 98,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの先行優先度S。下位の会心の一歩も同系統として照合。",
+          "conditions": [
+            "先行",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_yuuki",
+          "name": "勇気の一歩",
+          "aliases": [
+            "勇気の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 96,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの先行優先度S。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_umagonomi",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_middle_straight",
+          "name": "中距離直線○",
+          "aliases": [
+            "中距離直線○",
+            "中距離直線◎",
+            "中距離直線◯",
+            "中距離直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 92,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "先行",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_middle_corner",
+          "name": "中距離コーナー○",
+          "aliases": [
+            "中距離コーナー○",
+            "中距離コーナー◎",
+            "中距離コーナー◯",
+            "中距離コーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 91,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "先行",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_senko_straight",
+          "name": "先行直線○",
+          "aliases": [
+            "先行直線○",
+            "先行直線◎",
+            "先行直線◯",
+            "先行直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 90,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_senko_corner",
+          "name": "先行コーナー○",
+          "aliases": [
+            "先行コーナー○",
+            "先行コーナー◎",
+            "先行コーナー◯",
+            "先行コーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 89,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_joy",
+          "name": "Joy to the World",
+          "aliases": [
+            "Joy to the World",
+            "Joy to the world",
+            "Joy"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 84,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_summer",
+          "name": "夏空ハレーション",
+          "aliases": [
+            "夏空ハレーション"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_appare",
+          "name": "あっぱれ大盤振る舞い！",
+          "aliases": [
+            "あっぱれ大盤振る舞い！",
+            "あっぱれ大盤振る舞い",
+            "あっぱれ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_tsubomi",
+          "name": "つぼみ、ほころぶ時",
+          "aliases": [
+            "つぼみ、ほころぶ時"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 78,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_seirios",
+          "name": "セイリオス",
+          "aliases": [
+            "セイリオス"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "効果は高いが人気条件依存のためSではなくA。",
+          "conditions": [
+            "先行",
+            "人気条件"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_leader"
+          ]
+        },
+        {
+          "id": "senko_shippo",
+          "name": "尻尾上がり",
+          "aliases": [
+            "尻尾上がり"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 74,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_kimama",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_kihaku",
+          "name": "迸る気迫",
+          "aliases": [
+            "迸る気迫"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_aun",
+          "name": "阿吽の呼吸",
+          "aliases": [
+            "阿吽の呼吸"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_ootachimawari",
+          "name": "大立ち回り",
+          "aliases": [
+            "大立ち回り"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_aggressive",
+          "name": "アグレッシブ",
+          "aliases": [
+            "アグレッシブ"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 64,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_kinjou",
+          "name": "錦上添花",
+          "aliases": [
+            "錦上添花"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 58,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_ignition",
+          "name": "イグニッション",
+          "aliases": [
+            "イグニッション"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 56,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_mezame",
+          "name": "目覚めの時",
+          "aliases": [
+            "目覚めの時"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 54,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_kudari",
+          "name": "下り坂巧者",
+          "aliases": [
+            "下り坂巧者"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 52,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_hiyaku",
+          "name": "飛躍の予感",
+          "aliases": [
+            "飛躍の予感"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 50,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_seme",
+          "name": "攻めの姿勢",
+          "aliases": [
+            "攻めの姿勢"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 48,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_kuraitsuki",
+          "name": "食らいつき",
+          "aliases": [
+            "食らいつき"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 46,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_tousoushin",
+          "name": "闘争心",
+          "aliases": [
+            "闘争心"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "先行"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_right_turn",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り◎",
+            "右回り◯",
+            "右回り"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「右回り」に一致する緑スキル。",
+          "conditions": [
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "senko_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘◎",
+            "秋ウマ娘◯",
+            "秋ウマ娘"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 87,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「秋」に一致する緑スキル。",
+          "conditions": [
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "senko_longchamp",
+          "name": "ロンシャンレース場○",
+          "aliases": [
+            "ロンシャンレース場○",
+            "ロンシャンレース場◎",
+            "ロンシャンレース場◯",
+            "ロンシャンレース場"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 39,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「ロンシャン」に一致する緑スキル。",
+          "conditions": [
+            "ロンシャン"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "senko_root_distance",
+          "name": "根幹距離○",
+          "aliases": [
+            "根幹距離○",
+            "根幹距離◎",
+            "根幹距離◯",
+            "根幹距離"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 38,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「2400m・根幹距離」に一致する緑スキル。",
+          "conditions": [
+            "2400m・根幹距離"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "senko_bad_track",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪◎",
+            "道悪◯",
+            "道悪"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 37,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「不良バ場」に一致する緑スキル。",
+          "conditions": [
+            "不良バ場"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "senko_sunny",
+          "name": "晴れの日○",
+          "aliases": [
+            "晴れの日○",
+            "晴れの日◎",
+            "晴れの日◯",
+            "晴れの日"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 36,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「晴」に一致する緑スキル。",
+          "conditions": [
+            "晴"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "info",
+          "text": "S/A/Bはウマ娘ラボを主軸にChampions Assist向けへ正規化。U-toolsは発動位置・効果量の裏取り、GameWithは大会条件確認に限定。"
+        },
+        {
+          "type": "warning",
+          "text": "目標ステータスは今回の更新では未確定のため非表示。"
+        }
+      ],
+      "sourceIds": [
+        "lab_202609_gaisenmon_senko",
+        "lab_202609_gaisenmon_factor",
+        "utools_202609_leader"
+      ],
+      "updatedAt": "2026-09-28T11:50:00+09:00"
+    },
+    "sashi": {
+      "displayName": "差し",
+      "contentStatus": "ready",
+      "targetStats": {},
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "ロンシャン芝2400mのため中距離適性Sを推奨。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "sashi_gold",
+          "name": "黄金を訪ねて",
+          "aliases": [
+            "黄金を訪ねて"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボで差し/追込の必須級継承加速。U-toolsでも有効性を裏取り。",
+          "conditions": [
+            "差し",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_oute",
+          "name": "王手",
+          "aliases": [
+            "王手",
+            "会心の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 98,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの差し優先度S。会心の一歩も同系統として照合。",
+          "conditions": [
+            "差し",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_kageyori",
+          "name": "影より速く",
+          "aliases": [
+            "影より速く"
+          ],
+          "category": "other",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 96,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_umagonomi",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_middle_straight",
+          "name": "中距離直線○",
+          "aliases": [
+            "中距離直線○",
+            "中距離直線◎",
+            "中距離直線◯",
+            "中距離直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 92,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_middle_corner",
+          "name": "中距離コーナー○",
+          "aliases": [
+            "中距離コーナー○",
+            "中距離コーナー◎",
+            "中距離コーナー◯",
+            "中距離コーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 91,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_sashi_straight",
+          "name": "差し直線○",
+          "aliases": [
+            "差し直線○",
+            "差し直線◎",
+            "差し直線◯",
+            "差し直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 90,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_sashi_corner",
+          "name": "差しコーナー○",
+          "aliases": [
+            "差しコーナー○",
+            "差しコーナー◎",
+            "差しコーナー◯",
+            "差しコーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 89,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_seirios",
+          "name": "セイリオス",
+          "aliases": [
+            "セイリオス"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 84,
+          "isRecommended": true,
+          "reason": "効果量は高いが人気条件依存のためA。",
+          "conditions": [
+            "差し",
+            "人気条件"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_ad_astra",
+          "name": "アド・アストラ",
+          "aliases": [
+            "アド・アストラ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_faith",
+          "name": "Faith in the Feral",
+          "aliases": [
+            "Faith in the Feral"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_cattleya",
+          "name": "不凋なるCattleya",
+          "aliases": [
+            "不凋なるCattleya"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 78,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_shippo",
+          "name": "尻尾上がり",
+          "aliases": [
+            "尻尾上がり"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_kimama",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 74,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_ootachimawari",
+          "name": "大立ち回り",
+          "aliases": [
+            "大立ち回り"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_fullthrottle",
+          "name": "フルスロットル",
+          "aliases": [
+            "フルスロットル"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_uchinaru",
+          "name": "内なる獣",
+          "aliases": [
+            "内なる獣"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_tsuibi",
+          "name": "追尾",
+          "aliases": [
+            "追尾"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_renmen",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 64,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_kinjou",
+          "name": "錦上添花",
+          "aliases": [
+            "錦上添花"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 58,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_ignition",
+          "name": "イグニッション",
+          "aliases": [
+            "イグニッション"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 56,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_shizuka",
+          "name": "静かな熱",
+          "aliases": [
+            "静かな熱"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 54,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_kangeki",
+          "name": "間隙を突いて",
+          "aliases": [
+            "間隙を突いて"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 52,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_kuraitsuki",
+          "name": "食らいつき",
+          "aliases": [
+            "食らいつき"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 50,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_shinshutsu",
+          "name": "進出開始",
+          "aliases": [
+            "進出開始"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 48,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_afureru",
+          "name": "溢れる情熱",
+          "aliases": [
+            "溢れる情熱"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 46,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_kokorohikarete",
+          "name": "心惹かれて",
+          "aliases": [
+            "心惹かれて"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_itadaki",
+          "name": "頂を目指して",
+          "aliases": [
+            "頂を目指して"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 42,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボでは保険枠。U-toolsでも一定の期待値を確認。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_betweener"
+          ]
+        },
+        {
+          "id": "sashi_tareuma",
+          "name": "垂れウマ回避",
+          "aliases": [
+            "垂れウマ回避"
+          ],
+          "category": "acceleration",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 40,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "差し"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_right_turn",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り◎",
+            "右回り◯",
+            "右回り"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「右回り」に一致する緑スキル。",
+          "conditions": [
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "sashi_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘◎",
+            "秋ウマ娘◯",
+            "秋ウマ娘"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 87,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「秋」に一致する緑スキル。",
+          "conditions": [
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "sashi_longchamp",
+          "name": "ロンシャンレース場○",
+          "aliases": [
+            "ロンシャンレース場○",
+            "ロンシャンレース場◎",
+            "ロンシャンレース場◯",
+            "ロンシャンレース場"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 39,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「ロンシャン」に一致する緑スキル。",
+          "conditions": [
+            "ロンシャン"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "sashi_root_distance",
+          "name": "根幹距離○",
+          "aliases": [
+            "根幹距離○",
+            "根幹距離◎",
+            "根幹距離◯",
+            "根幹距離"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 38,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「2400m・根幹距離」に一致する緑スキル。",
+          "conditions": [
+            "2400m・根幹距離"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "sashi_bad_track",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪◎",
+            "道悪◯",
+            "道悪"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 37,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「不良バ場」に一致する緑スキル。",
+          "conditions": [
+            "不良バ場"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "sashi_sunny",
+          "name": "晴れの日○",
+          "aliases": [
+            "晴れの日○",
+            "晴れの日◎",
+            "晴れの日◯",
+            "晴れの日"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 36,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「晴」に一致する緑スキル。",
+          "conditions": [
+            "晴"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "info",
+          "text": "S/A/Bはウマ娘ラボを主軸にChampions Assist向けへ正規化。U-toolsは発動位置・効果量の裏取り、GameWithは大会条件確認に限定。"
+        },
+        {
+          "type": "warning",
+          "text": "目標ステータスは今回の更新では未確定のため非表示。"
+        }
+      ],
+      "sourceIds": [
+        "lab_202609_gaisenmon_sashi_oikomi",
+        "lab_202609_gaisenmon_factor",
+        "utools_202609_betweener"
+      ],
+      "updatedAt": "2026-09-28T11:50:00+09:00"
+    },
+    "oikomi": {
+      "displayName": "追込",
+      "contentStatus": "ready",
+      "targetStats": {},
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "ロンシャン芝2400mのため中距離適性Sを推奨。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "oikomi_gold",
+          "name": "黄金を訪ねて",
+          "aliases": [
+            "黄金を訪ねて"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボで差し/追込の必須級継承加速。U-toolsでも有効性を裏取り。",
+          "conditions": [
+            "追込",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_kunrin",
+          "name": "君臨",
+          "aliases": [
+            "君臨",
+            "渾身の足取り"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 98,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの追込優先度S。下位の渾身の足取りも同系統として照合。",
+          "conditions": [
+            "追込",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_chokusen_ikki",
+          "name": "直線一気",
+          "aliases": [
+            "直線一気"
+          ],
+          "category": "acceleration",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 96,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込",
+            "終盤直線"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_umagonomi",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_middle_straight",
+          "name": "中距離直線○",
+          "aliases": [
+            "中距離直線○",
+            "中距離直線◎",
+            "中距離直線◯",
+            "中距離直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 92,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_middle_corner",
+          "name": "中距離コーナー○",
+          "aliases": [
+            "中距離コーナー○",
+            "中距離コーナー◎",
+            "中距離コーナー◯",
+            "中距離コーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 91,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込",
+            "中距離"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_oikomi_straight",
+          "name": "追込直線○",
+          "aliases": [
+            "追込直線○",
+            "追込直線◎",
+            "追込直線◯",
+            "追込直線"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 90,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_oikomi_corner",
+          "name": "追込コーナー○",
+          "aliases": [
+            "追込コーナー○",
+            "追込コーナー◎",
+            "追込コーナー◯",
+            "追込コーナー"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 89,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Sへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_seirios",
+          "name": "セイリオス",
+          "aliases": [
+            "セイリオス"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 84,
+          "isRecommended": true,
+          "reason": "効果量は高いが人気条件依存のためA。",
+          "conditions": [
+            "追込",
+            "人気条件"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_ad_astra",
+          "name": "アド・アストラ",
+          "aliases": [
+            "アド・アストラ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_faith",
+          "name": "Faith in the Feral",
+          "aliases": [
+            "Faith in the Feral"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_cattleya",
+          "name": "不凋なるCattleya",
+          "aliases": [
+            "不凋なるCattleya"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 78,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi",
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_chaser"
+          ]
+        },
+        {
+          "id": "oikomi_shippo",
+          "name": "尻尾上がり",
+          "aliases": [
+            "尻尾上がり"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kimama",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 74,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_oshiminashi",
+          "name": "惜しみなし",
+          "aliases": [
+            "惜しみなし"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_hosoku",
+          "name": "捕捉",
+          "aliases": [
+            "捕捉"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_renmen",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kyoukou",
+          "name": "強攻策",
+          "aliases": [
+            "強攻策"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_touryumon",
+          "name": "登竜門",
+          "aliases": [
+            "登竜門"
+          ],
+          "category": "other",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 64,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Aへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kinjou",
+          "name": "錦上添花",
+          "aliases": [
+            "錦上添花"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 58,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_ignition",
+          "name": "イグニッション",
+          "aliases": [
+            "イグニッション"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 56,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_hirogaru",
+          "name": "広がる景色",
+          "aliases": [
+            "広がる景色"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 54,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kagefumi",
+          "name": "影踏み",
+          "aliases": [
+            "影踏み"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 52,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_suiryoku",
+          "name": "推力十分",
+          "aliases": [
+            "推力十分"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 50,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_shio",
+          "name": "潮目を掴んで",
+          "aliases": [
+            "潮目を掴んで"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 48,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_dakai",
+          "name": "打開策",
+          "aliases": [
+            "打開策"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 46,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kaimita",
+          "name": "垣間見た光",
+          "aliases": [
+            "垣間見た光"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_kireaji",
+          "name": "切れ味",
+          "aliases": [
+            "切れ味"
+          ],
+          "category": "acceleration",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 42,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_tareuma",
+          "name": "垂れウマ回避",
+          "aliases": [
+            "垂れウマ回避"
+          ],
+          "category": "acceleration",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 40,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボを主軸にChampions Assist用Bへ整理。",
+          "conditions": [
+            "追込"
+          ],
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_right_turn",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り◎",
+            "右回り◯",
+            "右回り"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「右回り」に一致する緑スキル。",
+          "conditions": [
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "oikomi_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘◎",
+            "秋ウマ娘◯",
+            "秋ウマ娘"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 87,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「秋」に一致する緑スキル。",
+          "conditions": [
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "oikomi_longchamp",
+          "name": "ロンシャンレース場○",
+          "aliases": [
+            "ロンシャンレース場○",
+            "ロンシャンレース場◎",
+            "ロンシャンレース場◯",
+            "ロンシャンレース場"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 39,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「ロンシャン」に一致する緑スキル。",
+          "conditions": [
+            "ロンシャン"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "oikomi_root_distance",
+          "name": "根幹距離○",
+          "aliases": [
+            "根幹距離○",
+            "根幹距離◎",
+            "根幹距離◯",
+            "根幹距離"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 38,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「2400m・根幹距離」に一致する緑スキル。",
+          "conditions": [
+            "2400m・根幹距離"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "oikomi_bad_track",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪◎",
+            "道悪◯",
+            "道悪"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 37,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「不良バ場」に一致する緑スキル。",
+          "conditions": [
+            "不良バ場"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        },
+        {
+          "id": "oikomi_sunny",
+          "name": "晴れの日○",
+          "aliases": [
+            "晴れの日○",
+            "晴れの日◎",
+            "晴れの日◯",
+            "晴れの日"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "conditional",
+          "priority": 36,
+          "isRecommended": true,
+          "reason": "凱旋門賞チャンミの大会条件「晴」に一致する緑スキル。",
+          "conditions": [
+            "晴"
+          ],
+          "sourceIds": [
+            "lab_202609_longchamp_course",
+            "gamewith_202609_course"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "info",
+          "text": "S/A/Bはウマ娘ラボを主軸にChampions Assist向けへ正規化。U-toolsは発動位置・効果量の裏取り、GameWithは大会条件確認に限定。"
+        },
+        {
+          "type": "warning",
+          "text": "目標ステータスは今回の更新では未確定のため非表示。"
+        }
+      ],
+      "sourceIds": [
+        "lab_202609_gaisenmon_sashi_oikomi",
+        "lab_202609_gaisenmon_factor",
+        "utools_202609_chaser"
+      ],
+      "updatedAt": "2026-09-28T11:50:00+09:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "lab_202609_gaisenmon_factor",
+      "siteName": "ウマ娘ラボ",
+      "title": "凱旋門賞チャンミ向け因子・継承スキル設計",
+      "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-insisekkei-202609",
+      "articleType": "strategy",
+      "runningStyle": null,
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "lab_202609_longchamp_course",
+      "siteName": "ウマ娘ラボ",
+      "title": "凱旋門賞チャンミ（ロンシャン芝2400m）攻略",
+      "url": "https://umamusumelabo.com/event/champions-meeting/longchamp-202609",
+      "articleType": "course",
+      "runningStyle": null,
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "lab_202609_gaisenmon_senko",
+      "siteName": "ウマ娘ラボ",
+      "title": "凱旋門賞チャンミ 先行育成論",
+      "url": "https://umamusumelabo.com/ikusei/gaisenmon-senkouikusei-202609",
+      "articleType": "strategy",
+      "runningStyle": "senko",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "lab_202609_gaisenmon_sashi_oikomi",
+      "siteName": "ウマ娘ラボ",
+      "title": "凱旋門賞チャンミ 差し・追込育成論",
+      "url": "https://umamusumelabo.com/ikusei/gaisenmon-sasioikomi-202609",
+      "articleType": "strategy",
+      "runningStyle": null,
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "utools_202609_runner",
+      "siteName": "U-tools",
+      "title": "ロンシャン芝2400m 逃げ・スキル効果",
+      "url": "https://xn--gck1f423k.xn--1bvt37a.tools/race/vsevents/chm2/effects/runner",
+      "articleType": "calculation",
+      "runningStyle": "nige",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "utools_202609_leader",
+      "siteName": "U-tools",
+      "title": "ロンシャン芝2400m 先行・スキル効果",
+      "url": "https://xn--gck1f423k.xn--1bvt37a.tools/race/vsevents/chm2/effects/leader",
+      "articleType": "calculation",
+      "runningStyle": "senko",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "utools_202609_betweener",
+      "siteName": "U-tools",
+      "title": "ロンシャン芝2400m 差し・スキル効果",
+      "url": "https://xn--gck1f423k.xn--1bvt37a.tools/race/vsevents/chm/effects/betweener",
+      "articleType": "calculation",
+      "runningStyle": "sashi",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "utools_202609_chaser",
+      "siteName": "U-tools",
+      "title": "ロンシャン芝2400m 追込・スキル効果",
+      "url": "https://xn--gck1f423k.xn--1bvt37a.tools/race/vsevents/chm2/effects/chaser",
+      "articleType": "calculation",
+      "runningStyle": "oikomi",
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "gamewith_202609_course",
+      "siteName": "GameWith",
+      "title": "2026年9月 凱旋門賞チャンミ・大会条件",
+      "url": "https://gamewith.jp/uma-musume/article/show/575798",
+      "articleType": "course_check",
+      "runningStyle": null,
+      "publishedAt": null,
+      "checkedAt": "2026-09-28T11:50:00+09:00"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-09-28T11:50:00+09:00",
+    "generator": "champions-assist-semi-auto-v0.5",
+    "sourceSite": "ウマ娘ラボ（主軸）＋U-tools（数値裏取り）＋GameWith（大会条件補助）",
+    "isComplete": true,
+    "isSample": false,
+    "availableStyles": [
+      "nige",
+      "senko",
+      "sashi",
+      "oikomi"
+    ],
+    "waitingStyles": []
+  }
+}
