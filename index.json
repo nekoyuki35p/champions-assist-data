@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.28.2",
-  "generatedAt": "2026-09-28T19:43:00+09:00",
+  "dataVersion": "2026.09.29.1",
+  "generatedAt": "2026-09-29T00:55:00+09:00",
   "meetings": [
     {
       "id": "cm_2026_09_arc_classic",
@@ -12,7 +12,7 @@
       "status": "upcoming",
       "startDate": "2026-09-29",
       "endDate": null,
-      "dataUrl": "cm_2026_09_arc_classic.json",
+      "dataUrl": "cm_2026_09_arc_classic.json?v=202609290055",
       "course": {
         "venue": "ロンシャン",
         "surface": "turf",
