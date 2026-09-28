@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026.09.28.1",
+  "generatedAt": "2026-09-28T10:50:00+09:00",
+  "meetings": [
+    {
+      "id": "cm_2026_10_classic_kyoto2200",
+      "title": "10月チャンピオンズミーティングCLASSIC",
+      "shortTitle": "10月チャンミCLASSIC",
+      "year": 2026,
+      "month": 10,
+      "status": "upcoming",
+      "startDate": null,
+      "endDate": null,
+      "dataUrl": "latest.json",
+      "course": {
+        "venue": "京都",
+        "surface": "turf",
+        "distance": 2200,
+        "direction": "right"
+      }
+    }
+  ]
+}
