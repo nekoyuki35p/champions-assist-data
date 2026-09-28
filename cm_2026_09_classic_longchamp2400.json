@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.09.20260928.4",
+  "dataVersion": "2026.09.20260928.5",
   "meeting": {
     "id": "cm_2026_09_classic_longchamp2400",
     "title": "9月チャンピオンズミーティングCLASSIC（凱旋門賞）",
@@ -3076,8 +3076,8 @@
       "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-insisekkei-202609",
       "articleType": "strategy",
       "runningStyle": null,
-      "publishedAt": null,
-      "checkedAt": "2026-09-28T11:50:00+09:00"
+      "publishedAt": "2026-09-20",
+      "checkedAt": "2026-09-28T15:20:00+09:00"
     },
     {
       "id": "lab_202609_longchamp_course",
@@ -3096,8 +3096,8 @@
       "url": "https://umamusumelabo.com/ikusei/gaisenmon-senkouikusei-202609",
       "articleType": "strategy",
       "runningStyle": "senko",
-      "publishedAt": null,
-      "checkedAt": "2026-09-28T11:50:00+09:00"
+      "publishedAt": "2026-09-22",
+      "checkedAt": "2026-09-28T15:20:00+09:00"
     },
     {
       "id": "lab_202609_gaisenmon_sashi_oikomi",
@@ -3106,8 +3106,8 @@
       "url": "https://umamusumelabo.com/ikusei/gaisenmon-sasioikomi-202609",
       "articleType": "strategy",
       "runningStyle": null,
-      "publishedAt": null,
-      "checkedAt": "2026-09-28T11:50:00+09:00"
+      "publishedAt": "2026-09-24",
+      "checkedAt": "2026-09-28T15:20:00+09:00"
     },
     {
       "id": "utools_202609_runner",
@@ -3158,6 +3158,16 @@
       "runningStyle": null,
       "publishedAt": null,
       "checkedAt": "2026-09-28T11:50:00+09:00"
+    },
+    {
+      "id": "lab_202609_gaisenmon_tier",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミ・おすすめウマ娘Tier表",
+      "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-tierlist-202609",
+      "articleType": "tier",
+      "runningStyle": null,
+      "publishedAt": "2026-09-15",
+      "checkedAt": "2026-09-28T15:20:00+09:00"
     }
   ],
   "metadata": {
@@ -3177,5 +3187,737 @@
     "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与",
     "skillFamilyUpdatedAt": "2026-09-28T14:15:00+09:00",
     "skillFamilyPolicy": "上下位スキルをaliasesから分離しfamily.lowerSkills/upperSkillsで管理"
+  },
+  "strategyGuide": {
+    "contentStatus": "ready",
+    "recommendedStyles": [
+      {
+        "style": "senko",
+        "tier": "S",
+        "summary": "最も組みやすく、上位候補も厚い。",
+        "reason": "大逃げ牽引との相性が良く、アーモンドアイを筆頭にエピファネイア、覚醒Lv7エルコンドルパサーなど有力候補が多い。"
+      },
+      {
+        "style": "oikomi",
+        "tier": "A",
+        "summary": "ブエナビスタを中心に終盤性能が高い。",
+        "reason": "ブエナビスタがコース特効級で、オルフェーヴルも有力。ステゴ継承進化など育成要求はやや高め。"
+      },
+      {
+        "style": "sashi",
+        "tier": "A",
+        "summary": "スティルインラブ、アドマイヤグルーヴが有力。",
+        "reason": "有力キャラは強いが、ステゴ継承進化や加速・中盤スキルをしっかり揃えたい。"
+      },
+      {
+        "style": "nige",
+        "tier": "C",
+        "summary": "通常逃げはやや厳しめ。",
+        "reason": "先行勢が強く、通常逃げは編成難度が高め。水着セイウンスカイなどが候補で、大逃げ牽引役は別枠で有用。"
+      }
+    ],
+    "inheritanceRecommendations": {
+      "nige": [
+        {
+          "id": "nige_inherit_epiphaneia",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "逃げの必須級。親にして継承進化させる前提で、通常逃げを使うなら最優先。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_inherit_seiunsky",
+          "characterName": "セイウンスカイ",
+          "variant": null,
+          "uniqueSkillName": "アングリング×スキーミング",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "通常逃げ1枚構成で特に有力。1位条件なので編成に応じてあっぱれと使い分け。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_inherit_kitasan_newyear",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "通常逃げ2枚以上で追い比べを狙う構成と相性が良い。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "utools_202609_runner"
+          ]
+        },
+        {
+          "id": "nige_inherit_naritatoproad_xmas",
+          "characterName": "ナリタトップロード",
+          "variant": "クリスマス",
+          "uniqueSkillName": "Joy to the World",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "大逃げ牽引前提で採用しやすい高めの中盤速度継承。回復トリガーも用意したい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_inherit_agnes_tachyon_swimsuit",
+          "characterName": "アグネスタキオン",
+          "variant": "水着",
+          "uniqueSkillName": "夏空ハレーション",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "前方脚質で使いやすい中盤速度枠。Joy to the Worldと並ぶ候補。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_inherit_almond_eye",
+          "characterName": "アーモンドアイ",
+          "variant": null,
+          "uniqueSkillName": "Peerless Heroine",
+          "tier": "B",
+          "purpose": "中盤現在速度",
+          "reason": "1～5位で使える中盤補強候補。加速枠を確保したうえで祖などに組み込みやすい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "senko_inherit_epiphaneia",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "先行の必須級。エピファネイアを親にして継承進化させるのが基本。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_inherit_kitasan_newyear",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "1～3位条件で扱いやすい追加加速。中盤が強い先行で特に合わせやすい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_inherit_nishino_flower",
+          "characterName": "ニシノフラワー",
+          "variant": null,
+          "uniqueSkillName": "つぼみ、ほころぶ時",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "3～4位条件。中盤力がやや控えめな先行で有力な追加加速候補。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_inherit_sirius_symboli",
+          "characterName": "シリウスシンボリ",
+          "variant": null,
+          "uniqueSkillName": "セイリオス",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "3番人気以上なら強力。覚醒Lv7ナカヤマフェスタでは人気条件を無視でき、特に相性が良い。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_inherit_naritatoproad_xmas",
+          "characterName": "ナリタトップロード",
+          "variant": "クリスマス",
+          "uniqueSkillName": "Joy to the World",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "今回の先行で特に優先度が高い中盤継承。回復トリガーを早めに発動できる構成にしたい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_inherit_agnes_tachyon_swimsuit",
+          "characterName": "アグネスタキオン",
+          "variant": "水着",
+          "uniqueSkillName": "夏空ハレーション",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "Joy to the Worldと並ぶ中盤重視の継承候補。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_senko"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "sashi_inherit_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "差しの必須級。ステイゴールドを親にして継承進化させるのが基本。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_inherit_sirius_symboli",
+          "characterName": "シリウスシンボリ",
+          "variant": null,
+          "uniqueSkillName": "セイリオス",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "3番人気以上なら強力。スティルインラブは自前加速が厚いため優先度が下がる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_inherit_neouniverse",
+          "characterName": "ネオユニヴァース",
+          "variant": null,
+          "uniqueSkillName": "アド・アストラ",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "差し/追込で定番の中盤速度継承。前に出るために優先したい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_inherit_junglepocket",
+          "characterName": "ジャングルポケット",
+          "variant": null,
+          "uniqueSkillName": "Faith in the Feral",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "アド・アストラと並んで優先度が高い中盤速度継承。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_inherit_admiregroove",
+          "characterName": "アドマイヤグルーヴ",
+          "variant": null,
+          "uniqueSkillName": "悠遠のファーノース",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～9位で使いやすく、中盤の位置取りを厚くできる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_inherit_gentildonna_bride",
+          "characterName": "ジェンティルドンナ",
+          "variant": "花嫁",
+          "uniqueSkillName": "不凋なるCattleya",
+          "tier": "A",
+          "purpose": "終盤速度",
+          "reason": "特効条件を満たした時の終盤速度が非常に強く、持っていれば仕込みたい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "oikomi_inherit_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "追込の必須級。ステイゴールドを親にして継承進化させるのが基本。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_inherit_sirius_symboli",
+          "characterName": "シリウスシンボリ",
+          "variant": null,
+          "uniqueSkillName": "セイリオス",
+          "tier": "A",
+          "purpose": "終盤加速",
+          "reason": "3番人気以上で強力。中盤力を確保して3～5位条件へ入りたい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_inherit_neouniverse",
+          "characterName": "ネオユニヴァース",
+          "variant": null,
+          "uniqueSkillName": "アド・アストラ",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "後方脚質の中盤位置取りを押し上げる定番継承。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_inherit_junglepocket",
+          "characterName": "ジャングルポケット",
+          "variant": null,
+          "uniqueSkillName": "Faith in the Feral",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "アド・アストラと並んで因子へ組み込みたい中盤速度継承。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_inherit_gentildonna_bride",
+          "characterName": "ジェンティルドンナ",
+          "variant": "花嫁",
+          "uniqueSkillName": "不凋なるCattleya",
+          "tier": "A",
+          "purpose": "終盤速度",
+          "reason": "特効時の終盤速度が強力。後方の終盤押し上げ枠として有力。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_inherit_winvariation",
+          "characterName": "ウインバリアシオン",
+          "variant": null,
+          "uniqueSkillName": "鋭気のアレグロ",
+          "tier": "A",
+          "purpose": "追込専用・終盤速度",
+          "reason": "追込で中盤以降に追い抜きを重ねられる構成なら特効を狙える。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor",
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        }
+      ]
+    },
+    "mustHaveSkills": {
+      "nige": [
+        {
+          "id": "nige_must_supernova",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "nige_supernova",
+          "requirement": "required",
+          "reason": "通常逃げを使うなら最優先の必須級。最速終盤加速と中盤速度を同時に確保できる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_priority_angling_or_appare",
+          "skillName": "アングリング×スキーミング / あっぱれ大盤振る舞い！",
+          "skillId": null,
+          "requirement": "high_priority",
+          "reason": "通常逃げ1ならアンスキ、通常逃げ2以上ならあっぱれを優先する構成が目安。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        },
+        {
+          "id": "nige_recommended_joy",
+          "skillName": "Joy to the World",
+          "skillId": "nige_joy",
+          "requirement": "recommended",
+          "reason": "大逃げ牽引を活かす中盤速度枠として有力。発動用の回復トリガーも用意したい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_factor"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "senko_must_supernova",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "senko_supernova",
+          "requirement": "required",
+          "reason": "今回の先行で必須級の最速終盤加速。エピファネイア親で継承進化させる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_must_oute_family",
+          "skillName": "王手 / 会心の一歩",
+          "skillId": null,
+          "requirement": "required",
+          "reason": "今回最速発動の終盤加速。自前加速が強いウマ娘は会心の一歩止め、それ以外は王手が基本。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_must_umagonomi",
+          "skillName": "ウマ好み",
+          "skillId": "senko_umagonomi",
+          "requirement": "required",
+          "reason": "2400mでPDM解除に使え、序盤の位置取り争いで重要。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        },
+        {
+          "id": "senko_priority_yuuki",
+          "skillName": "勇気の一歩",
+          "skillId": "senko_yuuki",
+          "requirement": "high_priority",
+          "reason": "終盤最速から少し遅れるが、追加加速として優先度が高い。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_senko"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "sashi_must_gold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "sashi_gold",
+          "requirement": "required",
+          "reason": "差しの必須級。最速終盤加速と中盤速度を同時に得られる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_must_oute_family",
+          "skillName": "王手 / 会心の一歩",
+          "skillId": null,
+          "requirement": "required",
+          "reason": "今回の最速終盤加速。差しは錦上添花との兼ね合いで会心の一歩止めが基本路線。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_must_umagonomi",
+          "skillName": "ウマ好み",
+          "skillId": "sashi_umagonomi",
+          "requirement": "required",
+          "reason": "PDM解除で序盤から前へ出るために重要。後方脚質では取り逃したくない。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_priority_kageyori",
+          "skillName": "影より速く",
+          "skillId": "sashi_kageyori",
+          "requirement": "high_priority",
+          "reason": "最速から約17m遅れでも強い追加加速。終盤加速を安定させる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "sashi_priority_seirios",
+          "skillName": "セイリオス",
+          "skillId": "sashi_seirios",
+          "requirement": "high_priority",
+          "reason": "スティルインラブ以外では特に有力。3番人気以上を狙える仕上がりが前提。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "oikomi_must_gold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "oikomi_gold",
+          "requirement": "required",
+          "reason": "追込の必須級。最速終盤加速と中盤速度を同時に得られる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_must_kunrin",
+          "skillName": "君臨",
+          "skillId": "oikomi_kunrin",
+          "requirement": "required",
+          "reason": "今回最速発動の終盤加速。主要な追込候補は自前で用意しやすい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_must_umagonomi",
+          "skillName": "ウマ好み",
+          "skillId": "oikomi_umagonomi",
+          "requirement": "required",
+          "reason": "PDM解除で序盤から前へ出るために重要。後方脚質では必須級。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_priority_ikki",
+          "skillName": "直線一気",
+          "skillId": "oikomi_chokusen_ikki",
+          "requirement": "high_priority",
+          "reason": "最速から約17m遅れでも強い追加加速。君臨に重ねて終盤を安定させる。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        },
+        {
+          "id": "oikomi_priority_seirios",
+          "skillName": "セイリオス",
+          "skillId": "oikomi_seirios",
+          "requirement": "high_priority",
+          "reason": "3番人気以上なら強力な追加加速。中盤スキルを厚くして順位条件へ入りたい。",
+          "sourceIds": [
+            "lab_202609_gaisenmon_sashi_oikomi"
+          ]
+        }
+      ]
+    },
+    "characterTierList": [
+      {
+        "id": "tier_almond_eye",
+        "characterName": "アーモンドアイ",
+        "variant": null,
+        "tier": "S",
+        "recommendedStyle": "senko",
+        "strengths": "2400mで固有の伸びを活かしやすく、大逃げ牽引との相性も非常に良い。今回の最上位候補の一角。",
+        "caution": "大逃げ牽引編成だと長所を最大化しやすい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_senko"
+        ]
+      },
+      {
+        "id": "tier_buena_vista",
+        "characterName": "ブエナビスタ",
+        "variant": null,
+        "tier": "S",
+        "recommendedStyle": "oikomi",
+        "strengths": "2400m適性が高く、進化加速が最速。中盤力も高く、追込の最有力候補。",
+        "caution": "ステゴ継承進化など後方脚質の基本パーツはしっかり揃えたい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_epiphaneia",
+        "characterName": "エピファネイア",
+        "variant": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "本体固有が最速加速＋中盤速度で非常に強く、終盤追い比べにも強い。",
+        "caution": "継承親としても重要なので、因子構成との兼ね合いを考えたい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_senko"
+        ]
+      },
+      {
+        "id": "tier_el_condor_pasa",
+        "characterName": "エルコンドルパサー",
+        "variant": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "覚醒Lv7進化が最速加速。2400mで強化固有の終盤速度も活かせる。",
+        "caution": "覚醒Lv7前提。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_senko"
+        ]
+      },
+      {
+        "id": "tier_still_in_love",
+        "characterName": "スティルインラブ",
+        "variant": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "本体固有が最速加速で、速度スキルも今回有効。差しの最有力候補。",
+        "caution": "自前加速が厚いため、セイリオスの優先度は他キャラより低い。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_admire_groove",
+        "characterName": "アドマイヤグルーヴ",
+        "variant": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "固有による中盤力が高く、後方勢でも前につけやすい。進化スキルの終盤性能も高い。",
+        "caution": "終盤進化の伸びを活かせる展開にしたい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_orfevre",
+        "characterName": "オルフェーヴル",
+        "variant": null,
+        "tier": "A",
+        "recommendedStyle": "oikomi",
+        "strengths": "最速加速進化と高い総合スペックを持ち、追込の上位候補。",
+        "caution": "今回の追込最上位はブエナビスタ寄り。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_nakayama_festa",
+        "characterName": "ナカヤマフェスタ",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "sashi",
+        "strengths": "覚醒Lv7のAll-in!!で人気条件を無視でき、セイリオスを強く使える。",
+        "caution": "覚醒Lv7前提かつ、一部進化スキルに確率要素がある。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_chronogenesis",
+        "characterName": "クロノジェネシス",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "senko",
+        "strengths": "先行の有力候補群の一角で、コースに合わせて十分戦える。",
+        "caution": "S/A上位候補と比べると編成・仕上がりで差を詰めたい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_senko"
+        ]
+      },
+      {
+        "id": "tier_gentildonna",
+        "characterName": "ジェンティルドンナ",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "senko",
+        "strengths": "先行で使える高スペック候補。上位候補に続く選択肢。",
+        "caution": "継承加速や中盤速度をしっかり補強したい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_senko"
+        ]
+      },
+      {
+        "id": "tier_victoire_pisa",
+        "characterName": "ヴィクトワールピサ",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "sashi",
+        "strengths": "差しの有力候補。継承固有Ring-a-Linkも今回の中盤補強候補になる。",
+        "caution": "スティルやアドマイヤグルーヴより育成完成度を求められやすい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_loves_only_you",
+        "characterName": "ラヴズオンリーユー",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "sashi",
+        "strengths": "差しで十分戦える有力候補。",
+        "caution": "上位差し候補に比べて加速・中盤構成を丁寧に組みたい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_duramente",
+        "characterName": "ドゥラメンテ",
+        "variant": null,
+        "tier": "B",
+        "recommendedStyle": "oikomi",
+        "strengths": "追込の3番手級候補として扱いやすい。",
+        "caution": "ブエナビスタ、オルフェーヴルに比べると優先度は一段下。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier",
+          "lab_202609_gaisenmon_sashi_oikomi"
+        ]
+      },
+      {
+        "id": "tier_seiunsky_swimsuit",
+        "characterName": "セイウンスカイ",
+        "variant": "水着",
+        "tier": "B",
+        "recommendedStyle": "nige",
+        "strengths": "通常逃げの最有力候補。中距離逃げとして高い総合力を持つ。",
+        "caution": "今回は先行勢が強く、通常逃げ自体の環境はやや厳しい。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier"
+        ]
+      },
+      {
+        "id": "tier_katsuragiace_newyear",
+        "characterName": "カツラギエース",
+        "variant": "正月",
+        "tier": "C",
+        "recommendedStyle": "nige",
+        "strengths": "進化スキルが今回の最速加速になり、逃げ候補として採用可能。",
+        "caution": "通常逃げの環境が厳しく、編成依存度が高い。",
+        "sourceIds": [
+          "lab_202609_gaisenmon_tier"
+        ]
+      }
+    ],
+    "updatedAt": "2026-09-28T15:20:00+09:00",
+    "sourceIds": [
+      "lab_202609_gaisenmon_factor",
+      "lab_202609_gaisenmon_tier",
+      "lab_202609_gaisenmon_senko",
+      "lab_202609_gaisenmon_sashi_oikomi",
+      "utools_202609_runner",
+      "utools_202609_leader",
+      "utools_202609_betweener",
+      "utools_202609_chaser"
+    ]
   }
 }
