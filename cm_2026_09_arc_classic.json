@@ -1,0 +1,1661 @@
+{
+  "schemaVersion": "0.1.0",
+  "dataVersion": "2026.09.20260928.audit1",
+  "meeting": {
+    "id": "cm_2026_09_arc_classic",
+    "title": "9月凱旋門賞チャンミCLASSIC",
+    "shortTitle": "凱旋門賞チャンミ",
+    "year": 2026,
+    "month": 9,
+    "status": "upcoming",
+    "startDate": "2026-09-29",
+    "endDate": null
+  },
+  "course": {
+    "venue": "ロンシャン",
+    "surface": "turf",
+    "distance": 2400,
+    "distanceCategory": "middle",
+    "direction": "right",
+    "season": "autumn",
+    "weather": "sunny",
+    "groundCondition": "heavy",
+    "courseTags": [
+      "ロンシャンレース場",
+      "芝",
+      "2400m",
+      "右回り",
+      "中距離",
+      "秋",
+      "晴",
+      "不良",
+      "昼",
+      "根幹距離",
+      "特殊ルール:デバフなし"
+    ]
+  },
+  "runningStyles": {
+    "nige": {
+      "displayName": "逃げ",
+      "contentStatus": "partial",
+      "targetStats": {
+        "speed": {
+          "value": null,
+          "operator": null,
+          "display": "未確定"
+        },
+        "stamina": {
+          "value": null,
+          "operator": null,
+          "display": "未確定"
+        },
+        "power": {
+          "value": null,
+          "operator": null,
+          "display": "未確定"
+        },
+        "guts": {
+          "value": null,
+          "operator": null,
+          "display": "未確定"
+        },
+        "wisdom": {
+          "value": null,
+          "operator": null,
+          "display": "未確定"
+        }
+      },
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "中距離Sを優先。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "arc_nige_epiph",
+          "name": "光れ！弾けろ！超新星爆発！",
+          "aliases": [
+            "光れ！弾けろ！超新星爆発！",
+            "光れ弾けろ超新星爆発",
+            "超新星爆発"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "逃げ/先行の必須級継承進化。最速終盤加速＋中盤速度。",
+          "conditions": [
+            "逃げ",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_nigekiri",
+          "name": "逃げ切り体勢",
+          "aliases": [
+            "逃げ切り体勢"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "最速終盤加速の下位候補。",
+          "conditions": [
+            "逃げ",
+            "終盤最終コーナー"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "shoubu_kokokara",
+            "lowerSkills": [],
+            "upperSkills": [
+              "勝負はここから！"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_angling",
+          "name": "アングリング×スキーミング",
+          "aliases": [
+            "アングリング×スキーミング",
+            "アンスキ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "通常逃げ1編成で有力な1位条件の最速加速。",
+          "conditions": [
+            "逃げ",
+            "1位",
+            "終盤"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "セイウンスカイ",
+          "ownerDisplayName": "セイウンスカイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_appare",
+          "name": "あっぱれ大盤振る舞い！",
+          "aliases": [
+            "あっぱれ大盤振る舞い！",
+            "あっぱれ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "通常逃げ2以上で追い比べを狙う場合の候補。",
+          "conditions": [
+            "逃げ",
+            "1～3位",
+            "終盤"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_right",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り",
+            "右回り◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "右回りで安定して有効。",
+          "conditions": [
+            "逃げ",
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘",
+            "秋ウマ娘◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "秋開催で安定して有効。",
+          "conditions": [
+            "逃げ",
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_badroad",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪",
+            "道悪◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 43,
+          "isRecommended": true,
+          "reason": "不良バ場で安定して有効。",
+          "conditions": [
+            "逃げ",
+            "不良"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "bad_road",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "type": "grading",
+          "text": "S/A/Bはウマ娘ラボの必須・優先表現をChampions Assist向けに正規化。"
+        },
+        {
+          "type": "rule",
+          "text": "特殊ルール「デバフなし」。デバフ系スキルは大会ルール上の対象に注意。"
+        },
+        {
+          "type": "stats",
+          "text": "逃げ専用の最新目標ステータス記事を未確認のため、数値は未確定。"
+        }
+      ],
+      "sourceIds": [
+        "lab_arc_course",
+        "lab_arc_factor",
+        "lab_arc_tier",
+        "gamebiz_20260927_race_schedule"
+      ],
+      "updatedAt": "2026-09-28T19:43:00+09:00"
+    },
+    "senko": {
+      "displayName": "先行",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2150,
+          "operator": ">=",
+          "display": "2150+"
+        },
+        "stamina": {
+          "value": 1800,
+          "operator": ">=",
+          "display": "1800+ + 白回復1～2"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "wisdom": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        }
+      },
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "中距離Sは必須。可能なら先行Sも。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "arc_senko_epiph",
+          "name": "光れ！弾けろ！超新星爆発！",
+          "aliases": [
+            "光れ！弾けろ！超新星爆発！",
+            "光れ弾けろ超新星爆発",
+            "超新星爆発"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "先行の必須級継承進化。最速終盤加速＋中盤速度。",
+          "conditions": [
+            "先行",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor",
+            "lab_arc_senko"
+          ],
+          "ownerCharacter": "エピファネイア",
+          "ownerDisplayName": "エピファネイア",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_senko_umazuki",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "positioning",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 99,
+          "isRecommended": true,
+          "reason": "2400mではPDM解除に使え、序盤の位置取りで超重要。",
+          "conditions": [
+            "先行",
+            "序盤"
+          ],
+          "sourceIds": [
+            "lab_arc_senko"
+          ]
+        },
+        {
+          "id": "arc_senko_kaishin",
+          "name": "会心の一歩",
+          "aliases": [
+            "会心の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 90,
+          "isRecommended": true,
+          "reason": "王手の下位。今回は最速で、加速量が多いため下位止めでも有力。",
+          "conditions": [
+            "先行",
+            "終盤最終コーナー"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_senko"
+          ],
+          "family": {
+            "id": "oute",
+            "lowerSkills": [],
+            "upperSkills": [
+              "王手"
+            ]
+          }
+        },
+        {
+          "id": "arc_senko_yuuki",
+          "name": "勇気の一歩",
+          "aliases": [
+            "勇気の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 86,
+          "isRecommended": true,
+          "reason": "17m遅れの終盤直線加速。下位止めで採用価値が高い。",
+          "conditions": [
+            "先行",
+            "終盤直線"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_senko"
+          ],
+          "family": {
+            "id": "showdown",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ショーダウン"
+            ]
+          }
+        },
+        {
+          "id": "arc_senko_joy",
+          "name": "Joy to the World",
+          "aliases": [
+            "Joy to the World",
+            "Joy"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "中盤速度継承の有力候補。",
+          "conditions": [
+            "先行",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "ナリタトップロード",
+          "ownerVariant": "クリスマス",
+          "ownerDisplayName": "ナリタトップロード（クリスマス）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_senko_right",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り",
+            "右回り◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "右回りで安定して有効。",
+          "conditions": [
+            "先行",
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_arc_senko"
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_senko_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘",
+            "秋ウマ娘◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "秋開催で安定して有効。",
+          "conditions": [
+            "先行",
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_arc_senko"
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_senko_badroad",
+          "name": "道悪○",
+          "aliases": [
+            "道悪○",
+            "道悪",
+            "道悪◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 43,
+          "isRecommended": true,
+          "reason": "不良バ場で安定して有効。",
+          "conditions": [
+            "先行",
+            "不良"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "bad_road",
+            "lowerSkills": [],
+            "upperSkills": [
+              "道悪◎"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "type": "grading",
+          "text": "S/A/Bはウマ娘ラボの必須・優先表現をChampions Assist向けに正規化。"
+        },
+        {
+          "type": "rule",
+          "text": "特殊ルール「デバフなし」。デバフ系スキルは大会ルール上の対象に注意。"
+        },
+        {
+          "type": "stats",
+          "text": "ウマ娘ラボ先行育成論のプラチナ狙い目標。中距離S必須、可能なら先行S。"
+        }
+      ],
+      "sourceIds": [
+        "lab_arc_course",
+        "lab_arc_factor",
+        "lab_arc_senko",
+        "gamebiz_20260927_race_schedule"
+      ],
+      "updatedAt": "2026-09-28T19:43:00+09:00"
+    },
+    "sashi": {
+      "displayName": "差し",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2100,
+          "operator": ">=",
+          "display": "2100+"
+        },
+        "stamina": {
+          "value": 1800,
+          "operator": ">=",
+          "display": "1800+ + 白回復1"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "wisdom": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        }
+      },
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "中距離Sは必須。可能なら差しSも。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "arc_sashi_staygold",
+          "name": "黄金を訪ねて",
+          "aliases": [
+            "黄金を訪ねて"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "差し/追込の必須級継承進化。最速終盤加速＋中盤速度。",
+          "conditions": [
+            "差し",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_sashi_umazuki",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "positioning",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 99,
+          "isRecommended": true,
+          "reason": "PDM解除で序盤に前へ出やすく、後方脚質では必須級。",
+          "conditions": [
+            "差し",
+            "序盤"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_sashi_kaishin",
+          "name": "会心の一歩",
+          "aliases": [
+            "会心の一歩"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 90,
+          "isRecommended": true,
+          "reason": "王手の下位。今回は最速加速として有力。",
+          "conditions": [
+            "差し",
+            "終盤最終コーナー"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_rear"
+          ],
+          "family": {
+            "id": "oute",
+            "lowerSkills": [],
+            "upperSkills": [
+              "王手"
+            ]
+          }
+        },
+        {
+          "id": "arc_sashi_kageyori",
+          "name": "影より速く",
+          "aliases": [
+            "影より速く"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 86,
+          "isRecommended": true,
+          "reason": "17m遅れの終盤直線加速。差しではできれば欲しい。",
+          "conditions": [
+            "差し",
+            "終盤直線"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_sashi_seirios",
+          "name": "セイリオス",
+          "aliases": [
+            "セイリオス"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "3番人気以上なら強力な最速加速。スティルなど自前加速十分な場合は優先度調整。",
+          "conditions": [
+            "差し",
+            "3～5位",
+            "3番人気以上"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "シリウスシンボリ",
+          "ownerDisplayName": "シリウスシンボリ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_sashi_ad_astra",
+          "name": "アド・アストラ",
+          "aliases": [
+            "アド・アストラ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "中盤速度継承の有力候補。",
+          "conditions": [
+            "差し",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_sashi_right",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り",
+            "右回り◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "右回りで安定して有効。",
+          "conditions": [
+            "差し",
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_sashi_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘",
+            "秋ウマ娘◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "秋開催で安定して有効。",
+          "conditions": [
+            "差し",
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "type": "grading",
+          "text": "S/A/Bはウマ娘ラボの必須・優先表現をChampions Assist向けに正規化。"
+        },
+        {
+          "type": "rule",
+          "text": "特殊ルール「デバフなし」。デバフ系スキルは大会ルール上の対象に注意。"
+        },
+        {
+          "type": "stats",
+          "text": "ウマ娘ラボ差し/追込育成論のプラチナ狙い目標。中距離S必須、可能なら脚質S。"
+        }
+      ],
+      "sourceIds": [
+        "lab_arc_course",
+        "lab_arc_factor",
+        "lab_arc_rear",
+        "gamebiz_20260927_race_schedule"
+      ],
+      "updatedAt": "2026-09-28T19:43:00+09:00"
+    },
+    "oikomi": {
+      "displayName": "追込",
+      "contentStatus": "ready",
+      "targetStats": {
+        "speed": {
+          "value": 2100,
+          "operator": ">=",
+          "display": "2100+"
+        },
+        "stamina": {
+          "value": 1800,
+          "operator": ">=",
+          "display": "1800+ + 白回復1"
+        },
+        "power": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        },
+        "guts": {
+          "value": 1200,
+          "operator": ">=",
+          "display": "1200+"
+        },
+        "wisdom": {
+          "value": 1600,
+          "operator": ">=",
+          "display": "1600+"
+        }
+      },
+      "recommendedAptitudes": [
+        {
+          "type": "distance",
+          "target": "middle",
+          "recommendedRank": "S",
+          "priority": "high",
+          "note": "中距離Sは必須。可能なら追込Sも。"
+        }
+      ],
+      "skills": [
+        {
+          "id": "arc_oikomi_staygold",
+          "name": "黄金を訪ねて",
+          "aliases": [
+            "黄金を訪ねて"
+          ],
+          "category": "inherited_unique",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 100,
+          "isRecommended": true,
+          "reason": "差し/追込の必須級継承進化。最速終盤加速＋中盤速度。",
+          "conditions": [
+            "追込",
+            "終盤加速"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ],
+          "ownerCharacter": "ステイゴールド",
+          "ownerDisplayName": "ステイゴールド",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_oikomi_umazuki",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "positioning",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 99,
+          "isRecommended": true,
+          "reason": "PDM解除で序盤に前へ出やすく、後方脚質では必須級。",
+          "conditions": [
+            "追込",
+            "序盤"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_oikomi_konshin",
+          "name": "渾身の足取り",
+          "aliases": [
+            "渾身の足取り"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 88,
+          "isRecommended": true,
+          "reason": "君臨の下位。今回は最速加速として有力で、自前君臨勢以外は下位止め候補。",
+          "conditions": [
+            "追込",
+            "終盤最終コーナー"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "kunrin",
+            "lowerSkills": [],
+            "upperSkills": [
+              "君臨"
+            ]
+          }
+        },
+        {
+          "id": "arc_oikomi_chokusen",
+          "name": "直線一気",
+          "aliases": [
+            "直線一気"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 86,
+          "isRecommended": true,
+          "reason": "迫る影の下位。17m遅れだが今回有力で、下位止めでOK。",
+          "conditions": [
+            "追込",
+            "終盤直線"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "family": {
+            "id": "semaru_kage",
+            "lowerSkills": [],
+            "upperSkills": [
+              "迫る影"
+            ]
+          }
+        },
+        {
+          "id": "arc_oikomi_seirios",
+          "name": "セイリオス",
+          "aliases": [
+            "セイリオス"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 82,
+          "isRecommended": true,
+          "reason": "3番人気以上なら強力な最速加速。",
+          "conditions": [
+            "追込",
+            "3～5位",
+            "3番人気以上"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "シリウスシンボリ",
+          "ownerDisplayName": "シリウスシンボリ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_oikomi_ad_astra",
+          "name": "アド・アストラ",
+          "aliases": [
+            "アド・アストラ"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 76,
+          "isRecommended": true,
+          "reason": "中盤速度継承の有力候補。",
+          "conditions": [
+            "追込",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_arc_factor"
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_oikomi_right",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り",
+            "右回り◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "右回りで安定して有効。",
+          "conditions": [
+            "追込",
+            "右回り"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ],
+          "family": {
+            "id": "right_turn",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_oikomi_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘",
+            "秋ウマ娘◯"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "秋開催で安定して有効。",
+          "conditions": [
+            "追込",
+            "秋"
+          ],
+          "sourceIds": [
+            "lab_arc_rear"
+          ],
+          "family": {
+            "id": "autumn_umamusume",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "type": "grading",
+          "text": "S/A/Bはウマ娘ラボの必須・優先表現をChampions Assist向けに正規化。"
+        },
+        {
+          "type": "rule",
+          "text": "特殊ルール「デバフなし」。デバフ系スキルは大会ルール上の対象に注意。"
+        },
+        {
+          "type": "stats",
+          "text": "ウマ娘ラボ差し/追込育成論のプラチナ狙い目標。中距離S必須、可能なら脚質S。"
+        }
+      ],
+      "sourceIds": [
+        "lab_arc_course",
+        "lab_arc_factor",
+        "lab_arc_rear",
+        "gamebiz_20260927_race_schedule"
+      ],
+      "updatedAt": "2026-09-28T19:43:00+09:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "lab_arc_course",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSIC・コースの必須知識とおすすめウマ娘まとめ（ロンシャン芝2400m）",
+      "url": "https://umamusumelabo.com/event/champions-meeting/longchamp-202609",
+      "articleType": "course",
+      "runningStyle": null,
+      "publishedAt": "2026-09-10",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "lab_arc_tier",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSICのTier表を公開",
+      "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-tierlist-202609",
+      "articleType": "tier",
+      "runningStyle": null,
+      "publishedAt": "2026-09-15",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "lab_arc_factor",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSICの因子設計図について解説",
+      "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-insisekkei-202609",
+      "articleType": "inheritance",
+      "runningStyle": null,
+      "publishedAt": "2026-09-20",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "lab_arc_senko",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSIC用・先行ウマ娘育成論",
+      "url": "https://umamusumelabo.com/ikusei/gaisenmon-senkouikusei-202609",
+      "articleType": "style_guide",
+      "runningStyle": "senko",
+      "publishedAt": "2026-09-22",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "lab_arc_rear",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSIC用・差し/追込ウマ娘育成論",
+      "url": "https://umamusumelabo.com/ikusei/gaisenmon-sasioikomi-202609",
+      "articleType": "style_guide",
+      "runningStyle": "sashi,oikomi",
+      "publishedAt": "2026-09-24",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "gamebiz_20260927_race_schedule",
+      "siteName": "gamebiz",
+      "title": "9月～3月対戦レースイベント情報（ぱかライブTV発表まとめ）",
+      "url": "https://gamebiz.jp/news/433236",
+      "articleType": "event_schedule",
+      "runningStyle": null,
+      "publishedAt": "2026-09-27",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2026-09-28T19:43:00+09:00",
+    "generator": "champions-assist-audit-20260928",
+    "sourceSite": "ウマ娘ラボ中心＋開催条件発表",
+    "isComplete": false,
+    "isSample": false,
+    "availableStyles": [
+      "nige",
+      "senko",
+      "sashi",
+      "oikomi"
+    ],
+    "waitingStyles": [
+      "nige"
+    ]
+  },
+  "strategyGuide": {
+    "contentStatus": "ready",
+    "recommendedStyles": [
+      {
+        "style": "senko",
+        "tier": "S",
+        "summary": "安定感が高く組みやすい最有力脚質。",
+        "reason": "大逃げ牽引と先行の相性が良く、ウマ娘ラボでも万人向けの有力脚質として評価。"
+      },
+      {
+        "style": "oikomi",
+        "tier": "A",
+        "summary": "ブエナビスタを中心に爆発力が高い。",
+        "reason": "安定感は先行に劣るが、ハマった時の爆発力が高い。"
+      },
+      {
+        "style": "sashi",
+        "tier": "A",
+        "summary": "スティルインラブなど強力な候補が揃う。",
+        "reason": "スティルインラブやアドマイヤグルーヴが有力。"
+      },
+      {
+        "style": "nige",
+        "tier": "C",
+        "summary": "通常逃げはやや厳しめ。",
+        "reason": "先行勢が強く、ウマ娘ラボTier解説でも逃げはやや厳しめと評価。"
+      }
+    ],
+    "inheritanceRecommendations": {
+      "nige": [
+        {
+          "id": "arc_nige_inh_epiph",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "必須級の最速終盤加速＋中盤速度",
+          "reason": "通常逃げを使うなら最優先。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_nige_inh_seiun",
+          "characterName": "セイウンスカイ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "アングリング×スキーミング",
+          "tier": "A",
+          "purpose": "通常逃げ1向け最速加速",
+          "reason": "1位終盤入りを狙う編成で候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_nige_inh_kitasan",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "portraitAsset": null,
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "通常逃げ2以上向け追加加速",
+          "reason": "追い比べを狙う複数逃げ編成で候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "arc_senko_inh_epiph",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "必須級の最速終盤加速＋中盤速度",
+          "reason": "先行なら最優先。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_senko"
+          ]
+        },
+        {
+          "id": "arc_senko_inh_kitasan",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "portraitAsset": null,
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "追加の最速終盤加速",
+          "reason": "中盤が強い先行で候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_senko_inh_nishino",
+          "characterName": "ニシノフラワー",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "つぼみ、ほころぶ時",
+          "tier": "A",
+          "purpose": "3～4位条件の最速終盤加速",
+          "reason": "前に出過ぎない先行の追加加速候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "arc_sashi_inh_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "必須級の最速終盤加速＋中盤速度",
+          "reason": "差し/追込なら最優先。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_sashi_inh_sirius",
+          "characterName": "シリウスシンボリ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "セイリオス",
+          "tier": "A",
+          "purpose": "人気条件付き最速加速",
+          "reason": "3番人気以上を狙える場合の追加加速。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_sashi_inh_neouni",
+          "characterName": "ネオユニヴァース",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "アド・アストラ",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "後方脚質で前へ出るための中盤速度候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "arc_oikomi_inh_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "必須級の最速終盤加速＋中盤速度",
+          "reason": "差し/追込なら最優先。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_oikomi_inh_sirius",
+          "characterName": "シリウスシンボリ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "セイリオス",
+          "tier": "A",
+          "purpose": "人気条件付き最速加速",
+          "reason": "3番人気以上を狙える場合の追加加速。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_oikomi_inh_jungle",
+          "characterName": "ジャングルポケット",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "Faith in the Feral",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "後方脚質の中盤速度候補。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        }
+      ]
+    },
+    "mustHaveSkills": {
+      "nige": [
+        {
+          "id": "arc_nige_mh_epiph",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "arc_nige_epiph",
+          "requirement": "required",
+          "reason": "通常逃げを使うなら必須級。",
+          "sourceIds": [
+            "lab_arc_factor"
+          ]
+        },
+        {
+          "id": "arc_nige_mh_nigekiri",
+          "skillName": "逃げ切り体勢",
+          "skillId": "arc_nige_nigekiri",
+          "requirement": "high_priority",
+          "reason": "最速終盤加速の有力候補。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "arc_senko_mh_epiph",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "arc_senko_epiph",
+          "requirement": "required",
+          "reason": "先行の必須継承進化。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_senko"
+          ]
+        },
+        {
+          "id": "arc_senko_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "arc_senko_umazuki",
+          "requirement": "required",
+          "reason": "PDM解除による序盤位置取りで超重要。",
+          "sourceIds": [
+            "lab_arc_senko"
+          ]
+        },
+        {
+          "id": "arc_senko_mh_kaishin",
+          "skillName": "会心の一歩",
+          "skillId": "arc_senko_kaishin",
+          "requirement": "high_priority",
+          "reason": "最速終盤加速。王手まで上げず下位止めでも有力。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        },
+        {
+          "id": "arc_senko_mh_yuuki",
+          "skillName": "勇気の一歩",
+          "skillId": "arc_senko_yuuki",
+          "requirement": "high_priority",
+          "reason": "17m遅れの有力加速。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "arc_sashi_mh_staygold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "arc_sashi_staygold",
+          "requirement": "required",
+          "reason": "後方脚質の必須継承進化。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_sashi_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "arc_sashi_umazuki",
+          "requirement": "required",
+          "reason": "PDM解除で後方脚質が前へ出るため重要。",
+          "sourceIds": [
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_sashi_mh_kaishin",
+          "skillName": "会心の一歩",
+          "skillId": "arc_sashi_kaishin",
+          "requirement": "high_priority",
+          "reason": "最速終盤加速の有力候補。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        },
+        {
+          "id": "arc_sashi_mh_kageyori",
+          "skillName": "影より速く",
+          "skillId": "arc_sashi_kageyori",
+          "requirement": "high_priority",
+          "reason": "17m遅れの追加加速。",
+          "sourceIds": [
+            "lab_arc_rear"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "arc_oikomi_mh_staygold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "arc_oikomi_staygold",
+          "requirement": "required",
+          "reason": "後方脚質の必須継承進化。",
+          "sourceIds": [
+            "lab_arc_factor",
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_oikomi_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "arc_oikomi_umazuki",
+          "requirement": "required",
+          "reason": "PDM解除で後方脚質が前へ出るため重要。",
+          "sourceIds": [
+            "lab_arc_rear"
+          ]
+        },
+        {
+          "id": "arc_oikomi_mh_chokusen",
+          "skillName": "直線一気",
+          "skillId": "arc_oikomi_chokusen",
+          "requirement": "high_priority",
+          "reason": "迫る影の下位で十分な有力加速。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        },
+        {
+          "id": "arc_oikomi_mh_konshin",
+          "skillName": "渾身の足取り",
+          "skillId": "arc_oikomi_konshin",
+          "requirement": "high_priority",
+          "reason": "君臨の下位で十分な最速加速候補。",
+          "sourceIds": [
+            "lab_arc_course"
+          ]
+        }
+      ]
+    },
+    "characterTierList": [
+      {
+        "id": "arc_almond_eye",
+        "characterName": "アーモンドアイ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "S",
+        "recommendedStyle": "senko",
+        "strengths": "大逃げ牽引との相性が良く、2400mで固有の伸び効果も最大限に活かしやすい。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_senko"
+        ]
+      },
+      {
+        "id": "arc_buena_vista",
+        "characterName": "ブエナビスタ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "S",
+        "recommendedStyle": "oikomi",
+        "strengths": "2400mと特性が噛み合い、追込の最有力候補。中盤力と最速加速を両立。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_rear"
+        ]
+      },
+      {
+        "id": "arc_epiphaneia",
+        "characterName": "エピファネイア",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "固有と進化スキルが噛み合い、先行2番手級。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_senko"
+        ]
+      },
+      {
+        "id": "arc_el_condor_pasa",
+        "characterName": "エルコンドルパサー",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "覚醒Lv7前提で最速加速と2400m向け固有が強い。",
+        "caution": "覚醒Lv7前提。",
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_senko"
+        ]
+      },
+      {
+        "id": "arc_still_in_love",
+        "characterName": "スティルインラブ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "差し最有力級。固有加速と進化スキルが今回の条件に合う。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_rear"
+        ]
+      },
+      {
+        "id": "arc_admire_groove",
+        "characterName": "アドマイヤグルーヴ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "中盤力が高く、終盤も進化スキルで伸ばせる。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_rear"
+        ]
+      },
+      {
+        "id": "arc_orfevre",
+        "characterName": "オルフェーヴル",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "oikomi",
+        "strengths": "自前の最速終盤加速と高い総合スペック。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_tier",
+          "lab_arc_rear"
+        ]
+      },
+      {
+        "id": "arc_victoire_pisa",
+        "characterName": "ヴィクトワールピサ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "sashi",
+        "strengths": "中盤と終盤のバランスが良い差し候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_arc_course"
+        ]
+      }
+    ],
+    "updatedAt": "2026-09-28T19:43:00+09:00",
+    "sourceIds": [
+      "lab_arc_course",
+      "lab_arc_tier",
+      "lab_arc_factor",
+      "lab_arc_senko",
+      "lab_arc_rear"
+    ]
+  }
+}

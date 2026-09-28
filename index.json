@@ -1,18 +1,18 @@
 {
   "schemaVersion": "1.0.0",
   "dataVersion": "2026.09.28.2",
-  "generatedAt": "2026-09-28T11:50:00+09:00",
+  "generatedAt": "2026-09-28T19:43:00+09:00",
   "meetings": [
     {
-      "id": "cm_2026_09_classic_longchamp2400",
-      "title": "9月チャンピオンズミーティングCLASSIC（凱旋門賞）",
-      "shortTitle": "9月チャンミCLASSIC",
+      "id": "cm_2026_09_arc_classic",
+      "title": "9月凱旋門賞チャンミCLASSIC",
+      "shortTitle": "凱旋門賞チャンミ",
       "year": 2026,
       "month": 9,
       "status": "upcoming",
       "startDate": "2026-09-29",
       "endDate": null,
-      "dataUrl": "cm_2026_09_classic_longchamp2400.json",
+      "dataUrl": "cm_2026_09_arc_classic.json",
       "course": {
         "venue": "ロンシャン",
         "surface": "turf",
@@ -27,7 +27,7 @@
       "year": 2026,
       "month": 10,
       "status": "upcoming",
-      "startDate": null,
+      "startDate": "2026-10-20",
       "endDate": null,
       "dataUrl": "latest.json",
       "course": {

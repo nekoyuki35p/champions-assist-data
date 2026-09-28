@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.10.20260928.3",
+  "dataVersion": "2026.10.20260928.4",
   "meeting": {
     "id": "cm_2026_10_classic_kyoto2200",
     "title": "10月チャンピオンズミーティングCLASSIC",
@@ -8,7 +8,7 @@
     "year": 2026,
     "month": 10,
     "status": "upcoming",
-    "startDate": null,
+    "startDate": "2026-10-20",
     "endDate": null
   },
   "course": {
@@ -30,7 +30,8 @@
       "秋",
       "曇",
       "良",
-      "非根幹距離"
+      "非根幹距離",
+      "昼"
     ]
   },
   "runningStyles": {
@@ -2053,7 +2054,7 @@
       "articleType": "course",
       "runningStyle": null,
       "publishedAt": "2026-09-26",
-      "checkedAt": "2026-09-28T01:20:00+09:00"
+      "checkedAt": "2026-09-28T19:43:00+09:00"
     },
     {
       "id": "kamigame_202610_stats",
@@ -2063,13 +2064,23 @@
       "articleType": "general",
       "runningStyle": null,
       "publishedAt": null,
-      "checkedAt": "2026-09-28T01:20:00+09:00"
+      "checkedAt": "2026-09-28T19:43:00+09:00"
+    },
+    {
+      "id": "gamebiz_20260927_race_schedule",
+      "siteName": "gamebiz",
+      "title": "9月～3月対戦レースイベント情報（ぱかライブTV発表まとめ）",
+      "url": "https://gamebiz.jp/news/433236",
+      "articleType": "event_schedule",
+      "runningStyle": null,
+      "publishedAt": "2026-09-27",
+      "checkedAt": "2026-09-28T19:43:00+09:00"
     }
   ],
   "metadata": {
-    "generatedAt": "2026-09-28T01:20:00+09:00",
+    "generatedAt": "2026-09-28T19:43:00+09:00",
     "generator": "champions-assist-realdata-v1",
-    "sourceSite": "ウマ娘ラボ＋神ゲー攻略",
+    "sourceSite": "ウマ娘ラボ＋神ゲー攻略＋開催条件発表",
     "isComplete": false,
     "isSample": false,
     "availableStyles": [
@@ -2083,5 +2094,353 @@
     "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与",
     "skillFamilyUpdatedAt": "2026-09-28T14:15:00+09:00",
     "skillFamilyPolicy": "上下位スキルをaliasesから分離しfamily.lowerSkills/upperSkillsで管理"
+  },
+  "strategyGuide": {
+    "contentStatus": "partial",
+    "recommendedStyles": [],
+    "inheritanceRecommendations": {
+      "nige": [
+        {
+          "id": "oct_nige_epiph",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "逃げ/先行では必須級。親にして継承進化させる。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_nige_seiun",
+          "characterName": "セイウンスカイ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "アングリング×スキーミング",
+          "tier": "B",
+          "purpose": "1位条件の最速終盤加速",
+          "reason": "1位で終盤入りできる逃げの追加候補。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_nige_kitasan",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "portraitAsset": null,
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "前方用終盤加速",
+          "reason": "1～3位条件で扱いやすく、逃げ/先行で積極候補。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "oct_senko_epiph",
+          "characterName": "エピファネイア",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "先行では必須級。親にして継承進化させる。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_senko_kitasan",
+          "characterName": "キタサンブラック",
+          "variant": "正月",
+          "portraitAsset": null,
+          "uniqueSkillName": "あっぱれ大盤振る舞い！",
+          "tier": "A",
+          "purpose": "前方用終盤加速",
+          "reason": "1～3位条件で扱いやすい追加加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "oct_sashi_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "差し/追込では必須級。親にして継承進化させる。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_sashi_dober",
+          "characterName": "メジロドーベル",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "彼方、その先へ…",
+          "tier": "B",
+          "purpose": "順位条件付き終盤加速",
+          "reason": "5～6位条件が厳しく優先度は低め。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "oct_oikomi_staygold",
+          "characterName": "ステイゴールド",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "黄金を訪ねて",
+          "tier": "S",
+          "purpose": "最速終盤加速＋中盤速度",
+          "reason": "差し/追込では必須級。親にして継承進化させる。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_oikomi_dober",
+          "characterName": "メジロドーベル",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "彼方、その先へ…",
+          "tier": "B",
+          "purpose": "順位条件付き終盤加速",
+          "reason": "5～6位条件が厳しく優先度は低め。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ]
+    },
+    "mustHaveSkills": {
+      "nige": [
+        {
+          "id": "oct_nige_mh_epiph",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "nige_epiphaneia_inherit",
+          "requirement": "required",
+          "reason": "逃げ/先行で最速発動する継承進化加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_nige_mh_hiryu",
+          "skillName": "飛龍乗雲",
+          "skillId": "nige_hiryujoun",
+          "requirement": "high_priority",
+          "reason": "終盤始め早め加速として優先度が高い。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "senko": [
+        {
+          "id": "oct_senko_mh_epiph",
+          "skillName": "光れ！弾けろ！超新星爆発！",
+          "skillId": "senko_epiphaneia_inherit",
+          "requirement": "required",
+          "reason": "先行で必須級の継承進化加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_senko_mh_chokkakou",
+          "skillName": "直滑降",
+          "skillId": "senko_chokkakou",
+          "requirement": "required",
+          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_senko_mh_yume",
+          "skillName": "夢の舞台へ",
+          "skillId": "senko_yume",
+          "requirement": "high_priority",
+          "reason": "終盤始め早め加速の有力候補。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "sashi": [
+        {
+          "id": "oct_sashi_mh_staygold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "sashi_staygold_inherit",
+          "requirement": "required",
+          "reason": "後方脚質で必須級の継承進化加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_sashi_mh_kakeori",
+          "skillName": "駆け降り",
+          "skillId": "sashi_kakeori",
+          "requirement": "required",
+          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_sashi_mh_tenpu",
+          "skillName": "天賦の才",
+          "skillId": "sashi_tenpu",
+          "requirement": "high_priority",
+          "reason": "終盤始め早めの有力加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ],
+      "oikomi": [
+        {
+          "id": "oct_oikomi_mh_staygold",
+          "skillName": "黄金を訪ねて",
+          "skillId": "oikomi_staygold_inherit",
+          "requirement": "required",
+          "reason": "後方脚質で必須級の継承進化加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_oikomi_mh_kyukouka",
+          "skillName": "急降下",
+          "skillId": "oikomi_kyukouka",
+          "requirement": "required",
+          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        },
+        {
+          "id": "oct_oikomi_mh_kakimita",
+          "skillName": "垣間見た光",
+          "skillId": "oikomi_kakimita",
+          "requirement": "high_priority",
+          "reason": "終盤始め早めの保険加速。",
+          "sourceIds": [
+            "umamusumelabo_202610_kyoto2200"
+          ]
+        }
+      ]
+    },
+    "characterTierList": [
+      {
+        "id": "oct_almond_eye",
+        "characterName": "アーモンドアイ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "S",
+        "recommendedStyle": "senko",
+        "strengths": "中距離先行の最有力。大逃げ牽引との相性も良い。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_still_in_love",
+        "characterName": "スティルインラブ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "S",
+        "recommendedStyle": "sashi",
+        "strengths": "差し最有力。「誰にも告げぬ誓い」をフルスペックで使いやすい。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_orfevre",
+        "characterName": "オルフェーヴル",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "S",
+        "recommendedStyle": "oikomi",
+        "strengths": "追込最有力。進化スキルが最速終盤加速として機能。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_epiphaneia",
+        "characterName": "エピファネイア",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "総合スペックが高く、自前固有加速も安定。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_chrono_genesis",
+        "characterName": "クロノジェネシス",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "進化スキルに終盤加速があり、先行の上位候補。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_admire_groove",
+        "characterName": "アドマイヤグルーヴ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "中盤力が高く、自前の最速終盤加速も強み。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      },
+      {
+        "id": "oct_victoire_pisa",
+        "characterName": "ヴィクトワールピサ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "進化スキルの置き加速が機能しやすく、差しの有力候補。",
+        "caution": null,
+        "sourceIds": [
+          "umamusumelabo_202610_kyoto2200"
+        ]
+      }
+    ],
+    "updatedAt": "2026-09-28T19:43:00+09:00",
+    "sourceIds": [
+      "umamusumelabo_202610_kyoto2200"
+    ]
   }
 }
