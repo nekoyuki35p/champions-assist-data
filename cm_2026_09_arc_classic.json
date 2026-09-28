@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.09.20260928.audit2",
+  "dataVersion": "2026.09.20260928.audit3",
   "meeting": {
     "id": "cm_2026_09_arc_classic",
     "title": "9月凱旋門賞チャンミCLASSIC",
@@ -86,96 +86,28 @@
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "逃げの必須級継承進化。最速終盤加速＋中盤速度。",
+          "reason": "ウマ娘ラボが逃げで「絶対に積む」必須級とする継承進化。最速終盤加速＋中盤速度。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
             "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "ownerCharacter": "エピファネイア",
           "ownerDisplayName": "エピファネイア",
           "isCostumeVariant": false,
           "ownerSourceUrl": null
-        },
-        {
-          "id": "arc_nige_124d63a6d1",
-          "name": "勝負はここから！",
-          "aliases": [
-            "勝負はここから！"
-          ],
-          "category": "acceleration",
-          "grade": "S",
-          "effectiveness": "effective",
-          "priority": 100,
-          "isRecommended": true,
-          "reason": "逃げ専用の最速終盤加速。上位スキルとして高優先。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_ff70fcdf23",
-            "lowerSkills": [
-              "逃げ切り体勢"
-            ],
-            "upperSkills": []
-          }
-        },
-        {
-          "id": "arc_nige_f6109bd444",
-          "name": "トップランナー",
-          "aliases": [
-            "トップランナー"
-          ],
-          "category": "speed",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 70,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ]
-        },
-        {
-          "id": "arc_nige_07af239fff",
-          "name": "追い風に乗って",
-          "aliases": [
-            "追い風に乗って"
-          ],
-          "category": "acceleration",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 70,
-          "isRecommended": true,
-          "reason": "飛龍乗雲の下位。終盤始め早め加速として有効。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_bdbd915e30",
-            "lowerSkills": [],
-            "upperSkills": [
-              "飛龍乗雲"
-            ]
-          }
         },
         {
           "id": "arc_nige_nigekiri",
@@ -184,25 +116,69 @@
             "逃げ切り体勢"
           ],
           "category": "acceleration",
-          "grade": "A",
+          "grade": "S",
           "effectiveness": "effective",
-          "priority": 70,
+          "priority": 99,
           "isRecommended": true,
-          "reason": "勝負はここから！の下位。最速加速として有効。",
+          "reason": "ロンシャン2400mで最速発動を狙える白加速。加速が充足しやすい今回、上位よりSP効率を優先して白止めが有力。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
             "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_course",
+            "gamewith_arc_202609"
           ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_course",
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "family": {
             "id": "fam_ff70fcdf23",
             "lowerSkills": [],
             "upperSkills": [
               "勝負はここから！"
             ]
+          }
+        },
+        {
+          "id": "arc_nige_124d63a6d1",
+          "name": "勝負はここから！",
+          "aliases": [
+            "勝負はここから！"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 78,
+          "isRecommended": true,
+          "reason": "逃げ専用の最速終盤加速だが、加速過多になりやすい今回は白「逃げ切り体勢」で足りる場合が多い。上位は火力不足時に採用。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "kamigame_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_course"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_ff70fcdf23",
+            "lowerSkills": [
+              "逃げ切り体勢"
+            ],
+            "upperSkills": []
           }
         },
         {
@@ -214,17 +190,24 @@
           "category": "acceleration",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 70,
+          "priority": 77,
           "isRecommended": true,
-          "reason": "終盤始め早め加速。逃げで優先度高め。",
+          "reason": "終盤始め早めの保険加速。ラボが逃げでスピードタップから取っておく候補として明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
             "lab_arc_course",
-            "lab_arc_factor",
             "kamigame_arc_nige"
           ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "family": {
             "id": "fam_bdbd915e30",
             "lowerSkills": [
@@ -234,159 +217,38 @@
           }
         },
         {
-          "id": "arc_nige_e6dcbce4ae",
-          "name": "もうひと踏ん張り",
+          "id": "arc_nige_07af239fff",
+          "name": "追い風に乗って",
           "aliases": [
-            "もうひと踏ん張り"
+            "追い風に乗って"
           ],
-          "category": "positioning",
+          "category": "acceleration",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 69,
+          "priority": 76,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "飛龍乗雲の下位。終盤始め早め加速として有効で、金まで上げない選択肢も持てる。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
             "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ]
-        },
-        {
-          "id": "arc_nige_right",
-          "name": "右回り○",
-          "aliases": [
-            "右回り○",
-            "右回り◯"
+            "kamigame_arc_factor"
           ],
-          "category": "green",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 69,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
+          "primarySourceIds": [
+            "lab_arc_course"
           ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
           ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "family": {
-            "id": "fam_bbae65f711",
+            "id": "fam_bdbd915e30",
             "lowerSkills": [],
             "upperSkills": [
-              "右回り◎"
+              "飛龍乗雲"
             ]
-          }
-        },
-        {
-          "id": "arc_nige_b539119223",
-          "name": "右回り◎",
-          "aliases": [
-            "右回り◎"
-          ],
-          "category": "green",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 69,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_bbae65f711",
-            "lowerSkills": [
-              "右回り○"
-            ],
-            "upperSkills": []
-          }
-        },
-        {
-          "id": "arc_nige_9ae80de148",
-          "name": "地固め",
-          "aliases": [
-            "地固め"
-          ],
-          "category": "positioning",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 69,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ]
-        },
-        {
-          "id": "arc_nige_autumn",
-          "name": "秋ウマ娘○",
-          "aliases": [
-            "秋ウマ娘○",
-            "秋ウマ娘◯"
-          ],
-          "category": "green",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 69,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_4888146d85",
-            "lowerSkills": [],
-            "upperSkills": [
-              "秋ウマ娘◎"
-            ]
-          }
-        },
-        {
-          "id": "arc_nige_8f2dfb6fc6",
-          "name": "秋ウマ娘◎",
-          "aliases": [
-            "秋ウマ娘◎"
-          ],
-          "category": "green",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 69,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_4888146d85",
-            "lowerSkills": [
-              "秋ウマ娘○"
-            ],
-            "upperSkills": []
           }
         },
         {
@@ -398,17 +260,26 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 68,
+          "priority": 75,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "通常逃げ2体以上の編成で、追い比べを狙う場合にラボが推奨する終盤加速継承。",
           "conditions": [
-            "逃げ"
+            "逃げ",
+            "通常逃げ2体以上の編成"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true,
           "ownerCharacter": "キタサンブラック",
           "ownerVariant": "正月",
           "ownerDisplayName": "キタサンブラック（正月）",
@@ -424,21 +295,515 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 68,
+          "priority": 74,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "通常逃げ1体の編成でラボが推奨。1位条件のため編成・展開依存がある。",
+          "conditions": [
+            "逃げ",
+            "通常逃げ1体の編成"
+          ],
+          "sourceIds": [
+            "lab_arc_factor",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true,
+          "ownerCharacter": "セイウンスカイ",
+          "ownerDisplayName": "セイウンスカイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_b539119223",
+          "name": "右回り◎",
+          "aliases": [
+            "右回り◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 73,
+          "isRecommended": true,
+          "reason": "ロンシャン2400mで安定発動する緑。速度補正を確実に得られるため優先度高め。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_bbae65f711",
+            "lowerSkills": [
+              "右回り○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_8f2dfb6fc6",
+          "name": "秋ウマ娘◎",
+          "aliases": [
+            "秋ウマ娘◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 73,
+          "isRecommended": true,
+          "reason": "秋開催で安定発動する緑。速度補正を確実に得られるため優先度高め。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
             "lab_arc_course",
-            "lab_arc_factor",
+            "lab_arc_factor_support",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_4888146d85",
+            "lowerSkills": [
+              "秋ウマ娘○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_right",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○",
+            "右回り◯"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "ロンシャン2400mで安定発動する緑。◎へ上げない場合でも有効。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_bbae65f711",
+            "lowerSkills": [],
+            "upperSkills": [
+              "右回り◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_autumn",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○",
+            "秋ウマ娘◯"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "秋開催で安定発動。◎へ上げない場合でも有効。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor_support",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course",
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_4888146d85",
+            "lowerSkills": [],
+            "upperSkills": [
+              "秋ウマ娘◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_c8802ccbc6",
+          "name": "阿吽の呼吸",
+          "aliases": [
+            "阿吽の呼吸"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 72,
+          "isRecommended": true,
+          "reason": "ラボが逃げ/先行因子周回で特に重要と明示。脚質・順位条件なしで中盤速度を補強。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor_support",
+            "gamewith_arc_202609"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_f6109bd444",
+          "name": "トップランナー",
+          "aliases": [
+            "トップランナー"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 71,
+          "isRecommended": true,
+          "reason": "最新の凱旋門賞逃げ育成論で、タップSSRから取れる強力な逃げ金速度として優先。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige",
+            "gamewith_toprunner_ref"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige",
+            "gamewith_toprunner_ref"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_1c492a30b9",
+            "lowerSkills": [
+              "先頭プライド"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_9ae80de148",
+          "name": "地固め",
+          "aliases": [
+            "地固め"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 70,
+          "isRecommended": true,
+          "reason": "凱旋門賞逃げ育成論でエバヤンSSR採用により因子化不要になる重要スキルとして扱われる。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
             "kamigame_arc_nige"
           ],
-          "ownerCharacter": "セイウンスカイ",
-          "ownerDisplayName": "セイウンスカイ",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": null
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_e09f87814a",
+          "name": "ロンシャンレース場◎",
+          "aliases": [
+            "ロンシャンレース場◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 69,
+          "isRecommended": true,
+          "reason": "今回のロンシャンで安定発動する会場緑。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_1b252802d0",
+            "lowerSkills": [
+              "ロンシャンレース場○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_45a29890c0",
+          "name": "先手必勝",
+          "aliases": [
+            "先手必勝"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 69,
+          "isRecommended": true,
+          "reason": "逃げのスタート加速。凱旋門賞候補の大逃げターボでもハナ取り性能の強みとして扱われる。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige",
+            "gamewith_sente_ref"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige",
+            "gamewith_sente_ref"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_63cc86f4e3",
+            "lowerSkills": [
+              "先駆け"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_337af47937",
+          "name": "先頭プライド",
+          "aliases": [
+            "先頭プライド"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 69,
+          "isRecommended": true,
+          "reason": "トップランナーの下位。逃げの序～中盤の先頭維持に有効で、一般的な逃げ因子候補として高評価。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general",
+            "gamewith_toprunner_ref"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general",
+            "gamewith_toprunner_ref"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_1c492a30b9",
+            "lowerSkills": [],
+            "upperSkills": [
+              "トップランナー"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_2b3fa2bacd",
+          "name": "根幹距離◎",
+          "aliases": [
+            "根幹距離◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 69,
+          "isRecommended": true,
+          "reason": "2400mの根幹距離で安定発動する緑。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_c7ee04ff3e",
+            "lowerSkills": [
+              "根幹距離○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_80e7092d74",
+          "name": "道悪◎",
+          "aliases": [
+            "道悪◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 69,
+          "isRecommended": true,
+          "reason": "不良バ場で安定発動する緑。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_dc329a8d5c",
+            "lowerSkills": [
+              "道悪○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_e6dcbce4ae",
+          "name": "もうひと踏ん張り",
+          "aliases": [
+            "もうひと踏ん張り"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "凱旋門賞逃げ育成論でエバヤンSSRから取得できる重要候補として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_5857c20f2a",
+          "name": "ロンシャンレース場○",
+          "aliases": [
+            "ロンシャンレース場○",
+            "ロンシャンレース場◯"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "今回のロンシャンで安定発動する会場緑。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_1b252802d0",
+            "lowerSkills": [],
+            "upperSkills": [
+              "ロンシャンレース場◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_b6fbd8f86a",
+          "name": "先駆け",
+          "aliases": [
+            "先駆け"
+          ],
+          "category": "acceleration",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 68,
+          "isRecommended": true,
+          "reason": "先手必勝の下位。逃げ因子周回で優先されるスタート加速。金まで上げない選択肢も持てる。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_factor",
+            "kamigame_escape_factor_general",
+            "gamewith_sente_ref"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor",
+            "kamigame_escape_factor_general",
+            "gamewith_sente_ref"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_63cc86f4e3",
+            "lowerSkills": [],
+            "upperSkills": [
+              "先手必勝"
+            ]
+          }
         },
         {
           "id": "arc_nige_97a2add60c",
@@ -452,49 +817,25 @@
           "effectiveness": "effective",
           "priority": 68,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "2400mの根幹距離で安定発動する緑。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "lab_arc_course"
           ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
           "family": {
             "id": "fam_c7ee04ff3e",
             "lowerSkills": [],
             "upperSkills": [
               "根幹距離◎"
             ]
-          }
-        },
-        {
-          "id": "arc_nige_2b3fa2bacd",
-          "name": "根幹距離◎",
-          "aliases": [
-            "根幹距離◎"
-          ],
-          "category": "green",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 68,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "family": {
-            "id": "fam_c7ee04ff3e",
-            "lowerSkills": [
-              "根幹距離○"
-            ],
-            "upperSkills": []
           }
         },
         {
@@ -509,15 +850,19 @@
           "effectiveness": "effective",
           "priority": 68,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "不良バ場で安定発動する緑。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "lab_arc_course"
           ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
           "family": {
             "id": "fam_dc329a8d5c",
             "lowerSkills": [],
@@ -527,29 +872,83 @@
           }
         },
         {
-          "id": "arc_nige_80e7092d74",
-          "name": "道悪◎",
+          "id": "arc_nige_48758718e3",
+          "name": "ウマ好み",
           "aliases": [
-            "道悪◎"
+            "ウマ好み"
           ],
-          "category": "green",
+          "category": "positioning",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 68,
+          "priority": 67,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "GameWithが今回のコースと特に相性が良く、序盤位置取りを有利にできると高評価。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "gamewith_arc_202609"
           ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_4de16da879",
+          "name": "ネバーギブアップ",
+          "aliases": [
+            "ネバーギブアップ"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 67,
+          "isRecommended": true,
+          "reason": "GameWithの9月チャンミ攻略で脚質問わず非常に強力な中盤速度として最高評価。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_8c36c2b0d6",
+          "name": "逃げのコツ◎",
+          "aliases": [
+            "逃げのコツ◎"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 67,
+          "isRecommended": true,
+          "reason": "ラボが安定発動する各脚質コツとして明示。逃げでは逃げのコツに相当。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
           "family": {
-            "id": "fam_dc329a8d5c",
+            "id": "fam_f8e9440b69",
             "lowerSkills": [
-              "道悪○"
+              "逃げのコツ○"
             ],
             "upperSkills": []
           }
@@ -563,17 +962,24 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 67,
+          "priority": 66,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "大逃げ牽引などで使える中盤速度＋回復の継承候補としてラボが明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "ownerCharacter": "ナリタトップロード",
           "ownerVariant": "クリスマス",
           "ownerDisplayName": "ナリタトップロード（クリスマス）",
@@ -589,21 +995,111 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 67,
+          "priority": 66,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "逃げの中盤現在速度継承候補としてラボが明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "ownerCharacter": "アーモンドアイ",
           "ownerDisplayName": "アーモンドアイ",
           "isCostumeVariant": false,
           "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_d9c115de87",
+          "name": "怜悧清澄",
+          "aliases": [
+            "怜悧清澄"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "GameWithが速度＋回復を補える全脚質向け金スキルとして最高評価。2400mの持久力要求とも相性が良い。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_1bc76f0302",
+          "name": "逃げのコツ○",
+          "aliases": [
+            "逃げのコツ○",
+            "逃げのコツ◯"
+          ],
+          "category": "green",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "ラボが安定発動する各脚質コツとして明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
+          "family": {
+            "id": "fam_f8e9440b69",
+            "lowerSkills": [],
+            "upperSkills": [
+              "逃げのコツ◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_d74dd23c11",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 66,
+          "isRecommended": true,
+          "reason": "GameWithが効果量の高い速度スキルとして脚質問わず最高評価。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
         },
         {
           "id": "arc_nige_f03bd8832b",
@@ -614,17 +1110,24 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 67,
+          "priority": 65,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "逃げの中盤速度継承候補としてラボが明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "ownerCharacter": "ビワハヤヒデ",
           "ownerVariant": "メカ",
           "ownerDisplayName": "ビワハヤヒデ（メカ）",
@@ -640,17 +1143,26 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 67,
+          "priority": 65,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "ラボの逃げ中盤継承候補。2～5位条件のため大逃げ牽引構成などで有効。",
           "conditions": [
-            "逃げ"
+            "逃げ",
+            "2～5位条件を満たせる編成"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true,
           "ownerCharacter": "アグネスタキオン",
           "ownerVariant": "水着",
           "ownerDisplayName": "アグネスタキオン（水着）",
@@ -666,21 +1178,538 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 66,
+          "priority": 64,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度A。",
+          "reason": "逃げの中盤速度＋回復継承候補としてラボが明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
             "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
           "ownerCharacter": "ミホノブルボン",
           "ownerVariant": "バレンタイン",
           "ownerDisplayName": "ミホノブルボン（バレンタイン）",
           "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_63801b953a",
+          "name": "逃げコーナー◎",
+          "aliases": [
+            "逃げコーナー◎"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 62,
+          "isRecommended": true,
+          "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。◎/○は別評価のまま保持。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_f7893bfc91",
+            "lowerSkills": [
+              "逃げコーナー○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_82f4b0b387",
+          "name": "逃げ直線◎",
+          "aliases": [
+            "逃げ直線◎"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 62,
+          "isRecommended": true,
+          "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。◎/○は別評価のまま保持。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_0a4cc4711e",
+            "lowerSkills": [
+              "逃げ直線○"
+            ],
+            "upperSkills": []
+          }
+        },
+        {
+          "id": "arc_nige_5c63816ff3",
+          "name": "逃げコーナー○",
+          "aliases": [
+            "逃げコーナー○",
+            "逃げコーナー◯"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 61,
+          "isRecommended": true,
+          "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_f7893bfc91",
+            "lowerSkills": [],
+            "upperSkills": [
+              "逃げコーナー◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_ec3cbe85d1",
+          "name": "逃げ直線○",
+          "aliases": [
+            "逃げ直線○",
+            "逃げ直線◯"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 61,
+          "isRecommended": true,
+          "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "family": {
+            "id": "fam_0a4cc4711e",
+            "lowerSkills": [],
+            "upperSkills": [
+              "逃げ直線◎"
+            ]
+          }
+        },
+        {
+          "id": "arc_nige_3077360d83",
+          "name": "急ぎ足",
+          "aliases": [
+            "急ぎ足"
+          ],
+          "category": "speed",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 60,
+          "isRecommended": true,
+          "reason": "逃げの汎用速度候補として因子周回でおすすめ。ハナ維持用の中盤速度補強。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium"
+        },
+        {
+          "id": "arc_nige_b81a65dd9d",
+          "name": "品行方正",
+          "aliases": [
+            "品行方正"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 46,
+          "isRecommended": true,
+          "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor_support",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_f89627fcc2",
+          "name": "ポジションセンス",
+          "aliases": [
+            "ポジションセンス"
+          ],
+          "category": "positioning",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "凱旋門賞逃げ因子周回で序盤位置取り用の候補。一般的な逃げ因子でも優先度高め。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_factor",
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor",
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_393a343453",
+          "name": "自信家",
+          "aliases": [
+            "自信家"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 45,
+          "isRecommended": true,
+          "reason": "ラボがロンシャン2400mで安定発動する緑として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_d862162a5d",
+          "name": "危険回避",
+          "aliases": [
+            "危険回避"
+          ],
+          "category": "positioning",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "凱旋門賞逃げ候補の正月カツラギエースの強みとして明示。位置取り系との組み合わせで価値が上がる。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige",
+            "kamigame_escape_factor_general"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige",
+            "kamigame_escape_factor_general"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium",
+          "conditionalRecommendation": true
+        },
+        {
+          "id": "arc_nige_d0c824b557",
+          "name": "自制心",
+          "aliases": [
+            "自制心"
+          ],
+          "category": "green",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 44,
+          "isRecommended": true,
+          "reason": "ラボがロンシャン2400mで安定発動する緑として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_course"
+          ],
+          "primarySourceIds": [
+            "lab_arc_course"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_c965e88052",
+          "name": "コンセントレーション",
+          "aliases": [
+            "コンセントレーション"
+          ],
+          "category": "positioning",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 43,
+          "isRecommended": true,
+          "reason": "出遅れ影響が大きい水着セイウンスカイ等では価値が高い。キャラ依存があるためB。",
+          "conditions": [
+            "逃げ",
+            "出遅れ影響が大きいキャラでは優先"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true
+        },
+        {
+          "id": "arc_nige_ca0a53d12e",
+          "name": "揺るがぬ信念",
+          "aliases": [
+            "揺るがぬ信念"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 43,
+          "isRecommended": true,
+          "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_09904f5e22",
+          "name": "気持ちを乗せて",
+          "aliases": [
+            "気持ちを乗せて"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 43,
+          "isRecommended": true,
+          "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_4e4374fdf7",
+          "name": "シンパシー",
+          "aliases": [
+            "シンパシー"
+          ],
+          "category": "other",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 42,
+          "isRecommended": true,
+          "reason": "ラボの因子周回記事で因子化候補。発動条件が編成依存のためB。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor_support",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor_support"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true
+        },
+        {
+          "id": "arc_nige_fbb30ff8c5",
+          "name": "レースの真髄・体",
+          "aliases": [
+            "レースの真髄・体"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 42,
+          "isRecommended": true,
+          "reason": "GameWithがスタミナ消費と引き換えに強力な全脚質候補として評価。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "gamewith_arc_202609"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high"
+        },
+        {
+          "id": "arc_nige_5912669dd1",
+          "name": "恵福バルカローレ",
+          "aliases": [
+            "恵福バルカローレ"
+          ],
+          "category": "inherited_unique",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 42,
+          "isRecommended": true,
+          "reason": "ラボが逃げの終盤速度継承候補として明示。加速・中盤速度より優先度は下。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "ownerCharacter": "テイエムオペラオー",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "テイエムオペラオー（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "arc_nige_b64361eeda",
+          "name": "ルミネセンス",
+          "aliases": [
+            "ルミネセンス"
+          ],
+          "category": "speed",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 41,
+          "isRecommended": true,
+          "reason": "凱旋門賞逃げ育成論で序盤力補強を重視する場合のネオユニSSR採用理由として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_nige"
+          ],
+          "sourceRole": "supplementary",
+          "auditConfidence": "high",
+          "conditionalRecommendation": true
+        },
+        {
+          "id": "arc_nige_db711a889d",
+          "name": "煌星のヴォードヴィル",
+          "aliases": [
+            "煌星のヴォードヴィル"
+          ],
+          "category": "inherited_unique",
+          "grade": "B",
+          "effectiveness": "effective",
+          "priority": 41,
+          "isRecommended": true,
+          "reason": "ラボが逃げの終盤速度継承候補として明示。",
+          "conditions": [
+            "逃げ"
+          ],
+          "sourceIds": [
+            "lab_arc_factor",
+            "kamigame_arc_factor"
+          ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
+          ],
+          "sourceRole": "mixed",
+          "auditConfidence": "high",
+          "ownerCharacter": "フジキセキ",
+          "ownerDisplayName": "フジキセキ",
+          "isCostumeVariant": false,
           "ownerSourceUrl": null
         },
         {
@@ -694,15 +1723,19 @@
           "effectiveness": "effective",
           "priority": 40,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度B。",
+          "reason": "ラボが逃げの終盤速度継承候補として明示。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "lab_arc_factor"
           ],
+          "primarySourceIds": [
+            "lab_arc_factor"
+          ],
+          "supplementarySourceIds": [],
+          "sourceRole": "primary",
+          "auditConfidence": "high",
           "ownerCharacter": "メジロラモーヌ",
           "ownerVariant": "新衣装",
           "ownerDisplayName": "メジロラモーヌ（新衣装）",
@@ -710,55 +1743,29 @@
           "ownerSourceUrl": null
         },
         {
-          "id": "arc_nige_5912669dd1",
-          "name": "恵福バルカローレ",
+          "id": "arc_nige_bd932e64af",
+          "name": "正面突破",
           "aliases": [
-            "恵福バルカローレ"
+            "正面突破"
           ],
-          "category": "inherited_unique",
+          "category": "acceleration",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 40,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度B。",
+          "reason": "凱旋門賞逃げ因子周回の白因子候補。最速加速がある環境では追加保険としてB。",
           "conditions": [
             "逃げ"
           ],
           "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
+            "kamigame_arc_factor"
           ],
-          "ownerCharacter": "テイエムオペラオー",
-          "ownerVariant": "正月",
-          "ownerDisplayName": "テイエムオペラオー（正月）",
-          "isCostumeVariant": true,
-          "ownerSourceUrl": null
-        },
-        {
-          "id": "arc_nige_db711a889d",
-          "name": "煌星のヴォードヴィル",
-          "aliases": [
-            "煌星のヴォードヴィル"
+          "primarySourceIds": [],
+          "supplementarySourceIds": [
+            "kamigame_arc_factor"
           ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "ウマ娘ラボの凱旋門賞逃げ育成論で優先度B。",
-          "conditions": [
-            "逃げ"
-          ],
-          "sourceIds": [
-            "lab_arc_course",
-            "lab_arc_factor",
-            "kamigame_arc_nige"
-          ],
-          "ownerCharacter": "フジキセキ",
-          "ownerDisplayName": "フジキセキ",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": null
+          "sourceRole": "supplementary",
+          "auditConfidence": "medium"
         }
       ],
       "notes": [
@@ -776,21 +1783,28 @@
         },
         {
           "type": "skill_audit",
-          "text": "2026-09-28再監査。ウマ娘ラボの優先度S/A/Bを原則収録。逃げはラボに専用優先表がないためコース/因子記事を主軸に神ゲー攻略で不足分を補完。"
+          "text": "2026-09-28逃げ再監査。ウマ娘ラボをprimary、他攻略サイトをsupplementaryとして分離し、ラボに専用逃げS/A/B表がない部分のみ補完。"
+        },
+        {
+          "type": "source_policy",
+          "text": "primary=ウマ娘ラボ（コース/因子/因子サポカ）。supplementary=神ゲー攻略/GameWith。各スキルのprimarySourceIds/supplementarySourceIdsに根拠を分離。"
         },
         {
           "type": "upper_lower",
-          "text": "上位/下位は別スキルとして独立評価し、SkillFamilyで関係だけを保持。上位を下位のaliasとして偽装しない。"
+          "text": "上位/下位は別スキルとして独立評価。例：逃げ切り体勢S・勝負はここから！A、先駆けA・先手必勝A、先頭プライドA・トップランナーA。SkillFamilyは関係のみ保持。"
         }
       ],
       "sourceIds": [
         "lab_arc_course",
         "lab_arc_factor",
-        "lab_arc_tier",
-        "gamebiz_20260927_race_schedule",
-        "kamigame_arc_nige"
+        "lab_arc_factor_support",
+        "kamigame_arc_nige",
+        "kamigame_arc_factor",
+        "kamigame_arc_course",
+        "gamewith_arc_202609",
+        "kamigame_escape_factor_general"
       ],
-      "updatedAt": "2026-09-28T20:55:00+09:00"
+      "updatedAt": "2026-09-28T21:40:43+09:00"
     },
     "senko": {
       "displayName": "先行",
@@ -9012,7 +10026,8 @@
       "articleType": "course",
       "runningStyle": null,
       "publishedAt": "2026-09-10",
-      "checkedAt": "2026-09-28T20:55:00+09:00"
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "primary"
     },
     {
       "id": "lab_arc_tier",
@@ -9032,7 +10047,8 @@
       "articleType": "inheritance",
       "runningStyle": null,
       "publishedAt": "2026-09-20",
-      "checkedAt": "2026-09-28T20:55:00+09:00"
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "primary"
     },
     {
       "id": "lab_arc_senko",
@@ -9072,13 +10088,91 @@
       "articleType": "style_guide_supplement",
       "runningStyle": "nige",
       "publishedAt": "2026-09-27",
-      "checkedAt": "2026-09-28T20:55:00+09:00"
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "lab_arc_factor_support",
+      "siteName": "ウマ娘ラボ",
+      "title": "9月凱旋門賞チャンミCLASSICの因子周回おすすめサポカ9選",
+      "url": "https://umamusumelabo.com/event/champions-meeting/gaisenmon-insisupport-202609",
+      "articleType": "inheritance_support",
+      "runningStyle": "nige,senko",
+      "publishedAt": "2026-09-14",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "primary"
+    },
+    {
+      "id": "kamigame_arc_factor",
+      "siteName": "神ゲー攻略",
+      "title": "凱旋門賞チャンミ（9月）の因子周回おすすめキャラとサポカ編成",
+      "url": "https://kamigame.jp/umamusume/page/439491994922794472.html",
+      "articleType": "inheritance_support_supplement",
+      "runningStyle": "nige",
+      "publishedAt": "2026-09-25",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "kamigame_arc_course",
+      "siteName": "神ゲー攻略",
+      "title": "凱旋門賞チャンミ（9月）のコース解説と有効加速｜ロンシャン",
+      "url": "https://kamigame.jp/umamusume/page/439410247199629770.html",
+      "articleType": "course_supplement",
+      "runningStyle": "nige",
+      "publishedAt": "2026-09-28",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "gamewith_arc_202609",
+      "siteName": "GameWith",
+      "title": "チャンミ中距離のおすすめキャラと育成｜2026年9月",
+      "url": "https://gamewith.jp/uma-musume/article/show/575798",
+      "articleType": "style_guide_supplement",
+      "runningStyle": "nige,senko,sashi,oikomi",
+      "publishedAt": "2026-09-26",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "kamigame_escape_factor_general",
+      "siteName": "神ゲー攻略",
+      "title": "因子周回のおすすめキャラ＆編成とやり方｜逃げは序盤スキル系がおすすめ",
+      "url": "https://kamigame.jp/umamusume/page/147455032642539573.html",
+      "articleType": "skill_reference_supplement",
+      "runningStyle": "nige",
+      "publishedAt": "2026-08-01",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "gamewith_toprunner_ref",
+      "siteName": "GameWith",
+      "title": "「トップランナー」の効果と所持ウマ娘",
+      "url": "https://gamewith.jp/uma-musume/article/show/325956",
+      "articleType": "skill_family_reference",
+      "runningStyle": "nige",
+      "publishedAt": "2026-09-21",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
+    },
+    {
+      "id": "gamewith_sente_ref",
+      "siteName": "GameWith",
+      "title": "「先手必勝」の効果と所持ウマ娘",
+      "url": "https://gamewith.jp/uma-musume/article/show/260794",
+      "articleType": "skill_family_reference",
+      "runningStyle": "nige",
+      "publishedAt": "2026-09-21",
+      "checkedAt": "2026-09-28T21:40:43+09:00",
+      "sourceRole": "supplementary"
     }
   ],
   "metadata": {
-    "generatedAt": "2026-09-28T20:55:00+09:00",
-    "generator": "champions-assist-skill-audit-20260928",
-    "sourceSite": "ウマ娘ラボ最優先＋不足のみ神ゲー攻略補完",
+    "generatedAt": "2026-09-28T21:40:43+09:00",
+    "generator": "champions-assist-nige-source-audit-20260928",
+    "sourceSite": "primary: ウマ娘ラボ / supplementary: 神ゲー攻略・GameWith",
     "isComplete": true,
     "isSample": false,
     "availableStyles": [
@@ -9087,7 +10181,474 @@
       "sashi",
       "oikomi"
     ],
-    "waitingStyles": []
+    "waitingStyles": [],
+    "skillAudit": {
+      "nige": {
+        "auditedAt": "2026-09-28T21:40:43+09:00",
+        "scope": "凱旋門賞チャンミCLASSIC / 逃げ / 有効スキルS-A-B",
+        "sourcePolicy": {
+          "primary": [
+            "lab_arc_course",
+            "lab_arc_factor",
+            "lab_arc_factor_support"
+          ],
+          "supplementary": [
+            "kamigame_arc_nige",
+            "kamigame_arc_factor",
+            "kamigame_arc_course",
+            "gamewith_arc_202609",
+            "kamigame_escape_factor_general",
+            "gamewith_toprunner_ref",
+            "gamewith_sente_ref"
+          ],
+          "rule": "ウマ娘ラボに明示がある項目をprimaryとし、専用逃げ優先表がない領域だけsupplementaryで補完。supplementary単独候補は根拠の強さに応じてA/Bへ保守的に正規化。"
+        },
+        "gradingPolicy": {
+          "S": "必須級。今回の勝ち筋の中核または最速加速として特に優先。",
+          "A": "高優先。安定発動・中盤/序盤維持・条件付き強力継承など。",
+          "B": "有効候補。編成/キャラ/取得経路/SP余裕など条件が付く。"
+        },
+        "upperLowerPolicy": "上位/下位は別スキルとして独立評価し、familyで関係だけを保持。上位だから自動的に高評価にはしない。",
+        "counts": {
+          "total": 55,
+          "S": 2,
+          "A": 38,
+          "B": 15,
+          "primaryOnly": 15,
+          "supplementaryOnly": 21,
+          "mixed": 19
+        },
+        "changedEvaluations": [
+          {
+            "skillName": "逃げ切り体勢",
+            "from": "A",
+            "to": "S",
+            "reason": "ラボで最速発動の逃げ加速として「欲しい」。補助サイトでも今回の白止めを高評価。"
+          },
+          {
+            "skillName": "勝負はここから！",
+            "from": "S",
+            "to": "A",
+            "reason": "上位は有効だが、今回の加速量では白「逃げ切り体勢」で十分なケースが多く、SP効率を優先。"
+          },
+          {
+            "skillName": "トップランナー",
+            "sourceChange": "mixed-like -> supplementary",
+            "reason": "今回確認できたラボ逃げ記事には専用優先表がないため、神ゲー攻略の最新逃げ育成論を根拠に補完。"
+          },
+          {
+            "skillName": "地固め",
+            "sourceChange": "mixed-like -> supplementary",
+            "reason": "最新凱旋門賞逃げ育成論で取得候補として確認。primary記事で逃げ推奨の直接明示は未確認。"
+          },
+          {
+            "skillName": "もうひと踏ん張り",
+            "sourceChange": "mixed-like -> supplementary",
+            "reason": "最新凱旋門賞逃げ育成論で取得候補として確認。primary記事で逃げ推奨の直接明示は未確認。"
+          }
+        ],
+        "addedCandidates": [
+          {
+            "skillName": "阿吽の呼吸",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "mixed",
+            "primarySourceIds": [
+              "lab_arc_factor_support"
+            ],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "ラボが逃げ/先行因子周回で特に重要と明示。脚質・順位条件なしで中盤速度を補強。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "ロンシャンレース場◎",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "今回のロンシャンで安定発動する会場緑。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "先手必勝",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_nige",
+              "gamewith_sente_ref"
+            ],
+            "reason": "逃げのスタート加速。凱旋門賞候補の大逃げターボでもハナ取り性能の強みとして扱われる。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "先頭プライド",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general",
+              "gamewith_toprunner_ref"
+            ],
+            "reason": "トップランナーの下位。逃げの序～中盤の先頭維持に有効で、一般的な逃げ因子候補として高評価。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "ロンシャンレース場○",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "今回のロンシャンで安定発動する会場緑。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "先駆け",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_factor",
+              "kamigame_escape_factor_general",
+              "gamewith_sente_ref"
+            ],
+            "reason": "先手必勝の下位。逃げ因子周回で優先されるスタート加速。金まで上げない選択肢も持てる。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "ウマ好み",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "GameWithが今回のコースと特に相性が良く、序盤位置取りを有利にできると高評価。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "ネバーギブアップ",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "GameWithの9月チャンミ攻略で脚質問わず非常に強力な中盤速度として最高評価。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "逃げのコツ◎",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボが安定発動する各脚質コツとして明示。逃げでは逃げのコツに相当。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "怜悧清澄",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "GameWithが速度＋回復を補える全脚質向け金スキルとして最高評価。2400mの持久力要求とも相性が良い。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "逃げのコツ○",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボが安定発動する各脚質コツとして明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "連綿",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "GameWithが効果量の高い速度スキルとして脚質問わず最高評価。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "逃げコーナー◎",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。◎/○は別評価のまま保持。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "逃げ直線◎",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。◎/○は別評価のまま保持。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "逃げコーナー○",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "逃げ直線○",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "逃げの汎用速度として一般的な逃げ因子周回で優先。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "急ぎ足",
+            "grade": "A",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "逃げの汎用速度候補として因子周回でおすすめ。ハナ維持用の中盤速度補強。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "品行方正",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "mixed",
+            "primarySourceIds": [
+              "lab_arc_factor_support"
+            ],
+            "supplementarySourceIds": [
+              "kamigame_arc_factor"
+            ],
+            "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "ポジションセンス",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_factor",
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "凱旋門賞逃げ因子周回で序盤位置取り用の候補。一般的な逃げ因子でも優先度高め。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "自信家",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボがロンシャン2400mで安定発動する緑として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "危険回避",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_nige",
+              "kamigame_escape_factor_general"
+            ],
+            "reason": "凱旋門賞逃げ候補の正月カツラギエースの強みとして明示。位置取り系との組み合わせで価値が上がる。",
+            "auditConfidence": "medium"
+          },
+          {
+            "skillName": "自制心",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_course"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボがロンシャン2400mで安定発動する緑として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "コンセントレーション",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_nige"
+            ],
+            "reason": "出遅れ影響が大きい水着セイウンスカイ等では価値が高い。キャラ依存があるためB。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "揺るがぬ信念",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_factor_support"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "気持ちを乗せて",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "primary",
+            "primarySourceIds": [
+              "lab_arc_factor_support"
+            ],
+            "supplementarySourceIds": [],
+            "reason": "ラボの逃げ/先行向け因子周回サポカで因子化候補として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "シンパシー",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "mixed",
+            "primarySourceIds": [
+              "lab_arc_factor_support"
+            ],
+            "supplementarySourceIds": [
+              "kamigame_arc_factor"
+            ],
+            "reason": "ラボの因子周回記事で因子化候補。発動条件が編成依存のためB。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "レースの真髄・体",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "gamewith_arc_202609"
+            ],
+            "reason": "GameWithがスタミナ消費と引き換えに強力な全脚質候補として評価。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "ルミネセンス",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_nige"
+            ],
+            "reason": "凱旋門賞逃げ育成論で序盤力補強を重視する場合のネオユニSSR採用理由として明示。",
+            "auditConfidence": "high"
+          },
+          {
+            "skillName": "正面突破",
+            "grade": "B",
+            "status": "added",
+            "sourceRole": "supplementary",
+            "primarySourceIds": [],
+            "supplementarySourceIds": [
+              "kamigame_arc_factor"
+            ],
+            "reason": "凱旋門賞逃げ因子周回の白因子候補。最速加速がある環境では追加保険としてB。",
+            "auditConfidence": "medium"
+          }
+        ],
+        "deferredCandidates": [
+          {
+            "skillName": "王道一途",
+            "status": "deferred",
+            "reason": "正面突破の上位だが、今回大会の逃げで金版を積極優先する一次根拠が不足。加速過多とSP効率を考え、現時点では有効一覧への自動追加を保留。",
+            "sourceRole": "supplementary",
+            "sourceIds": [
+              "kamigame_arc_factor"
+            ]
+          },
+          {
+            "skillName": "晴れの日○",
+            "status": "deferred",
+            "reason": "ラボ因子周回記事では取得候補として触れられるが、コース記事の「安定発動する緑スキル一覧」には含まれていないため保留。",
+            "sourceRole": "primary",
+            "sourceIds": [
+              "lab_arc_factor_support"
+            ]
+          },
+          {
+            "skillName": "海風にまったり身を任せ",
+            "status": "deferred",
+            "reason": "凱旋門賞で有効な終盤始め早め加速として補助サイトに掲載されるが、キャラ固有/取得経路依存が強いため汎用スキル一覧への追加を保留。",
+            "sourceRole": "supplementary",
+            "sourceIds": [
+              "kamigame_arc_course"
+            ]
+          },
+          {
+            "skillName": "緊急重版",
+            "status": "deferred",
+            "reason": "凱旋門賞で有効な終盤始め早め加速として補助サイトに掲載されるが、取得経路依存が強いため汎用一覧への追加を保留。",
+            "sourceRole": "supplementary",
+            "sourceIds": [
+              "kamigame_arc_course"
+            ]
+          }
+        ]
+      }
+    }
   },
   "strategyGuide": {
     "contentStatus": "ready",
@@ -9302,10 +10863,12 @@
           "id": "arc_nige_mh_nigekiri",
           "skillName": "逃げ切り体勢",
           "skillId": "arc_nige_nigekiri",
-          "requirement": "high_priority",
-          "reason": "最速終盤加速の有力候補。",
+          "requirement": "required",
+          "reason": "ロンシャン2400mで最速発動を狙える白加速。加速が充足しやすい今回は金版よりSP効率が良く、必須級として扱う。",
           "sourceIds": [
-            "lab_arc_course"
+            "lab_arc_course",
+            "kamigame_arc_course",
+            "gamewith_arc_202609"
           ]
         }
       ],
@@ -9552,7 +11115,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-09-28T20:55:00+09:00",
+    "updatedAt": "2026-09-28T21:40:43+09:00",
     "sourceIds": [
       "lab_arc_course",
       "lab_arc_tier",
