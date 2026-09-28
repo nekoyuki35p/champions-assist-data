@@ -1,9 +1,9 @@
-# Champions Assist data repo v0.9.0
+# Champions Assist data repo v0.10.0
 
 `index.json` がチャンミ選択一覧、各 `dataUrl` が実際の攻略JSONです。
 アプリには `current` と `upcoming` だけ表示し、`past` は表示しません。
 
-## v0.9.0初回導入
+## v0.10.0初回導入
 
 既存の `latest.json` はそのまま使い、新しく `index.json` だけ追加できます。
 現在の `index.json` は10月チャンミから既存 `latest.json` を参照します。
