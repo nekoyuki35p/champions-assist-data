@@ -1,0 +1,114 @@
+{
+  "dataVersion": "2026.10.20261014.final2",
+  "generatedAt": "2026-10-14T08:35:07+09:00",
+  "skillCounts": {
+    "nige": {
+      "total": 14,
+      "grades": {
+        "S": 1,
+        "A": 6,
+        "B": 7
+      },
+      "categories": {
+        "inherited_unique": 11,
+        "acceleration": 1,
+        "green": 2
+      },
+      "inheritance": 11
+    },
+    "senko": {
+      "total": 110,
+      "grades": {
+        "S": 20,
+        "A": 40,
+        "B": 50
+      },
+      "categories": {
+        "positioning": 3,
+        "acceleration": 4,
+        "speed": 74,
+        "other": 3,
+        "green": 5,
+        "recovery": 1,
+        "inherited_unique": 20
+      },
+      "inheritance": 20
+    },
+    "sashi": {
+      "total": 109,
+      "grades": {
+        "S": 19,
+        "A": 39,
+        "B": 51
+      },
+      "categories": {
+        "positioning": 5,
+        "acceleration": 3,
+        "speed": 76,
+        "other": 3,
+        "green": 4,
+        "inherited_unique": 18
+      },
+      "inheritance": 18
+    },
+    "oikomi": {
+      "total": 100,
+      "grades": {
+        "S": 17,
+        "A": 39,
+        "B": 44
+      },
+      "categories": {
+        "positioning": 3,
+        "acceleration": 3,
+        "speed": 70,
+        "other": 3,
+        "green": 4,
+        "inherited_unique": 17
+      },
+      "inheritance": 17
+    }
+  },
+  "sourceTableCounts": {
+    "senko": {
+      "S": 18,
+      "A": 32,
+      "B": 39,
+      "tableTotal": 89
+    },
+    "sashi": {
+      "S": 18,
+      "A": 32,
+      "B": 41,
+      "tableTotal": 91
+    },
+    "oikomi": {
+      "S": 16,
+      "A": 32,
+      "B": 35,
+      "tableTotal": 83
+    }
+  },
+  "checks": [
+    "JSON syntax OK",
+    "S/A/B source-table coverage complete for senko/sashi/oikomi",
+    "No duplicate skill IDs per style",
+    "No duplicate skill names per style",
+    "All aliases non-empty",
+    "All skill sourceIds resolve",
+    "All mustHaveSkills.skillId references resolve",
+    "All inheritance sourceIds resolve",
+    "All supportDeck supportCardId and alternative IDs resolve against support_cards.json",
+    "Recommended support decks unchanged",
+    "Tier/target stats/course data unchanged"
+  ],
+  "importantFixes": [
+    "Added full Labo S/A/B priority tables to Effective Skills",
+    "Reclassified 直滑降/駆け降り/急降下 and insurance acceleration skills as acceleration",
+    "Added 悠々自適 as explicit senko recovery recommendation from article body",
+    "Expanded inheritance recommendations instead of limiting each style to five",
+    "Corrected Joy to the World owner to ナリタトップロード（クリスマス）",
+    "Corrected 剛心鉄壁ガーディアン owner to フェノーメノ（新衣装）",
+    "Added search aliases for paired gold/white skill names and ◎/○ variants"
+  ]
+}
