@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.29.1",
-  "generatedAt": "2026-09-29T00:55:00+09:00",
+  "dataVersion": "2026.10.14.1",
+  "generatedAt": "2026-10-14T07:30:00+09:00",
   "meetings": [
     {
       "id": "cm_2026_09_arc_classic",
@@ -9,10 +9,10 @@
       "shortTitle": "凱旋門賞チャンミ",
       "year": 2026,
       "month": 9,
-      "status": "upcoming",
+      "status": "past",
       "startDate": "2026-09-29",
-      "endDate": null,
-      "dataUrl": "cm_2026_09_arc_classic.json?v=202609290055",
+      "endDate": "2026-10-05",
+      "dataUrl": "cm_2026_09_arc_classic.json",
       "course": {
         "venue": "ロンシャン",
         "surface": "turf",
@@ -29,7 +29,7 @@
       "status": "upcoming",
       "startDate": "2026-10-20",
       "endDate": null,
-      "dataUrl": "latest.json",
+      "dataUrl": "cm_2026_10_classic_kyoto2200.json",
       "course": {
         "venue": "京都",
         "surface": "turf",

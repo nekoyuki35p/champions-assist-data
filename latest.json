@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.10.20260928.4",
+  "dataVersion": "2026.10.20261014.final1",
   "meeting": {
     "id": "cm_2026_10_classic_kyoto2200",
     "title": "10月チャンピオンズミーティングCLASSIC",
@@ -37,33 +37,13 @@
   "runningStyles": {
     "nige": {
       "displayName": "逃げ",
-      "contentStatus": "ready",
+      "contentStatus": "partial",
       "targetStats": {
-        "speed": {
-          "value": 2150,
-          "operator": ">=",
-          "display": "2150+"
-        },
-        "stamina": {
-          "value": 1700,
-          "operator": ">=",
-          "display": "1700+"
-        },
-        "power": {
-          "value": 1400,
-          "operator": ">=",
-          "display": "1400+"
-        },
-        "guts": {
-          "value": 1000,
-          "operator": ">=",
-          "display": "1000+"
-        },
-        "wisdom": {
-          "value": 1600,
-          "operator": ">=",
-          "display": "1600+"
-        }
+        "speed": null,
+        "stamina": null,
+        "power": null,
+        "guts": null,
+        "wisdom": null
       },
       "recommendedAptitudes": [
         {
@@ -71,39 +51,38 @@
           "target": "middle",
           "recommendedRank": "S",
           "priority": "high",
-          "note": "目標ステータス算定条件でも中距離Sを前提。"
+          "note": "中距離Sは他脚質と同様に重要だが、逃げ専用の本育成論・目標ステータスは未掲載。"
         }
       ],
       "skills": [
         {
-          "id": "nige_epiphaneia_inherit",
+          "id": "oct_nige_epiph",
           "name": "光れ！弾けろ！超新星爆発！",
           "aliases": [
-            "光れ！弾けろ！超新星爆発！",
-            "光れ弾けろ超新星爆発",
-            "超新星爆発"
+            "光れ！弾けろ！超新星爆発！"
           ],
           "category": "inherited_unique",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "逃げ/先行で最速発動する継承進化加速。現行記事で必須扱い。",
+          "reason": "逃げ/先行で必須級の最速終盤加速＋中盤速度。エピファネイアを親にして継承進化。",
           "conditions": [
             "逃げ",
             "終盤加速"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_factor_20261006"
           ],
           "ownerCharacter": "エピファネイア",
           "ownerVariant": null,
           "ownerDisplayName": "エピファネイア",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_hiryujoun",
+          "id": "oct_nige_hiryu",
           "name": "飛龍乗雲",
           "aliases": [
             "飛龍乗雲"
@@ -111,367 +90,205 @@
           "category": "acceleration",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 85,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "逃げ専用の終盤始め早め加速。現行記事で準必須扱い。",
+          "reason": "逃げ専用の終盤始め早め加速。ウマ娘ラボのコース解説で準必須。",
           "conditions": [
             "逃げ",
+            "1～5位",
             "終盤始め"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "hiryujoun",
-            "lowerSkills": [
-              "追い風に乗って"
-            ],
-            "upperSkills": []
-          }
+            "lab_oct_course_20260926"
+          ]
         },
         {
-          "id": "nige_appare",
+          "id": "oct_nige_appare",
           "name": "あっぱれ大盤振る舞い！",
           "aliases": [
-            "あっぱれ大盤振る舞い！",
-            "あっぱれ大盤振る舞い",
-            "あっぱれ"
+            "あっぱれ大盤振る舞い！"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 82,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "1～3位で使える終盤加速。前方脚質で積極採用候補。",
+          "reason": "通常逃げ2頭以上や水着セイウンスカイ採用時に有力な追加加速。",
           "conditions": [
             "逃げ",
             "1～3位",
             "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006"
           ],
           "ownerCharacter": "キタサンブラック",
           "ownerVariant": "正月",
           "ownerDisplayName": "キタサンブラック（正月）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_angling",
+          "id": "oct_nige_angling",
           "name": "アングリング×スキーミング",
           "aliases": [
-            "アングリング×スキーミング",
-            "アングリングスキーミング",
-            "アンスキ"
+            "アングリング×スキーミング"
           ],
           "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 65,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "1位終盤入りで最速発動する加速。順位条件付き。",
+          "reason": "通常逃げ1頭で1位終盤入りを狙う場合の追加加速候補。",
           "conditions": [
             "逃げ",
             "1位",
             "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006"
           ],
           "ownerCharacter": "セイウンスカイ",
           "ownerVariant": null,
           "ownerDisplayName": "セイウンスカイ",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/282549"
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_seimen",
-          "name": "正面突破",
+          "id": "oct_nige_shadow",
+          "name": "Shadow Ancestress",
           "aliases": [
-            "正面突破"
-          ],
-          "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 58,
-          "isRecommended": true,
-          "reason": "1～5位の終盤始め加速。上振れ用の追加候補。",
-          "conditions": [
-            "逃げ",
-            "1～5位",
-            "終盤始め"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
-        },
-        {
-          "id": "nige_katsuri",
-          "name": "勝利ヘ至ル累積",
-          "aliases": [
-            "勝利ヘ至ル累積",
-            "勝利へ至ル累積",
-            "勝利へ至る累積"
+            "Shadow Ancestress"
           ],
           "category": "inherited_unique",
-          "grade": "B",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 55,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前方脚質向けの序～中盤速度候補。",
+          "reason": "1位でも出る中盤速度。逃げの中盤継承で特におすすめ。",
           "conditions": [
             "逃げ",
             "1～5位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006"
           ],
-          "ownerCharacter": "ビワハヤヒデ",
-          "ownerVariant": "メカ",
-          "ownerDisplayName": "ビワハヤヒデ（メカ）",
+          "ownerCharacter": "エアグルーヴ",
+          "ownerVariant": "新衣装",
+          "ownerDisplayName": "エアグルーヴ（新衣装）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/470252"
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_cacao",
-          "name": "オペレーション・Cacao",
+          "id": "oct_nige_joy",
+          "name": "Joy to the World",
           "aliases": [
-            "オペレーション・Cacao",
-            "オペレーションCacao",
-            "Cacao"
+            "Joy to the World"
           ],
           "category": "inherited_unique",
-          "grade": "B",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 55,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前方脚質向け中盤速度。微回復も付く候補。",
+          "reason": "大逃げ牽引を使う通常逃げで有力な中盤速度＋回復継承。",
           "conditions": [
             "逃げ",
-            "1～4位",
+            "2～5位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006"
           ],
-          "ownerCharacter": "ミホノブルボン",
-          "ownerVariant": "バレンタイン",
-          "ownerDisplayName": "ミホノブルボン（バレンタイン）",
+          "ownerCharacter": "トーセンジョーダン",
+          "ownerVariant": "クリスマス",
+          "ownerDisplayName": "トーセンジョーダン（クリスマス）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/316749"
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_tareuma",
-          "name": "垂れウマ回避",
+          "id": "oct_nige_peerless",
+          "name": "Peerless Heroine",
           "aliases": [
-            "垂れウマ回避"
+            "Peerless Heroine"
           ],
-          "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 50,
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前にウマ娘がいる場面で出る加速。早め発動の上振れ候補。",
+          "reason": "前方で使える中盤現在速度候補。",
           "conditions": [
             "逃げ",
-            "前方ブロック"
+            "1～5位",
+            "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
+            "lab_oct_factor_20261006"
+          ],
+          "ownerCharacter": "アーモンドアイ",
+          "ownerVariant": null,
+          "ownerDisplayName": "アーモンドアイ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
         },
         {
-          "id": "nige_right_turn",
+          "id": "oct_nige_right",
           "name": "右回り○",
           "aliases": [
-            "右回り○",
-            "右回り",
-            "右回り◯"
+            "右回り○"
           ],
           "category": "green",
           "grade": "B",
           "effectiveness": "effective",
-          "priority": 45,
+          "priority": 60,
           "isRecommended": true,
-          "reason": "京都2200mは右回り。安定して有効な緑スキル。",
+          "reason": "京都2200mは右回り。条件一致の緑スキル。",
           "conditions": [
             "逃げ",
-            "京都芝2200m"
+            "右回り"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "right_turn",
-            "lowerSkills": [],
-            "upperSkills": [
-              "右回り◎"
-            ]
-          }
+            "lab_oct_course_20260926"
+          ]
         },
         {
-          "id": "nige_autumn",
+          "id": "oct_nige_autumn",
           "name": "秋ウマ娘○",
           "aliases": [
-            "秋ウマ娘○",
-            "秋ウマ娘",
-            "秋ウマ娘◯"
+            "秋ウマ娘○"
           ],
           "category": "green",
           "grade": "B",
           "effectiveness": "effective",
-          "priority": 45,
+          "priority": 60,
           "isRecommended": true,
-          "reason": "本番条件が秋のため安定して有効。",
+          "reason": "本番は秋条件。条件一致の緑スキル。",
           "conditions": [
             "逃げ",
             "秋"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "autumn_umamusume",
-            "lowerSkills": [],
-            "upperSkills": [
-              "秋ウマ娘◎"
-            ]
-          }
-        },
-        {
-          "id": "nige_non_root",
-          "name": "非根幹距離○",
-          "aliases": [
-            "非根幹距離○",
-            "非根幹距離",
-            "非根幹距離◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "2200mは非根幹距離。条件一致で安定して有効。",
-          "conditions": [
-            "逃げ",
-            "2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "non_root_distance",
-            "lowerSkills": [],
-            "upperSkills": [
-              "非根幹距離◎"
-            ]
-          }
-        },
-        {
-          "id": "nige_kyoto",
-          "name": "京都レース場○",
-          "aliases": [
-            "京都レース場○",
-            "京都レース場",
-            "京都レース場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "京都レース場条件で安定して有効。",
-          "conditions": [
-            "逃げ",
-            "京都"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "kyoto_racecourse",
-            "lowerSkills": [],
-            "upperSkills": [
-              "京都レース場◎"
-            ]
-          }
-        },
-        {
-          "id": "nige_firm",
-          "name": "良バ場○",
-          "aliases": [
-            "良バ場○",
-            "良バ場",
-            "良バ場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番のバ場状態が良のため条件一致。",
-          "conditions": [
-            "逃げ",
-            "良"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "firm_track",
-            "lowerSkills": [],
-            "upperSkills": [
-              "良バ場◎"
-            ]
-          }
-        },
-        {
-          "id": "nige_cloudy",
-          "name": "曇りの日○",
-          "aliases": [
-            "曇りの日○",
-            "曇りの日",
-            "曇りの日◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番天気が曇のため条件一致。",
-          "conditions": [
-            "逃げ",
-            "曇"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "cloudy_day",
-            "lowerSkills": [],
-            "upperSkills": [
-              "曇りの日◎"
-            ]
-          }
+            "lab_oct_course_20260926"
+          ]
         }
       ],
       "notes": [
         {
-          "type": "grading",
-          "text": "S/A/Bは現行記事の表現をアプリ用に正規化。必須=S、準必須・かなり優先度高め=A、候補・上振れ=B。"
+          "type": "source_policy",
+          "text": "逃げ専用の本育成論がウマ娘ラボに未掲載のため、目標ステータスと6枚サポート編成は推測補完しない。コース解説・因子設計・Tier記事で明示された内容のみ掲載。"
         },
         {
-          "type": "stats",
-          "text": "目標ステータスは2026年10月京都芝2200m向け最新攻略の2150/1700/1400/1000/1600を採用。脚質別記事更新時に再確認予定。"
+          "type": "strategy",
+          "text": "逃げを使うなら水着セイウンスカイが筆頭。大逃げ牽引を前提に通常逃げを使う場合は継承構成を調整。"
         }
       ],
       "sourceIds": [
-        "umamusumelabo_202610_kyoto2200",
-        "kamigame_202610_stats"
+        "lab_oct_course_20260926",
+        "lab_oct_factor_20261006",
+        "lab_oct_tier_20261010"
       ],
-      "updatedAt": "2026-09-28T01:20:00+09:00"
+      "updatedAt": "2026-10-14T07:30:00+09:00"
     },
     "senko": {
       "displayName": "先行",
@@ -483,19 +300,19 @@
           "display": "2150+"
         },
         "stamina": {
-          "value": 1700,
+          "value": 1500,
           "operator": ">=",
-          "display": "1700+"
+          "display": "1500～1700 + 回復"
         },
         "power": {
-          "value": 1400,
+          "value": 1600,
           "operator": ">=",
-          "display": "1400+"
+          "display": "1600+"
         },
         "guts": {
-          "value": 1000,
+          "value": 1100,
           "operator": ">=",
-          "display": "1000+"
+          "display": "1100+"
         },
         "wisdom": {
           "value": 1600,
@@ -509,143 +326,480 @@
           "target": "middle",
           "recommendedRank": "S",
           "priority": "high",
-          "note": "目標ステータス算定条件でも中距離Sを前提。"
+          "note": "中距離Sは必須級。右回り○・秋ウマ娘○などの速度緑も積める範囲で優先。"
         }
       ],
       "skills": [
         {
-          "id": "senko_epiphaneia_inherit",
+          "id": "oct_senko_epiph",
           "name": "光れ！弾けろ！超新星爆発！",
           "aliases": [
-            "光れ！弾けろ！超新星爆発！",
-            "光れ弾けろ超新星爆発",
-            "超新星爆発"
+            "光れ！弾けろ！超新星爆発！"
           ],
           "category": "inherited_unique",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "逃げ/先行で最速発動する継承進化加速。現行記事で必須扱い。",
+          "reason": "先行の必須級。最速終盤加速＋中盤速度の継承進化。",
           "conditions": [
             "先行",
             "終盤加速"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
           ],
           "ownerCharacter": "エピファネイア",
           "ownerVariant": null,
           "ownerDisplayName": "エピファネイア",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/573299"
+          "ownerSourceUrl": null
         },
         {
-          "id": "senko_chokkakou",
+          "id": "oct_senko_priority_s_01",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "最序盤のPDM解除に重要。ウマ娘ラボで超重要・必須級として評価。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_02",
           "name": "直滑降",
           "aliases": [
             "直滑降"
           ],
-          "category": "acceleration",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
-          "priority": 98,
+          "priority": 95,
           "isRecommended": true,
-          "reason": "京都2200mの下り坂位置と相性が良い置き加速。現行記事で先行必須。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "先行",
-            "下り坂"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_senko_20261012"
           ]
         },
         {
-          "id": "senko_yume",
-          "name": "夢の舞台へ",
+          "id": "oct_senko_priority_s_03",
+          "name": "中距離直線◎/○",
           "aliases": [
-            "夢の舞台へ"
+            "中距離直線◎/○"
           ],
-          "category": "acceleration",
-          "grade": "A",
+          "category": "speed",
+          "grade": "S",
           "effectiveness": "effective",
-          "priority": 86,
+          "priority": 95,
           "isRecommended": true,
-          "reason": "先行専用の終盤始め早め加速。準必須扱い。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "先行",
-            "1～5位",
-            "終盤始め"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "yume_no_butai",
-            "lowerSkills": [
-              "憧れを越えて"
-            ],
-            "upperSkills": []
-          }
+            "lab_oct_senko_20261012"
+          ]
         },
         {
-          "id": "senko_appare",
+          "id": "oct_senko_priority_s_04",
+          "name": "中距離コーナー◎/○",
+          "aliases": [
+            "中距離コーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_05",
+          "name": "先行直線◎/○",
+          "aliases": [
+            "先行直線◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_06",
+          "name": "先行コーナー◎/○",
+          "aliases": [
+            "先行コーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_07",
+          "name": "尻尾の滝登り（尻尾上がり）",
+          "aliases": [
+            "尻尾の滝登り（尻尾上がり）"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_08",
+          "name": "迸る気迫（意地っ張り）",
+          "aliases": [
+            "迸る気迫（意地っ張り）"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_09",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_10",
+          "name": "力業",
+          "aliases": [
+            "力業"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_11",
+          "name": "阿吽の呼吸",
+          "aliases": [
+            "阿吽の呼吸"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_12",
+          "name": "大立ち回り",
+          "aliases": [
+            "大立ち回り"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_13",
+          "name": "アグレッシブ",
+          "aliases": [
+            "アグレッシブ"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_14",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_15",
+          "name": "レースの真髄・体",
+          "aliases": [
+            "レースの真髄・体"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_16",
+          "name": "解き放つ情念",
+          "aliases": [
+            "解き放つ情念"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_17",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_priority_s_18",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "先行",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_appare",
           "name": "あっぱれ大盤振る舞い！",
           "aliases": [
-            "あっぱれ大盤振る舞い！",
-            "あっぱれ大盤振る舞い",
-            "あっぱれ"
-          ],
-          "category": "inherited_unique",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 82,
-          "isRecommended": true,
-          "reason": "1～3位で出る終盤加速。先行でも積極採用候補。",
-          "conditions": [
-            "先行",
-            "1～3位",
-            "終盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "キタサンブラック",
-          "ownerVariant": "正月",
-          "ownerDisplayName": "キタサンブラック（正月）",
-          "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/381475"
-        },
-        {
-          "id": "senko_joy",
-          "name": "Joy to the World",
-          "aliases": [
-            "Joy to the World",
-            "Joy to the world",
-            "Joy"
+            "あっぱれ大盤振る舞い！"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 80,
           "isRecommended": true,
-          "reason": "先行で優先度が高い中盤速度継承候補。",
+          "reason": "1～3位で使いやすい最速発動の追加加速。",
+          "conditions": [
+            "先行",
+            "1～3位",
+            "終盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
+          ],
+          "ownerCharacter": "キタサンブラック",
+          "ownerVariant": "正月",
+          "ownerDisplayName": "キタサンブラック（正月）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_senko_shadow",
+          "name": "Shadow Ancestress",
+          "aliases": [
+            "Shadow Ancestress"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "1位でも発動できる強力な中盤速度継承。",
+          "conditions": [
+            "先行",
+            "1～5位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
+          ],
+          "ownerCharacter": "エアグルーヴ",
+          "ownerVariant": "新衣装",
+          "ownerDisplayName": "エアグルーヴ（新衣装）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_senko_joy",
+          "name": "Joy to the World",
+          "aliases": [
+            "Joy to the World"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "先行で有力な中盤速度＋回復継承。",
           "conditions": [
             "先行",
             "2～5位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
           ],
-          "ownerCharacter": "ナリタトップロード",
+          "ownerCharacter": "トーセンジョーダン",
           "ownerVariant": "クリスマス",
-          "ownerDisplayName": "ナリタトップロード（クリスマス）",
+          "ownerDisplayName": "トーセンジョーダン（クリスマス）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/475689"
+          "ownerSourceUrl": null
         },
         {
-          "id": "senko_summer_hare",
+          "id": "oct_senko_hare",
           "name": "夏空ハレーション",
           "aliases": [
             "夏空ハレーション"
@@ -653,334 +807,124 @@
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 78,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "先行で優先度が高い中盤速度継承候補。",
+          "reason": "先行で有力な中盤速度継承。大逃げ牽引と組み合わせると順位条件が安定しやすい。",
           "conditions": [
             "先行",
             "2～5位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
           ],
           "ownerCharacter": "アグネスタキオン",
           "ownerVariant": "水着",
           "ownerDisplayName": "アグネスタキオン（水着）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/410733"
+          "ownerSourceUrl": null
         },
         {
-          "id": "senko_makkou",
-          "name": "真っ向勝負",
+          "id": "oct_senko_akogare",
+          "name": "憧れを越えて",
           "aliases": [
-            "真っ向勝負"
+            "憧れを越えて"
           ],
           "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 58,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "先行専用の終盤始め加速。上振れ補助候補。",
+          "reason": "「夢の舞台へ」の下位。今回は金まで上げず保険加速として有力。",
           "conditions": [
             "先行",
             "1～5位",
             "終盤始め"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_senko_20261012"
           ]
         },
         {
-          "id": "senko_peerless",
-          "name": "Peerless Heroine",
-          "aliases": [
-            "Peerless Heroine",
-            "PeerlessHeroine"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 56,
-          "isRecommended": true,
-          "reason": "前方脚質向けの中盤現在速度候補。",
-          "conditions": [
-            "先行",
-            "1～5位",
-            "中盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "アーモンドアイ",
-          "ownerVariant": null,
-          "ownerDisplayName": "アーモンドアイ",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/545815"
-        },
-        {
-          "id": "senko_hop",
-          "name": "ホップステップ・ゲッチュ♡",
-          "aliases": [
-            "ホップステップ・ゲッチュ♡",
-            "ホップステップゲッチュ",
-            "ホップステップ・ゲッチュ"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 55,
-          "isRecommended": true,
-          "reason": "先行向けのレース前半コーナー速度候補。",
-          "conditions": [
-            "先行",
-            "2～5位",
-            "中盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "フサイチパンドラ",
-          "ownerVariant": null,
-          "ownerDisplayName": "フサイチパンドラ",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/509287"
-        },
-        {
-          "id": "senko_musubi",
-          "name": "解けぬ結い目",
-          "aliases": [
-            "解けぬ結い目"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 54,
-          "isRecommended": true,
-          "reason": "先行専用の終盤速度候補。前目条件を満たせると有効。",
-          "conditions": [
-            "先行",
-            "終盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "メジロラモーヌ",
-          "ownerVariant": "花嫁",
-          "ownerDisplayName": "メジロラモーヌ（花嫁）",
-          "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/499935"
-        },
-        {
-          "id": "senko_tareuma",
+          "id": "oct_senko_tareuma",
           "name": "垂れウマ回避",
           "aliases": [
             "垂れウマ回避"
           ],
           "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 50,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前方ブロック時に出る加速。上振れ用。",
+          "reason": "前ブロック時に出る保険加速。早期発動の上振れ候補。",
           "conditions": [
             "先行",
-            "前方ブロック"
+            "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_senko_20261012"
           ]
         },
         {
-          "id": "senko_right_turn",
-          "name": "右回り○",
+          "id": "oct_senko_seisei",
+          "name": "正々堂々（己を信じて）",
           "aliases": [
-            "右回り○",
-            "右回り",
-            "右回り◯"
+            "正々堂々（己を信じて）"
           ],
-          "category": "green",
-          "grade": "B",
+          "category": "speed",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 45,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "京都2200mは右回り。安定して有効な緑スキル。",
+          "reason": "SSRトウカイテイオー採用時の推奨金スキル。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "先行"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "right_turn",
-            "lowerSkills": [],
-            "upperSkills": [
-              "右回り◎"
-            ]
-          }
+            "lab_oct_senko_20261012"
+          ]
         },
         {
-          "id": "senko_autumn",
-          "name": "秋ウマ娘○",
+          "id": "oct_senko_yuyu",
+          "name": "悠々自適",
           "aliases": [
-            "秋ウマ娘○",
-            "秋ウマ娘",
-            "秋ウマ娘◯"
+            "悠々自適"
           ],
-          "category": "green",
-          "grade": "B",
+          "category": "recovery",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 45,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "本番条件が秋のため安定して有効。",
+          "reason": "スタミナ1500台では基本欲しい金回復。1700台なら白回復2程度でも可。",
           "conditions": [
             "先行",
-            "秋"
+            "持久力"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "autumn_umamusume",
-            "lowerSkills": [],
-            "upperSkills": [
-              "秋ウマ娘◎"
-            ]
-          }
-        },
-        {
-          "id": "senko_non_root",
-          "name": "非根幹距離○",
-          "aliases": [
-            "非根幹距離○",
-            "非根幹距離",
-            "非根幹距離◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "2200mは非根幹距離。条件一致で安定して有効。",
-          "conditions": [
-            "先行",
-            "2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "non_root_distance",
-            "lowerSkills": [],
-            "upperSkills": [
-              "非根幹距離◎"
-            ]
-          }
-        },
-        {
-          "id": "senko_kyoto",
-          "name": "京都レース場○",
-          "aliases": [
-            "京都レース場○",
-            "京都レース場",
-            "京都レース場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "京都レース場条件で安定して有効。",
-          "conditions": [
-            "先行",
-            "京都"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "kyoto_racecourse",
-            "lowerSkills": [],
-            "upperSkills": [
-              "京都レース場◎"
-            ]
-          }
-        },
-        {
-          "id": "senko_firm",
-          "name": "良バ場○",
-          "aliases": [
-            "良バ場○",
-            "良バ場",
-            "良バ場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番のバ場状態が良のため条件一致。",
-          "conditions": [
-            "先行",
-            "良"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "firm_track",
-            "lowerSkills": [],
-            "upperSkills": [
-              "良バ場◎"
-            ]
-          }
-        },
-        {
-          "id": "senko_cloudy",
-          "name": "曇りの日○",
-          "aliases": [
-            "曇りの日○",
-            "曇りの日",
-            "曇りの日◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番天気が曇のため条件一致。",
-          "conditions": [
-            "先行",
-            "曇"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "cloudy_day",
-            "lowerSkills": [],
-            "upperSkills": [
-              "曇りの日◎"
-            ]
-          }
+            "lab_oct_senko_20261012"
+          ]
         }
       ],
       "notes": [
         {
-          "type": "grading",
-          "text": "S/A/Bは現行記事の表現をアプリ用に正規化。必須=S、準必須・かなり優先度高め=A、候補・上振れ=B。"
+          "type": "stats",
+          "text": "スタミナ1500台なら悠々自適などの金回復を基本推奨。1700台なら白回復2程度でも候補。持久力消費スキルやスタミナデバフ対策を考え余裕を持たせる。"
         },
         {
-          "type": "stats",
-          "text": "目標ステータスは2026年10月京都芝2200m向け最新攻略の2150/1700/1400/1000/1600を採用。脚質別記事更新時に再確認予定。"
+          "type": "scenario",
+          "text": "シナリオ進化は「麺の極意、見つけたり」と「湯切りの妙技」を推奨。湯切りの妙技の特効維持のため根性1000未満にしない。"
         }
       ],
       "sourceIds": [
-        "umamusumelabo_202610_kyoto2200",
-        "kamigame_202610_stats"
+        "lab_oct_course_20260926",
+        "lab_oct_factor_20261006",
+        "lab_oct_tier_20261010",
+        "lab_oct_senko_20261012"
       ],
-      "updatedAt": "2026-09-28T01:20:00+09:00"
+      "updatedAt": "2026-10-14T07:30:00+09:00"
     },
     "sashi": {
       "displayName": "差し",
@@ -992,19 +936,19 @@
           "display": "2150+"
         },
         "stamina": {
-          "value": 1700,
+          "value": 1500,
           "operator": ">=",
-          "display": "1700+"
+          "display": "1500～1700 + 白回復1～3"
         },
         "power": {
-          "value": 1400,
+          "value": 1600,
           "operator": ">=",
-          "display": "1400+"
+          "display": "1600+"
         },
         "guts": {
-          "value": 1000,
+          "value": 1100,
           "operator": ">=",
-          "display": "1000+"
+          "display": "1100+"
         },
         "wisdom": {
           "value": 1600,
@@ -1018,12 +962,12 @@
           "target": "middle",
           "recommendedRank": "S",
           "priority": "high",
-          "note": "目標ステータス算定条件でも中距離Sを前提。"
+          "note": "中距離Sは必須級。右回り○・秋ウマ娘○・精神力などの速度緑も候補。"
         }
       ],
       "skills": [
         {
-          "id": "sashi_staygold_inherit",
+          "id": "oct_sashi_staygold",
           "name": "黄金を訪ねて",
           "aliases": [
             "黄金を訪ねて"
@@ -1033,486 +977,603 @@
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "差し/追込で最速発動する継承進化加速。現行記事で必須扱い。",
+          "reason": "差し/追込の必須級。順位条件なしの最速終盤加速＋中盤速度の継承進化。",
           "conditions": [
             "差し",
             "終盤加速"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ステイゴールド",
           "ownerVariant": null,
           "ownerDisplayName": "ステイゴールド",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
+          "ownerSourceUrl": null
         },
         {
-          "id": "sashi_kakeori",
+          "id": "oct_sashi_priority_s_01",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "最序盤のPDM解除に重要。ウマ娘ラボで超重要・必須級として評価。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_02",
           "name": "駆け降り",
           "aliases": [
             "駆け降り"
           ],
-          "category": "acceleration",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
-          "priority": 98,
+          "priority": 95,
           "isRecommended": true,
-          "reason": "京都2200mの下り坂位置と相性が良い置き加速。現行記事で差し必須。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "差し",
-            "下り坂"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013"
           ]
         },
         {
-          "id": "sashi_tenpu",
-          "name": "天賦の才",
+          "id": "oct_sashi_priority_s_03",
+          "name": "中距離直線◎/○",
           "aliases": [
-            "天賦の才"
+            "中距離直線◎/○"
           ],
-          "category": "acceleration",
-          "grade": "A",
+          "category": "speed",
+          "grade": "S",
           "effectiveness": "effective",
-          "priority": 86,
+          "priority": 95,
           "isRecommended": true,
-          "reason": "差し専用の終盤始め早め加速。準必須扱い。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "差し",
-            "4～9位",
-            "終盤始め"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "tenpu_no_sai",
-            "lowerSkills": [
-              "頂を目指して"
-            ],
-            "upperSkills": []
-          }
+            "lab_oct_rear_20261013"
+          ]
         },
         {
-          "id": "sashi_ad_astra",
+          "id": "oct_sashi_priority_s_04",
+          "name": "中距離コーナー◎/○",
+          "aliases": [
+            "中距離コーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_05",
+          "name": "差し直線◎/○",
+          "aliases": [
+            "差し直線◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_06",
+          "name": "差しコーナー◎/○",
+          "aliases": [
+            "差しコーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_07",
+          "name": "尻尾の滝登り（尻尾上がり）",
+          "aliases": [
+            "尻尾の滝登り（尻尾上がり）"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_08",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_09",
+          "name": "阿吽の呼吸",
+          "aliases": [
+            "阿吽の呼吸"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_10",
+          "name": "大立ち回り",
+          "aliases": [
+            "大立ち回り"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_11",
+          "name": "フルスロットル",
+          "aliases": [
+            "フルスロットル"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_12",
+          "name": "内なる獣",
+          "aliases": [
+            "内なる獣"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_13",
+          "name": "追尾",
+          "aliases": [
+            "追尾"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_14",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_15",
+          "name": "レースの真髄・体",
+          "aliases": [
+            "レースの真髄・体"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_16",
+          "name": "解き放つ情念",
+          "aliases": [
+            "解き放つ情念"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_17",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_priority_s_18",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "差し",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_ad_astra",
           "name": "アド・アストラ",
           "aliases": [
-            "アド・アストラ",
-            "アドアストラ"
-          ],
-          "category": "inherited_unique",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 82,
-          "isRecommended": true,
-          "reason": "差し/追込で優先度が高い中盤速度継承。",
-          "conditions": [
-            "差し",
-            "4～7位",
-            "中盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "ネオユニヴァース",
-          "ownerVariant": null,
-          "ownerDisplayName": "ネオユニヴァース",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
-        },
-        {
-          "id": "sashi_faith",
-          "name": "Faith in the Feral",
-          "aliases": [
-            "Faith in the Feral",
-            "Faith in theFeral",
-            "Faith"
+            "アド・アストラ"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 80,
           "isRecommended": true,
-          "reason": "差し/追込で優先度が高い中盤速度継承。",
+          "reason": "後方脚質の鉄板中盤速度継承。",
           "conditions": [
             "差し",
             "4～7位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_sashi_faith",
+          "name": "Faith in the Feral",
+          "aliases": [
+            "Faith in the Feral"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "後方脚質の鉄板中盤速度継承。",
+          "conditions": [
+            "差し",
+            "4～7位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ジャングルポケット",
           "ownerVariant": null,
           "ownerDisplayName": "ジャングルポケット",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
+          "ownerSourceUrl": null
         },
         {
-          "id": "sashi_kasukeido",
-          "name": "夏雷カスケード！",
+          "id": "oct_sashi_farnorth",
+          "name": "悠遠のファーノース",
           "aliases": [
-            "夏雷カスケード！",
-            "夏雷カスケード"
+            "悠遠のファーノース"
           ],
           "category": "inherited_unique",
           "grade": "A",
-          "effectiveness": "conditional",
-          "priority": 76,
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "差し専用。中盤前半の追い抜き条件を満たすと強い候補。",
+          "reason": "4～9位で使える長めの中盤速度継承。",
+          "conditions": [
+            "差し",
+            "4～9位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "アドマイヤグルーヴ",
+          "ownerVariant": null,
+          "ownerDisplayName": "アドマイヤグルーヴ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_sashi_cascade",
+          "name": "夏雷カスケード！",
+          "aliases": [
+            "夏雷カスケード！"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "差し専用の強力な中盤現在速度継承。",
           "conditions": [
             "差し",
             "中盤前半",
             "追い抜き"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "サトノクラウン",
           "ownerVariant": "水着",
           "ownerDisplayName": "サトノクラウン（水着）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/511943"
+          "ownerSourceUrl": null
         },
         {
-          "id": "sashi_cattleya",
-          "name": "不凋なるCattleya",
+          "id": "oct_sashi_blood",
+          "name": "かくて宿りし血は目覚め",
           "aliases": [
-            "不凋なるCattleya",
-            "不凋なるカトレア",
-            "Cattleya"
+            "かくて宿りし血は目覚め"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 75,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "差し/追込で優先度が高い終盤速度候補。",
+          "reason": "3～8位で使える中盤速度継承。",
           "conditions": [
             "差し",
-            "4～7位",
+            "3～8位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "ドゥラメンテ",
+          "ownerVariant": "新衣装",
+          "ownerDisplayName": "ドゥラメンテ（新衣装）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_sashi_cattleya",
+          "name": "不凋なるCattleya",
+          "aliases": [
+            "不凋なるCattleya"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "特効時の効果が高い終盤速度継承。後方の終盤候補として優先度高め。",
+          "conditions": [
+            "差し",
             "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ジェンティルドンナ",
           "ownerVariant": "花嫁",
           "ownerDisplayName": "ジェンティルドンナ（花嫁）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
+          "ownerSourceUrl": null
         },
         {
-          "id": "sashi_onechance",
-          "name": "ワンチャンス",
+          "id": "oct_sashi_itadaki",
+          "name": "頂を目指して",
           "aliases": [
-            "ワンチャンス"
+            "頂を目指して"
           ],
           "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 58,
-          "isRecommended": true,
-          "reason": "差しの終盤始め加速。上振れ追加候補。",
-          "conditions": [
-            "差し",
-            "4～9位",
-            "終盤始め"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
-        },
-        {
-          "id": "sashi_sashikiri",
-          "name": "差し切り体勢",
-          "aliases": [
-            "差し切り体勢"
-          ],
-          "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 56,
-          "isRecommended": true,
-          "reason": "差し専用の終盤始め加速。補助候補。",
-          "conditions": [
-            "差し",
-            "4～9位",
-            "終盤始め"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
-        },
-        {
-          "id": "sashi_kanata",
-          "name": "彼方、その先へ…",
-          "aliases": [
-            "彼方、その先へ…",
-            "彼方、その先へ",
-            "彼方その先へ"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 52,
-          "isRecommended": true,
-          "reason": "5～6位で発動する終盤加速。順位条件が狭いため条件付き。",
-          "conditions": [
-            "差し",
-            "5～6位",
-            "掛かりなし",
-            "終盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "メジロドーベル",
-          "ownerVariant": null,
-          "ownerDisplayName": "メジロドーベル",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/307788"
-        },
-        {
-          "id": "sashi_vivace",
-          "name": "ヴィヴァーチェ・ヴォラーレ",
-          "aliases": [
-            "ヴィヴァーチェ・ヴォラーレ",
-            "ヴィヴァーチェヴォラーレ"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 52,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "後方脚質向けの中盤速度＋微回復候補。",
+          "reason": "終盤始め早めの保険加速。スキル取得環境に応じて因子化候補。",
           "conditions": [
             "差し",
-            "4～7位",
-            "中盤"
+            "4～9位",
+            "終盤始め"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "サウンズオブアース",
-          "ownerVariant": null,
-          "ownerDisplayName": "サウンズオブアース",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/446540"
+            "lab_oct_course_20260926",
+            "lab_oct_rear_20261013"
+          ]
         },
         {
-          "id": "sashi_tareuma",
+          "id": "oct_sashi_tareuma",
           "name": "垂れウマ回避",
           "aliases": [
             "垂れウマ回避"
           ],
           "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 50,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前方ブロック時に早め発動を狙える加速候補。",
+          "reason": "前ブロック時の保険加速。",
           "conditions": [
             "差し",
-            "前方ブロック"
+            "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_rear_20261013"
           ]
-        },
-        {
-          "id": "sashi_right_turn",
-          "name": "右回り○",
-          "aliases": [
-            "右回り○",
-            "右回り",
-            "右回り◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 45,
-          "isRecommended": true,
-          "reason": "京都2200mは右回り。安定して有効な緑スキル。",
-          "conditions": [
-            "差し",
-            "京都芝2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "right_turn",
-            "lowerSkills": [],
-            "upperSkills": [
-              "右回り◎"
-            ]
-          }
-        },
-        {
-          "id": "sashi_autumn",
-          "name": "秋ウマ娘○",
-          "aliases": [
-            "秋ウマ娘○",
-            "秋ウマ娘",
-            "秋ウマ娘◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 45,
-          "isRecommended": true,
-          "reason": "本番条件が秋のため安定して有効。",
-          "conditions": [
-            "差し",
-            "秋"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "autumn_umamusume",
-            "lowerSkills": [],
-            "upperSkills": [
-              "秋ウマ娘◎"
-            ]
-          }
-        },
-        {
-          "id": "sashi_non_root",
-          "name": "非根幹距離○",
-          "aliases": [
-            "非根幹距離○",
-            "非根幹距離",
-            "非根幹距離◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "2200mは非根幹距離。条件一致で安定して有効。",
-          "conditions": [
-            "差し",
-            "2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "non_root_distance",
-            "lowerSkills": [],
-            "upperSkills": [
-              "非根幹距離◎"
-            ]
-          }
-        },
-        {
-          "id": "sashi_kyoto",
-          "name": "京都レース場○",
-          "aliases": [
-            "京都レース場○",
-            "京都レース場",
-            "京都レース場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "京都レース場条件で安定して有効。",
-          "conditions": [
-            "差し",
-            "京都"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "kyoto_racecourse",
-            "lowerSkills": [],
-            "upperSkills": [
-              "京都レース場◎"
-            ]
-          }
-        },
-        {
-          "id": "sashi_firm",
-          "name": "良バ場○",
-          "aliases": [
-            "良バ場○",
-            "良バ場",
-            "良バ場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番のバ場状態が良のため条件一致。",
-          "conditions": [
-            "差し",
-            "良"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "firm_track",
-            "lowerSkills": [],
-            "upperSkills": [
-              "良バ場◎"
-            ]
-          }
-        },
-        {
-          "id": "sashi_cloudy",
-          "name": "曇りの日○",
-          "aliases": [
-            "曇りの日○",
-            "曇りの日",
-            "曇りの日◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番天気が曇のため条件一致。",
-          "conditions": [
-            "差し",
-            "曇"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "cloudy_day",
-            "lowerSkills": [],
-            "upperSkills": [
-              "曇りの日◎"
-            ]
-          }
         }
       ],
       "notes": [
         {
-          "type": "grading",
-          "text": "S/A/Bは現行記事の表現をアプリ用に正規化。必須=S、準必須・かなり優先度高め=A、候補・上振れ=B。"
+          "type": "stats",
+          "text": "スタミナ1500台なら白回復2～3、1700なら白回復1～2が目安。先行より要求は低めで悠々自適は基本不要。"
         },
         {
-          "type": "stats",
-          "text": "目標ステータスは2026年10月京都芝2200m向け最新攻略の2150/1700/1400/1000/1600を採用。脚質別記事更新時に再確認予定。"
+          "type": "scenario",
+          "text": "シナリオ進化は「麺の極意、見つけたり」と「湯切りの妙技」を推奨。"
         }
       ],
       "sourceIds": [
-        "umamusumelabo_202610_kyoto2200",
-        "kamigame_202610_stats"
+        "lab_oct_course_20260926",
+        "lab_oct_factor_20261006",
+        "lab_oct_tier_20261010",
+        "lab_oct_rear_20261013"
       ],
-      "updatedAt": "2026-09-28T01:20:00+09:00"
+      "updatedAt": "2026-10-14T07:30:00+09:00"
     },
     "oikomi": {
       "displayName": "追込",
@@ -1524,19 +1585,19 @@
           "display": "2150+"
         },
         "stamina": {
-          "value": 1700,
+          "value": 1500,
           "operator": ">=",
-          "display": "1700+"
+          "display": "1500～1700 + 白回復1～3"
         },
         "power": {
-          "value": 1400,
+          "value": 1600,
           "operator": ">=",
-          "display": "1400+"
+          "display": "1600+"
         },
         "guts": {
-          "value": 1000,
+          "value": 1100,
           "operator": ">=",
-          "display": "1000+"
+          "display": "1100+"
         },
         "wisdom": {
           "value": 1600,
@@ -1550,12 +1611,12 @@
           "target": "middle",
           "recommendedRank": "S",
           "priority": "high",
-          "note": "目標ステータス算定条件でも中距離Sを前提。"
+          "note": "中距離Sは必須級。右回り○・秋ウマ娘○などの速度緑も候補。"
         }
       ],
       "skills": [
         {
-          "id": "oikomi_staygold_inherit",
+          "id": "oct_oikomi_staygold",
           "name": "黄金を訪ねて",
           "aliases": [
             "黄金を訪ねて"
@@ -1565,523 +1626,631 @@
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "差し/追込で最速発動する継承進化加速。現行記事で必須扱い。",
+          "reason": "差し/追込の必須級。順位条件なしの最速終盤加速＋中盤速度の継承進化。",
           "conditions": [
             "追込",
             "終盤加速"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ステイゴールド",
           "ownerVariant": null,
           "ownerDisplayName": "ステイゴールド",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/536748"
+          "ownerSourceUrl": null
         },
         {
-          "id": "oikomi_kyukouka",
+          "id": "oct_oikomi_priority_s_01",
+          "name": "ウマ好み",
+          "aliases": [
+            "ウマ好み"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "最序盤のPDM解除に重要。ウマ娘ラボで超重要・必須級として評価。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_02",
           "name": "急降下",
           "aliases": [
             "急降下"
           ],
-          "category": "acceleration",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
-          "priority": 98,
+          "priority": 95,
           "isRecommended": true,
-          "reason": "京都2200mの下り坂位置と相性が良い置き加速。現行記事で追込必須。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "追込",
-            "下り坂"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013"
           ]
         },
         {
-          "id": "oikomi_kakimita",
-          "name": "垣間見た光",
+          "id": "oct_oikomi_priority_s_03",
+          "name": "中距離直線◎/○",
           "aliases": [
-            "垣間見た光"
+            "中距離直線◎/○"
           ],
-          "category": "acceleration",
-          "grade": "A",
-          "effectiveness": "conditional",
-          "priority": 84,
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
           "isRecommended": true,
-          "reason": "追込専用の終盤始め早め加速。特にオルフェーヴル以外で重要。",
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
           "conditions": [
             "追込",
-            "4～9位",
-            "終盤始め"
+            "京都芝2200m"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013"
           ]
         },
         {
-          "id": "oikomi_ad_astra",
+          "id": "oct_oikomi_priority_s_04",
+          "name": "中距離コーナー◎/○",
+          "aliases": [
+            "中距離コーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_05",
+          "name": "追込直線◎/○",
+          "aliases": [
+            "追込直線◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_06",
+          "name": "追込コーナー◎/○",
+          "aliases": [
+            "追込コーナー◎/○"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 95,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_07",
+          "name": "尻尾の滝登り（尻尾上がり）",
+          "aliases": [
+            "尻尾の滝登り（尻尾上がり）"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_08",
+          "name": "気ままな足取り",
+          "aliases": [
+            "気ままな足取り"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_09",
+          "name": "阿吽の呼吸",
+          "aliases": [
+            "阿吽の呼吸"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_10",
+          "name": "惜しみなし",
+          "aliases": [
+            "惜しみなし"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_11",
+          "name": "捕捉",
+          "aliases": [
+            "捕捉"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_12",
+          "name": "連綿",
+          "aliases": [
+            "連綿"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 94,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_13",
+          "name": "レースの真髄・体",
+          "aliases": [
+            "レースの真髄・体"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_14",
+          "name": "解き放つ情念",
+          "aliases": [
+            "解き放つ情念"
+          ],
+          "category": "speed",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_15",
+          "name": "右回り○",
+          "aliases": [
+            "右回り○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_priority_s_16",
+          "name": "秋ウマ娘○",
+          "aliases": [
+            "秋ウマ娘○"
+          ],
+          "category": "green",
+          "grade": "S",
+          "effectiveness": "effective",
+          "priority": 93,
+          "isRecommended": true,
+          "reason": "本番条件に一致する重要な緑スキル。ウマ娘ラボで優先度S。",
+          "conditions": [
+            "追込",
+            "京都芝2200m"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_ad_astra",
           "name": "アド・アストラ",
           "aliases": [
-            "アド・アストラ",
-            "アドアストラ"
-          ],
-          "category": "inherited_unique",
-          "grade": "A",
-          "effectiveness": "effective",
-          "priority": 82,
-          "isRecommended": true,
-          "reason": "差し/追込で優先度が高い中盤速度継承。",
-          "conditions": [
-            "追込",
-            "4～7位",
-            "中盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "ネオユニヴァース",
-          "ownerVariant": null,
-          "ownerDisplayName": "ネオユニヴァース",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/395665"
-        },
-        {
-          "id": "oikomi_faith",
-          "name": "Faith in the Feral",
-          "aliases": [
-            "Faith in the Feral",
-            "Faith in theFeral",
-            "Faith"
+            "アド・アストラ"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 80,
           "isRecommended": true,
-          "reason": "差し/追込で優先度が高い中盤速度継承。",
+          "reason": "後方脚質の鉄板中盤速度継承。",
           "conditions": [
             "追込",
             "4～7位",
             "中盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "ネオユニヴァース",
+          "ownerVariant": null,
+          "ownerDisplayName": "ネオユニヴァース",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_oikomi_faith",
+          "name": "Faith in the Feral",
+          "aliases": [
+            "Faith in the Feral"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "後方脚質の鉄板中盤速度継承。",
+          "conditions": [
+            "追込",
+            "4～7位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ジャングルポケット",
           "ownerVariant": null,
           "ownerDisplayName": "ジャングルポケット",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/452905"
+          "ownerSourceUrl": null
         },
         {
-          "id": "oikomi_cattleya",
-          "name": "不凋なるCattleya",
+          "id": "oct_oikomi_farnorth",
+          "name": "悠遠のファーノース",
           "aliases": [
-            "不凋なるCattleya",
-            "不凋なるカトレア",
-            "Cattleya"
+            "悠遠のファーノース"
           ],
           "category": "inherited_unique",
           "grade": "A",
           "effectiveness": "effective",
-          "priority": 75,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "差し/追込で優先度が高い終盤速度候補。",
+          "reason": "4～9位で使える長めの中盤速度継承。",
           "conditions": [
             "追込",
-            "4～7位",
+            "4～9位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "アドマイヤグルーヴ",
+          "ownerVariant": null,
+          "ownerDisplayName": "アドマイヤグルーヴ",
+          "isCostumeVariant": false,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_oikomi_blood",
+          "name": "かくて宿りし血は目覚め",
+          "aliases": [
+            "かくて宿りし血は目覚め"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "3～8位で使える中盤速度継承。",
+          "conditions": [
+            "追込",
+            "3～8位",
+            "中盤"
+          ],
+          "sourceIds": [
+            "lab_oct_rear_20261013"
+          ],
+          "ownerCharacter": "ドゥラメンテ",
+          "ownerVariant": "新衣装",
+          "ownerDisplayName": "ドゥラメンテ（新衣装）",
+          "isCostumeVariant": true,
+          "ownerSourceUrl": null
+        },
+        {
+          "id": "oct_oikomi_cattleya",
+          "name": "不凋なるCattleya",
+          "aliases": [
+            "不凋なるCattleya"
+          ],
+          "category": "inherited_unique",
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
+          "isRecommended": true,
+          "reason": "特効時の効果が高い終盤速度継承。",
+          "conditions": [
+            "追込",
             "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ジェンティルドンナ",
           "ownerVariant": "花嫁",
           "ownerDisplayName": "ジェンティルドンナ（花嫁）",
           "isCostumeVariant": true,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/561930"
+          "ownerSourceUrl": null
         },
         {
-          "id": "oikomi_kireaji",
-          "name": "切れ味",
-          "aliases": [
-            "切れ味"
-          ],
-          "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 58,
-          "isRecommended": true,
-          "reason": "追込専用の終盤始め加速。掛かりなし等の条件付き。",
-          "conditions": [
-            "追込",
-            "5～9位",
-            "掛かりなし",
-            "終盤始め"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
-        },
-        {
-          "id": "oikomi_allegro",
+          "id": "oct_oikomi_allegro",
           "name": "鋭気のアレグロ",
           "aliases": [
             "鋭気のアレグロ"
           ],
           "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 56,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "中盤以降に追い抜きを重ねると強化される追込向け終盤速度候補。",
+          "reason": "追込で使える終盤速度継承候補。",
           "conditions": [
             "追込",
-            "中盤以降3回追い抜き",
             "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ],
           "ownerCharacter": "ウインバリアシオン",
           "ownerVariant": null,
           "ownerDisplayName": "ウインバリアシオン",
           "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/477919"
+          "ownerSourceUrl": null
         },
         {
-          "id": "oikomi_kanata",
-          "name": "彼方、その先へ…",
+          "id": "oct_oikomi_kakimita",
+          "name": "垣間見た光",
           "aliases": [
-            "彼方、その先へ…",
-            "彼方、その先へ",
-            "彼方その先へ"
+            "垣間見た光"
           ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 52,
-          "isRecommended": true,
-          "reason": "5～6位で発動する終盤加速。順位条件が狭い。",
-          "conditions": [
-            "追込",
-            "5～6位",
-            "掛かりなし",
-            "終盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "メジロドーベル",
-          "ownerVariant": null,
-          "ownerDisplayName": "メジロドーベル",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/307788"
-        },
-        {
-          "id": "oikomi_vivace",
-          "name": "ヴィヴァーチェ・ヴォラーレ",
-          "aliases": [
-            "ヴィヴァーチェ・ヴォラーレ",
-            "ヴィヴァーチェヴォラーレ"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
+          "category": "acceleration",
+          "grade": "A",
           "effectiveness": "effective",
-          "priority": 52,
+          "priority": 80,
           "isRecommended": true,
-          "reason": "後方脚質向け中盤速度＋微回復候補。",
+          "reason": "追込専用の終盤始め早め加速。特にオルフェーヴル以外では因子化優先。",
           "conditions": [
             "追込",
-            "4～7位",
-            "中盤"
+            "4～9位",
+            "終盤始め"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "サウンズオブアース",
-          "ownerVariant": null,
-          "ownerDisplayName": "サウンズオブアース",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/446540"
+            "lab_oct_course_20260926",
+            "lab_oct_rear_20261013"
+          ]
         },
         {
-          "id": "oikomi_kodou",
-          "name": "勝利の鼓動",
-          "aliases": [
-            "勝利の鼓動"
-          ],
-          "category": "inherited_unique",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 50,
-          "isRecommended": true,
-          "reason": "後方脚質でも使いやすい終盤速度候補。",
-          "conditions": [
-            "追込",
-            "2～5位",
-            "終盤"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "ownerCharacter": "オグリキャップ",
-          "ownerVariant": null,
-          "ownerDisplayName": "オグリキャップ",
-          "isCostumeVariant": false,
-          "ownerSourceUrl": "https://gamewith.jp/uma-musume/article/show/258032"
-        },
-        {
-          "id": "oikomi_tareuma",
+          "id": "oct_oikomi_tareuma",
           "name": "垂れウマ回避",
           "aliases": [
             "垂れウマ回避"
           ],
           "category": "acceleration",
-          "grade": "B",
-          "effectiveness": "conditional",
-          "priority": 48,
+          "grade": "A",
+          "effectiveness": "effective",
+          "priority": 80,
           "isRecommended": true,
-          "reason": "前方ブロック時に発動する追加加速候補。",
+          "reason": "前ブロック時の保険加速。",
           "conditions": [
             "追込",
-            "前方ブロック"
+            "終盤"
           ],
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926",
+            "lab_oct_rear_20261013"
           ]
-        },
-        {
-          "id": "oikomi_right_turn",
-          "name": "右回り○",
-          "aliases": [
-            "右回り○",
-            "右回り",
-            "右回り◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 45,
-          "isRecommended": true,
-          "reason": "京都2200mは右回り。安定して有効な緑スキル。",
-          "conditions": [
-            "追込",
-            "京都芝2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "right_turn",
-            "lowerSkills": [],
-            "upperSkills": [
-              "右回り◎"
-            ]
-          }
-        },
-        {
-          "id": "oikomi_autumn",
-          "name": "秋ウマ娘○",
-          "aliases": [
-            "秋ウマ娘○",
-            "秋ウマ娘",
-            "秋ウマ娘◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 45,
-          "isRecommended": true,
-          "reason": "本番条件が秋のため安定して有効。",
-          "conditions": [
-            "追込",
-            "秋"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "autumn_umamusume",
-            "lowerSkills": [],
-            "upperSkills": [
-              "秋ウマ娘◎"
-            ]
-          }
-        },
-        {
-          "id": "oikomi_non_root",
-          "name": "非根幹距離○",
-          "aliases": [
-            "非根幹距離○",
-            "非根幹距離",
-            "非根幹距離◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "2200mは非根幹距離。条件一致で安定して有効。",
-          "conditions": [
-            "追込",
-            "2200m"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "non_root_distance",
-            "lowerSkills": [],
-            "upperSkills": [
-              "非根幹距離◎"
-            ]
-          }
-        },
-        {
-          "id": "oikomi_kyoto",
-          "name": "京都レース場○",
-          "aliases": [
-            "京都レース場○",
-            "京都レース場",
-            "京都レース場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 42,
-          "isRecommended": true,
-          "reason": "京都レース場条件で安定して有効。",
-          "conditions": [
-            "追込",
-            "京都"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "kyoto_racecourse",
-            "lowerSkills": [],
-            "upperSkills": [
-              "京都レース場◎"
-            ]
-          }
-        },
-        {
-          "id": "oikomi_firm",
-          "name": "良バ場○",
-          "aliases": [
-            "良バ場○",
-            "良バ場",
-            "良バ場◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番のバ場状態が良のため条件一致。",
-          "conditions": [
-            "追込",
-            "良"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "firm_track",
-            "lowerSkills": [],
-            "upperSkills": [
-              "良バ場◎"
-            ]
-          }
-        },
-        {
-          "id": "oikomi_cloudy",
-          "name": "曇りの日○",
-          "aliases": [
-            "曇りの日○",
-            "曇りの日",
-            "曇りの日◯"
-          ],
-          "category": "green",
-          "grade": "B",
-          "effectiveness": "effective",
-          "priority": 40,
-          "isRecommended": true,
-          "reason": "本番天気が曇のため条件一致。",
-          "conditions": [
-            "追込",
-            "曇"
-          ],
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ],
-          "family": {
-            "id": "cloudy_day",
-            "lowerSkills": [],
-            "upperSkills": [
-              "曇りの日◎"
-            ]
-          }
         }
       ],
       "notes": [
         {
-          "type": "grading",
-          "text": "S/A/Bは現行記事の表現をアプリ用に正規化。必須=S、準必須・かなり優先度高め=A、候補・上振れ=B。"
+          "type": "stats",
+          "text": "スタミナ1500台なら白回復2～3、1700なら白回復1～2が目安。先行より要求は低めで悠々自適は基本不要。"
         },
         {
-          "type": "stats",
-          "text": "目標ステータスは2026年10月京都芝2200m向け最新攻略の2150/1700/1400/1000/1600を採用。脚質別記事更新時に再確認予定。"
+          "type": "scenario",
+          "text": "シナリオ進化は「麺の極意、見つけたり」と「湯切りの妙技」を推奨。"
         }
       ],
       "sourceIds": [
-        "umamusumelabo_202610_kyoto2200",
-        "kamigame_202610_stats"
+        "lab_oct_course_20260926",
+        "lab_oct_factor_20261006",
+        "lab_oct_tier_20261010",
+        "lab_oct_rear_20261013"
       ],
-      "updatedAt": "2026-09-28T01:20:00+09:00"
+      "updatedAt": "2026-10-14T07:30:00+09:00"
     }
   },
   "sources": [
     {
-      "id": "umamusumelabo_202610_kyoto2200",
+      "id": "official_cm_202610",
+      "siteName": "Cygames公式",
+      "title": "10月～3月対戦レースイベント",
+      "url": "https://dmg.umamusume.jp/news/detail/?id=3483",
+      "articleType": "event_schedule",
+      "runningStyle": null,
+      "publishedAt": "2026-09-30",
+      "checkedAt": "2026-10-14T07:30:00+09:00"
+    },
+    {
+      "id": "lab_oct_course_20260926",
       "siteName": "ウマ娘ラボ",
       "title": "10月チャンミCLASSIC・コースの必須知識とおすすめウマ娘まとめ（京都芝2200m）",
       "url": "https://umamusumelabo.com/event/champions-meeting/kyoto2200chanmi-202610",
       "articleType": "course",
       "runningStyle": null,
       "publishedAt": "2026-09-26",
-      "checkedAt": "2026-09-28T19:43:00+09:00"
+      "checkedAt": "2026-10-14T07:30:00+09:00"
     },
     {
-      "id": "kamigame_202610_stats",
-      "siteName": "神ゲー攻略",
-      "title": "2026年10月チャンミ攻略・脚質別目標ステータス",
-      "url": "https://kamigame.jp/umamusume/page/437672938666257395.html",
-      "articleType": "general",
+      "id": "lab_oct_factor_20261006",
+      "siteName": "ウマ娘ラボ",
+      "title": "10月チャンミCLASSICの因子設計図について解説！（京都芝2200m）",
+      "url": "https://umamusumelabo.com/event/champions-meeting/insisekkei-202610",
+      "articleType": "inheritance",
       "runningStyle": null,
-      "publishedAt": null,
-      "checkedAt": "2026-09-28T19:43:00+09:00"
+      "publishedAt": "2026-10-06",
+      "checkedAt": "2026-10-14T07:30:00+09:00"
     },
     {
-      "id": "gamebiz_20260927_race_schedule",
-      "siteName": "gamebiz",
-      "title": "9月～3月対戦レースイベント情報（ぱかライブTV発表まとめ）",
-      "url": "https://gamebiz.jp/news/433236",
-      "articleType": "event_schedule",
+      "id": "lab_oct_tier_20261010",
+      "siteName": "ウマ娘ラボ",
+      "title": "10月チャンミCLASSICのTier表を公開！（2026年10月10日版）",
+      "url": "https://umamusumelabo.com/event/champions-meeting/chanmi-tierlist-202610",
+      "articleType": "tier",
       "runningStyle": null,
-      "publishedAt": "2026-09-27",
-      "checkedAt": "2026-09-28T19:43:00+09:00"
+      "publishedAt": "2026-10-10",
+      "checkedAt": "2026-10-14T07:30:00+09:00"
+    },
+    {
+      "id": "lab_oct_senko_20261012",
+      "siteName": "ウマ娘ラボ",
+      "title": "10月チャンミCLASSIC用・先行ウマ娘育成論（京都芝2200m）",
+      "url": "https://umamusumelabo.com/ikusei/chanmi-senkouikusei-202610",
+      "articleType": "training",
+      "runningStyle": "senko",
+      "publishedAt": "2026-10-12",
+      "checkedAt": "2026-10-14T07:30:00+09:00"
+    },
+    {
+      "id": "lab_oct_rear_20261013",
+      "siteName": "ウマ娘ラボ",
+      "title": "10月チャンミCLASSIC用・差し/追込ウマ娘育成論（京都芝2200m）",
+      "url": "https://umamusumelabo.com/ikusei/chanmi-sasioikomi-202610",
+      "articleType": "training",
+      "runningStyle": null,
+      "publishedAt": "2026-10-13",
+      "checkedAt": "2026-10-14T07:30:00+09:00"
     }
   ],
   "metadata": {
-    "generatedAt": "2026-09-28T19:43:00+09:00",
-    "generator": "champions-assist-realdata-v1",
-    "sourceSite": "ウマ娘ラボ＋神ゲー攻略＋開催条件発表",
-    "isComplete": false,
+    "generatedAt": "2026-10-14T07:30:00+09:00",
+    "generator": "Champions Assist data audit 2026-10-14",
+    "sourceSite": "Cygames公式 / ウマ娘ラボ",
+    "isComplete": true,
     "isSample": false,
     "availableStyles": [
       "nige",
@@ -2090,137 +2259,308 @@
       "oikomi"
     ],
     "waitingStyles": [],
-    "skillOwnerInfoUpdatedAt": "2026-09-28T13:10:00+09:00",
-    "skillOwnerInfoPolicy": "inherited_uniqueのみownerCharacter/ownerVariant/ownerDisplayName/isCostumeVariant/ownerSourceUrlを付与",
-    "skillFamilyUpdatedAt": "2026-09-28T14:15:00+09:00",
-    "skillFamilyPolicy": "上下位スキルをaliasesから分離しfamily.lowerSkills/upperSkillsで管理"
+    "skillOwnerInfoUpdatedAt": "2026-10-14",
+    "skillOwnerInfoPolicy": "ウマ娘ラボ記載と既知の固有持ち主のみ。攻略サイト補完は行わない。",
+    "skillFamilyUpdatedAt": "2026-10-14",
+    "skillFamilyPolicy": "表示名に上下位を併記するスキルは原記事表記を優先。"
   },
   "strategyGuide": {
-    "contentStatus": "partial",
-    "recommendedStyles": [],
+    "contentStatus": "ready",
+    "recommendedStyles": [
+      {
+        "style": "senko",
+        "tier": "S",
+        "summary": "アーモンドアイ中心の最大勢力候補。",
+        "reason": "先行はアーモンドアイが最有力。後方も強いため、大逃げ牽引デバフとの併用が特に有効。"
+      },
+      {
+        "style": "sashi",
+        "tier": "S",
+        "summary": "アドマイヤグルーヴを中心に非常に強力。",
+        "reason": "最新Tierでアドマイヤグルーヴが最上位。スティルインラブや黒ルドルフなど候補も豊富。"
+      },
+      {
+        "style": "oikomi",
+        "tier": "A",
+        "summary": "オルフェーヴルが追込内で抜けた有力候補。",
+        "reason": "SSRミスターシービー実装でサポカ面も改善。オルフェーヴルなら十分に上位争い可能。"
+      },
+      {
+        "style": "nige",
+        "tier": "C",
+        "summary": "あえて使うなら水着セイウンスカイ。",
+        "reason": "下り坂加速がなく相対的に厳しい。専用育成論未掲載のため目標値・6枚編成は推測しない。"
+      }
+    ],
     "inheritanceRecommendations": {
       "nige": [
         {
-          "id": "oct_nige_epiph",
+          "id": "oct_nige_inh_epiph",
           "characterName": "エピファネイア",
           "variant": null,
           "portraitAsset": null,
           "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
           "tier": "S",
           "purpose": "最速終盤加速＋中盤速度",
-          "reason": "逃げ/先行では必須級。親にして継承進化させる。",
+          "reason": "逃げでも必須級。親にして継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_course_20260926"
           ]
         },
         {
-          "id": "oct_nige_seiun",
-          "characterName": "セイウンスカイ",
-          "variant": null,
-          "portraitAsset": null,
-          "uniqueSkillName": "アングリング×スキーミング",
-          "tier": "B",
-          "purpose": "1位条件の最速終盤加速",
-          "reason": "1位で終盤入りできる逃げの追加候補。",
-          "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
-          ]
-        },
-        {
-          "id": "oct_nige_kitasan",
+          "id": "oct_nige_inh_kitasan",
           "characterName": "キタサンブラック",
           "variant": "正月",
           "portraitAsset": null,
           "uniqueSkillName": "あっぱれ大盤振る舞い！",
           "tier": "A",
-          "purpose": "前方用終盤加速",
-          "reason": "1～3位条件で扱いやすく、逃げ/先行で積極候補。",
+          "purpose": "追加の最速加速",
+          "reason": "水着ウンスや複数逃げ・大逃げ採用時に有力。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006"
+          ]
+        },
+        {
+          "id": "oct_nige_inh_seiun",
+          "characterName": "セイウンスカイ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "アングリング×スキーミング",
+          "tier": "A",
+          "purpose": "1位条件の最速加速",
+          "reason": "通常逃げ1頭で1位終盤入りを狙う場合に候補。",
+          "sourceIds": [
+            "lab_oct_factor_20261006"
+          ]
+        },
+        {
+          "id": "oct_nige_inh_airgroove",
+          "characterName": "エアグルーヴ",
+          "variant": "新衣装",
+          "portraitAsset": null,
+          "uniqueSkillName": "Shadow Ancestress",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "1位でも発動するため逃げと好相性。",
+          "sourceIds": [
+            "lab_oct_factor_20261006"
           ]
         }
       ],
       "senko": [
         {
-          "id": "oct_senko_epiph",
+          "id": "oct_senko_inh_epiph",
           "characterName": "エピファネイア",
           "variant": null,
           "portraitAsset": null,
           "uniqueSkillName": "光れ！弾けろ！超新星爆発！",
           "tier": "S",
           "purpose": "最速終盤加速＋中盤速度",
-          "reason": "先行では必須級。親にして継承進化させる。",
+          "reason": "先行の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
           ]
         },
         {
-          "id": "oct_senko_kitasan",
+          "id": "oct_senko_inh_airgroove",
+          "characterName": "エアグルーヴ",
+          "variant": "新衣装",
+          "portraitAsset": null,
+          "uniqueSkillName": "Shadow Ancestress",
+          "tier": "S",
+          "purpose": "中盤速度",
+          "reason": "1～5位で使え、1位でも発動する強力な中盤継承。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_inh_kitasan",
           "characterName": "キタサンブラック",
           "variant": "正月",
           "portraitAsset": null,
           "uniqueSkillName": "あっぱれ大盤振る舞い！",
           "tier": "A",
-          "purpose": "前方用終盤加速",
-          "reason": "1～3位条件で扱いやすい追加加速。",
+          "purpose": "追加終盤加速",
+          "reason": "1～3位で使いやすい最速追加加速。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_inh_jordan",
+          "characterName": "トーセンジョーダン",
+          "variant": "クリスマス",
+          "portraitAsset": null,
+          "uniqueSkillName": "Joy to the World",
+          "tier": "A",
+          "purpose": "中盤速度＋回復",
+          "reason": "定番の高性能中盤継承。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_inh_tachyon",
+          "characterName": "アグネスタキオン",
+          "variant": "水着",
+          "portraitAsset": null,
+          "uniqueSkillName": "夏空ハレーション",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "2～5位条件。大逃げ牽引と組み合わせると発動しやすい。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_senko_20261012"
           ]
         }
       ],
       "sashi": [
         {
-          "id": "oct_sashi_staygold",
+          "id": "oct_sashi_inh_staygold",
           "characterName": "ステイゴールド",
           "variant": null,
           "portraitAsset": null,
           "uniqueSkillName": "黄金を訪ねて",
           "tier": "S",
           "purpose": "最速終盤加速＋中盤速度",
-          "reason": "差し/追込では必須級。親にして継承進化させる。",
+          "reason": "差し/追込の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ]
         },
         {
-          "id": "oct_sashi_dober",
-          "characterName": "メジロドーベル",
+          "id": "oct_sashi_inh_neouni",
+          "characterName": "ネオユニヴァース",
           "variant": null,
           "portraitAsset": null,
-          "uniqueSkillName": "彼方、その先へ…",
-          "tier": "B",
-          "purpose": "順位条件付き終盤加速",
-          "reason": "5～6位条件が厳しく優先度は低め。",
+          "uniqueSkillName": "アド・アストラ",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～7位で使える後方定番。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_inh_jungle",
+          "characterName": "ジャングルポケット",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "Faith in the Feral",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～7位で使える後方定番。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_inh_admire",
+          "characterName": "アドマイヤグルーヴ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "悠遠のファーノース",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～9位で使える長時間中盤速度。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_inh_gentildonna",
+          "characterName": "ジェンティルドンナ",
+          "variant": "花嫁",
+          "portraitAsset": null,
+          "uniqueSkillName": "不凋なるCattleya",
+          "tier": "A",
+          "purpose": "終盤速度",
+          "reason": "特効時の効果が高く、終盤継承の最優先候補。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ]
         }
       ],
       "oikomi": [
         {
-          "id": "oct_oikomi_staygold",
+          "id": "oct_oikomi_inh_staygold",
           "characterName": "ステイゴールド",
           "variant": null,
           "portraitAsset": null,
           "uniqueSkillName": "黄金を訪ねて",
           "tier": "S",
           "purpose": "最速終盤加速＋中盤速度",
-          "reason": "差し/追込では必須級。親にして継承進化させる。",
+          "reason": "差し/追込の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ]
         },
         {
-          "id": "oct_oikomi_dober",
-          "characterName": "メジロドーベル",
+          "id": "oct_oikomi_inh_neouni",
+          "characterName": "ネオユニヴァース",
           "variant": null,
           "portraitAsset": null,
-          "uniqueSkillName": "彼方、その先へ…",
-          "tier": "B",
-          "purpose": "順位条件付き終盤加速",
-          "reason": "5～6位条件が厳しく優先度は低め。",
+          "uniqueSkillName": "アド・アストラ",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～7位で使える後方定番。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_inh_jungle",
+          "characterName": "ジャングルポケット",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "Faith in the Feral",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～7位で使える後方定番。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_inh_admire",
+          "characterName": "アドマイヤグルーヴ",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "悠遠のファーノース",
+          "tier": "A",
+          "purpose": "中盤速度",
+          "reason": "4～9位で使える長時間中盤速度。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_oikomi_inh_barrier",
+          "characterName": "ウインバリアシオン",
+          "variant": null,
+          "portraitAsset": null,
+          "uniqueSkillName": "鋭気のアレグロ",
+          "tier": "A",
+          "purpose": "終盤速度",
+          "reason": "追込向けの終盤速度継承候補。",
+          "sourceIds": [
+            "lab_oct_factor_20261006",
+            "lab_oct_rear_20261013"
           ]
         }
       ]
@@ -2230,21 +2570,22 @@
         {
           "id": "oct_nige_mh_epiph",
           "skillName": "光れ！弾けろ！超新星爆発！",
-          "skillId": "nige_epiphaneia_inherit",
+          "skillId": "oct_nige_epiph",
           "requirement": "required",
-          "reason": "逃げ/先行で最速発動する継承進化加速。",
+          "reason": "逃げでも必須級の継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_factor_20261006",
+            "lab_oct_course_20260926"
           ]
         },
         {
           "id": "oct_nige_mh_hiryu",
           "skillName": "飛龍乗雲",
-          "skillId": "nige_hiryujoun",
+          "skillId": "oct_nige_hiryu",
           "requirement": "high_priority",
-          "reason": "終盤始め早め加速として優先度が高い。",
+          "reason": "逃げ専用の終盤始め早め加速。コース解説で準必須。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_course_20260926"
           ]
         }
       ],
@@ -2252,31 +2593,44 @@
         {
           "id": "oct_senko_mh_epiph",
           "skillName": "光れ！弾けろ！超新星爆発！",
-          "skillId": "senko_epiphaneia_inherit",
+          "skillId": "oct_senko_epiph",
           "requirement": "required",
-          "reason": "先行で必須級の継承進化加速。",
+          "reason": "先行の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_senko_20261012",
+            "lab_oct_factor_20261006"
           ]
         },
         {
           "id": "oct_senko_mh_chokkakou",
           "skillName": "直滑降",
-          "skillId": "senko_chokkakou",
+          "skillId": "oct_senko_priority_s_02",
           "requirement": "required",
-          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "reason": "下り坂位置が良く、強力な置き加速になりやすい。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_senko_20261012",
+            "lab_oct_course_20260926"
           ]
         },
         {
-          "id": "oct_senko_mh_yume",
-          "skillName": "夢の舞台へ",
-          "skillId": "senko_yume",
-          "requirement": "high_priority",
-          "reason": "終盤始め早め加速の有力候補。",
+          "id": "oct_senko_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "oct_senko_priority_s_01",
+          "requirement": "required",
+          "reason": "最序盤のPDM解除に重要。追い越し困難区間の前に位置を上げる。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_senko_20261012"
+          ]
+        },
+        {
+          "id": "oct_senko_mh_akogare",
+          "skillName": "憧れを越えて",
+          "skillId": "oct_senko_akogare",
+          "requirement": "high_priority",
+          "reason": "金まで上げず白で保険加速として有力。",
+          "sourceIds": [
+            "lab_oct_senko_20261012",
+            "lab_oct_course_20260926"
           ]
         }
       ],
@@ -2284,31 +2638,44 @@
         {
           "id": "oct_sashi_mh_staygold",
           "skillName": "黄金を訪ねて",
-          "skillId": "sashi_staygold_inherit",
+          "skillId": "oct_sashi_staygold",
           "requirement": "required",
-          "reason": "後方脚質で必須級の継承進化加速。",
+          "reason": "後方脚質の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013",
+            "lab_oct_factor_20261006"
           ]
         },
         {
           "id": "oct_sashi_mh_kakeori",
           "skillName": "駆け降り",
-          "skillId": "sashi_kakeori",
+          "skillId": "oct_sashi_priority_s_02",
           "requirement": "required",
-          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "reason": "下り坂位置が良く、ほぼ最速級の置き加速。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013",
+            "lab_oct_course_20260926"
           ]
         },
         {
-          "id": "oct_sashi_mh_tenpu",
-          "skillName": "天賦の才",
-          "skillId": "sashi_tenpu",
-          "requirement": "high_priority",
-          "reason": "終盤始め早めの有力加速。",
+          "id": "oct_sashi_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "oct_sashi_priority_s_01",
+          "requirement": "required",
+          "reason": "最序盤のPDM解除で後方集団内の位置を上げるため重要。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013"
+          ]
+        },
+        {
+          "id": "oct_sashi_mh_itadaki",
+          "skillName": "頂を目指して",
+          "skillId": "oct_sashi_itadaki",
+          "requirement": "high_priority",
+          "reason": "終盤始め早めの保険加速。取得手段に応じて因子化。",
+          "sourceIds": [
+            "lab_oct_rear_20261013",
+            "lab_oct_course_20260926"
           ]
         }
       ],
@@ -2316,131 +2683,415 @@
         {
           "id": "oct_oikomi_mh_staygold",
           "skillName": "黄金を訪ねて",
-          "skillId": "oikomi_staygold_inherit",
+          "skillId": "oct_oikomi_staygold",
           "requirement": "required",
-          "reason": "後方脚質で必須級の継承進化加速。",
+          "reason": "後方脚質の必須継承進化。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013",
+            "lab_oct_factor_20261006"
           ]
         },
         {
           "id": "oct_oikomi_mh_kyukouka",
           "skillName": "急降下",
-          "skillId": "oikomi_kyukouka",
+          "skillId": "oct_oikomi_priority_s_02",
           "requirement": "required",
-          "reason": "下り坂位置が良く、強力な置き加速になりやすいため必須。",
+          "reason": "下り坂位置が良く、ほぼ最速級の置き加速。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013",
+            "lab_oct_course_20260926"
+          ]
+        },
+        {
+          "id": "oct_oikomi_mh_umazuki",
+          "skillName": "ウマ好み",
+          "skillId": "oct_oikomi_priority_s_01",
+          "requirement": "required",
+          "reason": "最序盤のPDM解除で後方集団内の位置を上げるため重要。",
+          "sourceIds": [
+            "lab_oct_rear_20261013"
           ]
         },
         {
           "id": "oct_oikomi_mh_kakimita",
           "skillName": "垣間見た光",
-          "skillId": "oikomi_kakimita",
+          "skillId": "oct_oikomi_kakimita",
           "requirement": "high_priority",
-          "reason": "終盤始め早めの保険加速。",
+          "reason": "オルフェーヴル以外の追込で特に重要な保険加速。",
           "sourceIds": [
-            "umamusumelabo_202610_kyoto2200"
+            "lab_oct_rear_20261013",
+            "lab_oct_course_20260926"
           ]
         }
       ]
     },
     "characterTierList": [
       {
-        "id": "oct_almond_eye",
+        "id": "oct_t1_almond",
         "characterName": "アーモンドアイ",
         "variant": null,
         "portraitAsset": null,
         "tier": "S",
         "recommendedStyle": "senko",
-        "strengths": "中距離先行の最有力。大逃げ牽引との相性も良い。",
+        "strengths": "Tier1。圧倒的な中盤力、自前最速加速、終盤の伸びを兼ねる先行最有力。",
         "caution": null,
         "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
+          "lab_oct_tier_20261010"
         ]
       },
       {
-        "id": "oct_still_in_love",
-        "characterName": "スティルインラブ",
-        "variant": null,
-        "portraitAsset": null,
-        "tier": "S",
-        "recommendedStyle": "sashi",
-        "strengths": "差し最有力。「誰にも告げぬ誓い」をフルスペックで使いやすい。",
-        "caution": null,
-        "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
-        ]
-      },
-      {
-        "id": "oct_orfevre",
-        "characterName": "オルフェーヴル",
-        "variant": null,
-        "portraitAsset": null,
-        "tier": "S",
-        "recommendedStyle": "oikomi",
-        "strengths": "追込最有力。進化スキルが最速終盤加速として機能。",
-        "caution": null,
-        "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
-        ]
-      },
-      {
-        "id": "oct_epiphaneia",
-        "characterName": "エピファネイア",
-        "variant": null,
-        "portraitAsset": null,
-        "tier": "A",
-        "recommendedStyle": "senko",
-        "strengths": "総合スペックが高く、自前固有加速も安定。",
-        "caution": null,
-        "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
-        ]
-      },
-      {
-        "id": "oct_chrono_genesis",
-        "characterName": "クロノジェネシス",
-        "variant": null,
-        "portraitAsset": null,
-        "tier": "A",
-        "recommendedStyle": "senko",
-        "strengths": "進化スキルに終盤加速があり、先行の上位候補。",
-        "caution": null,
-        "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
-        ]
-      },
-      {
-        "id": "oct_admire_groove",
+        "id": "oct_t1_admire",
         "characterName": "アドマイヤグルーヴ",
         "variant": null,
         "portraitAsset": null,
-        "tier": "A",
+        "tier": "S",
         "recommendedStyle": "sashi",
-        "strengths": "中盤力が高く、自前の最速終盤加速も強み。",
+        "strengths": "Tier1。中盤が安定し、進化2種の伸びで終盤も強い差し最有力。",
         "caution": null,
         "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
+          "lab_oct_tier_20261010"
         ]
       },
       {
-        "id": "oct_victoire_pisa",
-        "characterName": "ヴィクトワールピサ",
+        "id": "oct_t2_rudolf_senko",
+        "characterName": "シンボリルドルフ",
+        "variant": "ハロウィン",
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "senko",
+        "strengths": "Tier2。固有が最速終盤加速。先行・差し双方で有力。",
+        "caution": "緑スキル7種の特効条件があり、切れ者厳選推奨。",
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t2_rudolf_sashi",
+        "characterName": "シンボリルドルフ",
+        "variant": "ハロウィン",
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "sashi",
+        "strengths": "Tier2。固有が最速終盤加速。先行・差し双方で有力。",
+        "caution": "緑スキル7種の特効条件があり、切れ者厳選推奨。",
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t2_still",
+        "characterName": "スティルインラブ",
         "variant": null,
         "portraitAsset": null,
         "tier": "A",
         "recommendedStyle": "sashi",
-        "strengths": "進化スキルの置き加速が機能しやすく、差しの有力候補。",
+        "strengths": "Tier2。固有が最速終盤加速になり、誰にも告げぬ誓いもコース特効。",
+        "caution": "終盤速度をやや厚めに。切れ者厳選推奨。",
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t2_orfevre",
+        "characterName": "オルフェーヴル",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "A",
+        "recommendedStyle": "oikomi",
+        "strengths": "Tier2。追込内ではダントツ。自前の最速終盤加速進化が大きな強み。",
         "caution": null,
         "sourceIds": [
-          "umamusumelabo_202610_kyoto2200"
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t3_pisa",
+        "characterName": "ヴィクトワールピサ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "sashi",
+        "strengths": "Tier3。差しの有力候補。置き加速が機能しやすい。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t3_epiph",
+        "characterName": "エピファネイア",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "senko",
+        "strengths": "Tier3。総合スペックが高く、自前固有加速も安定。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t3_chrono",
+        "characterName": "クロノジェネシス",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "senko",
+        "strengths": "Tier3。自前終盤加速を持つ先行上位候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t3_gentil",
+        "characterName": "ジェンティルドンナ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "senko",
+        "strengths": "Tier3。高い総合力を持つ先行候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t3_seiun",
+        "characterName": "セイウンスカイ",
+        "variant": "水着",
+        "portraitAsset": null,
+        "tier": "B",
+        "recommendedStyle": "nige",
+        "strengths": "Tier3。逃げを使うなら筆頭候補。",
+        "caution": "逃げ自体は下り坂加速がなく相対的に厳しいため切れ者推奨。",
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_lucky_senko",
+        "characterName": "ラッキーライラック",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "senko",
+        "strengths": "Tier4。先行/差しで候補。切れ者前提でなくても仕上げやすい。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_lucky_sashi",
+        "characterName": "ラッキーライラック",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "sashi",
+        "strengths": "Tier4。先行/差しで候補。切れ者前提でなくても仕上げやすい。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_faleno_senko",
+        "characterName": "ファレノプシス",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "senko",
+        "strengths": "Tier4。先行/差しで候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_faleno_sashi",
+        "characterName": "ファレノプシス",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "sashi",
+        "strengths": "Tier4。先行/差しで候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_red_desire",
+        "characterName": "レッドディザイア",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "sashi",
+        "strengths": "Tier4。差しの候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_katsuragi",
+        "characterName": "カツラギエース",
+        "variant": "正月",
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "nige",
+        "strengths": "Tier4。逃げ候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
+        ]
+      },
+      {
+        "id": "oct_t4_kiseki",
+        "characterName": "キセキ",
+        "variant": null,
+        "portraitAsset": null,
+        "tier": "C",
+        "recommendedStyle": "nige",
+        "strengths": "Tier4。逃げ候補。",
+        "caution": null,
+        "sourceIds": [
+          "lab_oct_tier_20261010"
         ]
       }
     ],
-    "updatedAt": "2026-09-28T19:43:00+09:00",
+    "updatedAt": "2026-10-14T07:30:00+09:00",
     "sourceIds": [
-      "umamusumelabo_202610_kyoto2200"
-    ]
+      "lab_oct_course_20260926",
+      "lab_oct_factor_20261006",
+      "lab_oct_tier_20261010",
+      "lab_oct_senko_20261012",
+      "lab_oct_rear_20261013"
+    ],
+    "supportDecks": {
+      "senko": {
+        "style": "senko",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_oct_senko_20261012",
+        "sourceUpdatedAt": "2026-10-12",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠。金は「錦上添花」",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠。金は「清麗高雅」",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_tokai_teio",
+            "role": "理想形のスピード枠。金は「正々堂々」",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "推奨スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_wisdom_forever_young",
+            "role": "基本の賢さ枠。記事ではナリタブライアン/アドマイヤグルーヴも代替候補",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      },
+      "sashi": {
+        "style": "sashi",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_oct_rear_20261013",
+        "sourceUpdatedAt": "2026-10-13",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_machikane_tannhauser",
+            "role": "差し最優先のスピード枠。駆け降りの取得源",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_wisdom_forever_young",
+            "role": "基本の賢さ枠。記事ではアドマイヤグルーヴ、差しならナイスネイチャも可",
+            "alternatives": [
+              {
+                "supportCardId": "ssr_wisdom_nice_nature",
+                "reason": "ウマ娘ラボが差しの賢さ代替候補として明示。"
+              }
+            ]
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      },
+      "oikomi": {
+        "style": "oikomi",
+        "sourceType": "umamusume_labo",
+        "sourceId": "lab_oct_rear_20261013",
+        "sourceUpdatedAt": "2026-10-13",
+        "deckName": "ウマ娘ラボ推奨編成（スピ3・スタ1・賢さ1・友人1）",
+        "cards": [
+          {
+            "supportCardId": "ssr_speed_mr_cb",
+            "role": "追込最優先のスピード枠。急降下の取得源。金は「当機立断」",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_airgroove",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_speed_efforia",
+            "role": "理想形のスピード枠",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_stamina_meisho_doto",
+            "role": "スタミナ枠。ウマ好みの取得源にもなる",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_wisdom_forever_young",
+            "role": "基本の賢さ枠。記事ではアドマイヤグルーヴも代替候補",
+            "alternatives": []
+          },
+          {
+            "supportCardId": "ssr_friend_tazuna",
+            "role": "友人枠",
+            "alternatives": []
+          }
+        ]
+      }
+    }
   }
 }
