@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "dataVersion": "2026.10.20261014.final3",
+  "dataVersion": "2026.10.20261014.final4",
   "meeting": {
     "id": "cm_2026_10_classic_kyoto2200",
     "title": "10月チャンピオンズミーティングCLASSIC",
@@ -461,15 +461,15 @@
           "aliases": [
             "ウマ好み"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "周囲に3人以上いると速度上昇。序盤のPDM解除に有効で、今回の育成では必須級。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "スタート5秒後以降",
+            "近くのウマ娘が3人以上"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -486,10 +486,10 @@
           "effectiveness": "effective",
           "priority": 99,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "下り坂で加速力上昇。京都2200mでは終盤開始と下り坂が重なるため強力だが、最速発動確定ではない。",
           "conditions": [
             "先行",
-            "京都芝2200m"
+            "下り坂のどこかでランダム発動"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -618,10 +618,12 @@
           "effectiveness": "effective",
           "priority": 93,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "序盤・中盤に追い抜かれるか競り合うと即時速度上昇。金・白の表示名を維持。",
           "conditions": [
             "先行",
-            "京都芝2200m"
+            "序盤または中盤",
+            "スタート5秒以降",
+            "追い抜かれるか2秒以上競り合う"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -638,10 +640,12 @@
           "effectiveness": "effective",
           "priority": 92,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "序盤・中盤に追い抜かれるか競り合うと即時速度上昇。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "中距離",
+            "序盤または中盤",
+            "スタート5秒以降",
+            "追い抜かれるか2秒以上競り合う"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -658,10 +662,10 @@
           "effectiveness": "effective",
           "priority": 91,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。先頭から10m以上離れていると+0.25m/s。",
           "conditions": [
             "先行",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -678,10 +682,10 @@
           "effectiveness": "effective",
           "priority": 90,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤に速度+0.15m/s。同スキルを持つ出走ウマ娘が2人以上いると+0.25m/sへ強化。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -698,10 +702,10 @@
           "effectiveness": "effective",
           "priority": 89,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.25m/sと引き換えに持久力を2%消費。スタミナに注意。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "先行または差し",
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -718,10 +722,10 @@
           "effectiveness": "effective",
           "priority": 88,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.25m/sと引き換えに持久力を2%消費。スタミナに注意。",
           "conditions": [
             "先行",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -738,10 +742,9 @@
           "effectiveness": "effective",
           "priority": 87,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。継承スキルを3つ以上所持すると+0.20m/sに強化。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -753,15 +756,15 @@
           "aliases": [
             "レースの真髄・体"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 86,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "ラストスパート中に速度上昇（+0.25m/s）、持久力2%消費。S評価だがスタミナ不足に注意。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "ラストスパート中",
+            "残り持久力2%以上"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -778,10 +781,11 @@
           "effectiveness": "effective",
           "priority": 85,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤の速度上昇後、終盤に追加の即時速度上昇が発生する二段階効果。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "中盤の速度効果発動後",
+            "終盤に追加効果"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1066,10 +1070,9 @@
           "effectiveness": "effective",
           "priority": 59,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "即時速度+0.15m/sに加え、持久力0.35%回復の複合効果。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "レース後半のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1265,8 +1268,9 @@
         },
         {
           "id": "oct_senko_table_a_22",
-          "name": "もうひと踏ん張り",
+          "name": "もう一踏ん張り",
           "aliases": [
+            "もう一踏ん張り",
             "もうひと踏ん張り"
           ],
           "category": "positioning",
@@ -1274,10 +1278,10 @@
           "effectiveness": "effective",
           "priority": 49,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "全開スパート中に「伸び」効果が発生。通常の速度上昇とは異なる。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "中距離",
+            "全開スパート中のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1369,15 +1373,15 @@
           "aliases": [
             "レースの真髄・力"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 44,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ラストスパート中に追い越そうとすると速度上昇（+0.15m/s）。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "ラストスパート中",
+            "追い越そうとしたとき"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1454,7 +1458,7 @@
           "effectiveness": "effective",
           "priority": 40,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「麺の極意、見つけたり」を採用するのが基本。元スキルのA評価と、進化後の推奨度は区別して判断。",
           "conditions": [
             "先行",
             "京都芝2200m"
@@ -1474,7 +1478,7 @@
           "effectiveness": "effective",
           "priority": 39,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「湯切りの妙技」を採用。進化後の特効維持には5ステータスの基礎値が各1000以上必要（特に根性に注意）。",
           "conditions": [
             "先行",
             "京都芝2200m"
@@ -1578,10 +1582,9 @@
           "effectiveness": "effective",
           "priority": 36,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "下り坂で速度上昇。京都2200mでは終盤開始付近で発動する可能性もあるが、位置はランダム。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "下り坂のどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1840,10 +1843,11 @@
           "effectiveness": "effective",
           "priority": 23,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "最終コーナー以降に詰め寄られると、速度上昇と小さな加速効果が発生。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "中距離",
+            "最終コーナー以降",
+            "詰め寄られたとき"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -1978,15 +1982,15 @@
           "aliases": [
             "レースの真髄・賢"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 16,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース後半にスキルを2回発動すると速度上昇（+0.15m/s）。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "レース後半",
+            "スキルを2回発動"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -2058,15 +2062,14 @@
           "aliases": [
             "序盤巧者"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 12,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース中盤が近づくと速度がわずかに上がる。序盤の位置取り支援にも有効。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "レース中盤が迫ったどこか"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -2238,15 +2241,16 @@
           "aliases": [
             "戦略家"
           ],
-          "category": "speed",
+          "category": "green",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 3,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "緑スキル。条件を満たすとスピードとパワーが各20上昇する。",
           "conditions": [
-            "先行",
-            "京都芝2200m"
+            "中距離または長距離",
+            "スピード1000以上",
+            "パワー1000以上"
           ],
           "sourceIds": [
             "lab_oct_senko_20261012"
@@ -2878,15 +2882,15 @@
           "aliases": [
             "ウマ好み"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "周囲に3人以上いると速度上昇。序盤のPDM解除に有効で、今回の育成では必須級。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "スタート5秒後以降",
+            "近くのウマ娘が3人以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -2903,10 +2907,10 @@
           "effectiveness": "effective",
           "priority": 99,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "下り坂で加速力上昇。京都2200mでは終盤開始付近に効果が乗りやすいが、発動位置はランダム。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "下り坂のどこかでランダム発動"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3033,10 +3037,12 @@
           "effectiveness": "effective",
           "priority": 93,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "序盤・中盤に追い抜かれるか競り合うと即時速度上昇。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "中距離",
+            "序盤または中盤",
+            "スタート5秒以降",
+            "追い抜かれるか2秒以上競り合う"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3053,10 +3059,10 @@
           "effectiveness": "effective",
           "priority": 92,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤に速度+0.15m/s。同スキルを持つ出走ウマ娘が2人以上いると+0.25m/sへ強化。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3073,10 +3079,10 @@
           "effectiveness": "effective",
           "priority": 91,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.25m/sと引き換えに持久力を2%消費。スタミナに注意。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "先行または差し",
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3093,10 +3099,10 @@
           "effectiveness": "effective",
           "priority": 90,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.25m/sと引き換えに持久力を2%消費。スタミナに注意。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3133,10 +3139,10 @@
           "effectiveness": "effective",
           "priority": 88,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。先頭から15m以上離れていると+0.25m/s。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3153,10 +3159,9 @@
           "effectiveness": "effective",
           "priority": 87,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。継承スキルを3つ以上所持すると+0.20m/sに強化。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3168,15 +3173,15 @@
           "aliases": [
             "レースの真髄・体"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 86,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "ラストスパート中に速度上昇（+0.25m/s）、持久力2%消費。S評価だがスタミナ不足に注意。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "ラストスパート中",
+            "残り持久力2%以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3193,10 +3198,11 @@
           "effectiveness": "effective",
           "priority": 85,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤の速度上昇後、終盤に追加の即時速度上昇が発生する二段階効果。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "中盤の速度効果発動後",
+            "終盤に追加効果"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3379,10 +3385,9 @@
           "effectiveness": "effective",
           "priority": 64,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "即時速度+0.15m/sに加え、持久力0.35%回復の複合効果。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "レース後半のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3441,10 +3446,10 @@
           "effectiveness": "effective",
           "priority": 61,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "上り坂で速度上昇。京都2200mは1050～1375mに上り坂があり、中盤で有効。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "上り坂のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3638,8 +3643,9 @@
         },
         {
           "id": "oct_sashi_table_a_20",
-          "name": "もうひと踏ん張り",
+          "name": "もう一踏ん張り",
           "aliases": [
+            "もう一踏ん張り",
             "もうひと踏ん張り"
           ],
           "category": "positioning",
@@ -3647,10 +3653,10 @@
           "effectiveness": "effective",
           "priority": 51,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "全開スパート中に「伸び」効果が発生。通常の速度上昇とは異なる。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "中距離",
+            "全開スパート中のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3662,15 +3668,16 @@
           "aliases": [
             "精神力"
           ],
-          "category": "speed",
+          "category": "green",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 50,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "緑スキル。スピード1200以上で発動し、パワー1200以上ならスピード上昇量が増える。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "差し・中距離",
+            "スピード1200以上",
+            "パワー1200以上で効果強化"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3808,15 +3815,15 @@
           "aliases": [
             "レースの真髄・力"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 43,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ラストスパート中に追い越そうとすると速度上昇（+0.15m/s）。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "ラストスパート中",
+            "追い越そうとしたとき"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -3873,7 +3880,7 @@
           "effectiveness": "effective",
           "priority": 40,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「麺の極意、見つけたり」を採用するのが基本。元スキルのA評価と、進化後の推奨度は区別して判断。",
           "conditions": [
             "差し",
             "京都芝2200m"
@@ -3893,7 +3900,7 @@
           "effectiveness": "effective",
           "priority": 39,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「湯切りの妙技」を採用。進化後の特効維持には5ステータスの基礎値が各1000以上必要（特に根性に注意）。",
           "conditions": [
             "差し",
             "京都芝2200m"
@@ -3977,10 +3984,10 @@
           "effectiveness": "effective",
           "priority": 37,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "中盤に速度上昇。発動時に中団以降なら即時速度上昇へ変化。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4139,10 +4146,9 @@
           "effectiveness": "effective",
           "priority": 29,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "下り坂で速度上昇。京都2200mでは終盤開始付近で発動する可能性もあるが、位置はランダム。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "下り坂のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4254,15 +4260,16 @@
           "aliases": [
             "位置取り押し上げ"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 23,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース中盤に中団以降だと速度がわずかに上がる。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "レース中盤",
+            "中団以降"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4381,10 +4388,11 @@
           "effectiveness": "effective",
           "priority": 17,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "まず速度がわずかに下がり、その後終盤始めに少し前に出る特殊な2段階効果。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "中距離",
+            "レース中盤が迫ったどこかで前段発動",
+            "その後、終盤始めに追加効果"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4458,15 +4466,15 @@
           "aliases": [
             "レースの真髄・賢"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 13,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース後半にスキルを2回発動すると速度上昇（+0.15m/s）。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "レース後半",
+            "スキルを2回発動"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4586,10 +4594,11 @@
           "effectiveness": "effective",
           "priority": 7,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース後半に中団だと速度と加速力が少し上がる複合効果。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "レース後半のどこか",
+            "中団"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4597,8 +4606,9 @@
         },
         {
           "id": "oct_sashi_table_b_35",
-          "name": "むき出しの情熱",
+          "name": "むきだしの情熱",
           "aliases": [
+            "むきだしの情熱",
             "むき出しの情熱"
           ],
           "category": "speed",
@@ -4606,10 +4616,11 @@
           "effectiveness": "effective",
           "priority": 6,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "追い比べ中、残り200m以下で即時速度上昇。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "差しまたは追込",
+            "追い比べ中",
+            "残り200m以下"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4621,15 +4632,14 @@
           "aliases": [
             "序盤巧者"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 5,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース中盤が近づくと速度がわずかに上がる。序盤の位置取り支援にも有効。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "レース中盤が迫ったどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4661,15 +4671,16 @@
           "aliases": [
             "外差し準備"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 3,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "最終コーナーで外から追い抜くと速度がわずかに上がる。",
           "conditions": [
             "差し",
-            "京都芝2200m"
+            "最終コーナー",
+            "外から追い抜く"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -4721,15 +4732,16 @@
           "aliases": [
             "戦略家"
           ],
-          "category": "speed",
+          "category": "green",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 1,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "緑スキル。条件を満たすとスピードとパワーが各20上昇する。",
           "conditions": [
-            "差し",
-            "京都芝2200m"
+            "中距離または長距離",
+            "スピード1000以上",
+            "パワー1000以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5268,15 +5280,15 @@
           "aliases": [
             "ウマ好み"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 100,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "周囲に3人以上いると速度上昇。序盤のPDM解除に有効で、今回の育成では必須級。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "スタート5秒後以降",
+            "近くのウマ娘が3人以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5293,10 +5305,10 @@
           "effectiveness": "effective",
           "priority": 99,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。今回のコースで特に重要。",
+          "reason": "下り坂で加速力上昇。京都2200mでは終盤開始付近に効果が乗りやすいが、発動位置はランダム。",
           "conditions": [
             "追込",
-            "京都芝2200m"
+            "下り坂のどこかでランダム発動"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5423,10 +5435,12 @@
           "effectiveness": "effective",
           "priority": 93,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "序盤・中盤に追い抜かれるか競り合うと即時速度上昇。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "中距離",
+            "序盤または中盤",
+            "スタート5秒以降",
+            "追い抜かれるか2秒以上競り合う"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5443,10 +5457,10 @@
           "effectiveness": "effective",
           "priority": 92,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤に速度+0.15m/s。同スキルを持つ出走ウマ娘が2人以上いると+0.25m/sへ強化。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5463,10 +5477,10 @@
           "effectiveness": "effective",
           "priority": 91,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.25m/sと引き換えに持久力を2%消費。スタミナに注意。",
           "conditions": [
             "追込",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5483,10 +5497,10 @@
           "effectiveness": "effective",
           "priority": 90,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。先頭から20m以上離れていると+0.25m/s。",
           "conditions": [
             "追込",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5503,10 +5517,9 @@
           "effectiveness": "effective",
           "priority": 89,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤速度+0.15m/s。継承スキルを3つ以上所持すると+0.20m/sに強化。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "レース中盤のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5518,15 +5531,15 @@
           "aliases": [
             "レースの真髄・体"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "S",
           "effectiveness": "effective",
           "priority": 88,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "ラストスパート中に速度上昇（+0.25m/s）、持久力2%消費。S評価だがスタミナ不足に注意。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "ラストスパート中",
+            "残り持久力2%以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5543,10 +5556,11 @@
           "effectiveness": "effective",
           "priority": 87,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度S。",
+          "reason": "中盤の速度上昇後、終盤に追加の即時速度上昇が発生する二段階効果。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "マイルまたは中距離",
+            "中盤の速度効果発動後",
+            "終盤に追加効果"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5769,10 +5783,9 @@
           "effectiveness": "effective",
           "priority": 62,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "即時速度+0.15m/sに加え、持久力0.35%回復の複合効果。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "レース後半のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -5922,8 +5935,9 @@
         },
         {
           "id": "oct_oikomi_table_a_17",
-          "name": "もうひと踏ん張り",
+          "name": "もう一踏ん張り",
           "aliases": [
+            "もう一踏ん張り",
             "もうひと踏ん張り"
           ],
           "category": "positioning",
@@ -5931,10 +5945,10 @@
           "effectiveness": "effective",
           "priority": 54,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "全開スパート中に「伸び」効果が発生。通常の速度上昇とは異なる。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "中距離",
+            "全開スパート中のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6152,15 +6166,15 @@
           "aliases": [
             "レースの真髄・力"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "A",
           "effectiveness": "effective",
           "priority": 43,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ラストスパート中に追い越そうとすると速度上昇（+0.15m/s）。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "ラストスパート中",
+            "追い越そうとしたとき"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6217,7 +6231,7 @@
           "effectiveness": "effective",
           "priority": 40,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「麺の極意、見つけたり」を採用するのが基本。元スキルのA評価と、進化後の推奨度は区別して判断。",
           "conditions": [
             "追込",
             "京都芝2200m"
@@ -6237,7 +6251,7 @@
           "effectiveness": "effective",
           "priority": 39,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度A。",
+          "reason": "ウマ娘ラボ推奨のシナリオ進化先「湯切りの妙技」を採用。進化後の特効維持には5ステータスの基礎値が各1000以上必要（特に根性に注意）。",
           "conditions": [
             "追込",
             "京都芝2200m"
@@ -6443,10 +6457,9 @@
           "effectiveness": "effective",
           "priority": 31,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "下り坂で速度上昇。京都2200mでは終盤開始付近で発動する可能性もあるが、位置はランダム。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "下り坂のどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6623,10 +6636,11 @@
           "effectiveness": "effective",
           "priority": 22,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "まず速度がわずかに下がり、その後終盤始めに少し前に出る特殊な2段階効果。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "中距離",
+            "レース中盤が迫ったどこかで前段発動",
+            "その後、終盤始めに追加効果"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6700,15 +6714,15 @@
           "aliases": [
             "レースの真髄・賢"
           ],
-          "category": "other",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 18,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース後半にスキルを2回発動すると速度上昇（+0.15m/s）。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "レース後半",
+            "スキルを2回発動"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6819,8 +6833,9 @@
         },
         {
           "id": "oct_oikomi_table_b_29",
-          "name": "むき出しの情熱",
+          "name": "むきだしの情熱",
           "aliases": [
+            "むきだしの情熱",
             "むき出しの情熱"
           ],
           "category": "speed",
@@ -6828,10 +6843,11 @@
           "effectiveness": "effective",
           "priority": 12,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "追い比べ中、残り200m以下で即時速度上昇。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "差しまたは追込",
+            "追い比べ中",
+            "残り200m以下"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6843,15 +6859,14 @@
           "aliases": [
             "序盤巧者"
           ],
-          "category": "positioning",
+          "category": "speed",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 11,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "レース中盤が近づくと速度がわずかに上がる。序盤の位置取り支援にも有効。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "レース中盤が迫ったどこか"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -6943,15 +6958,16 @@
           "aliases": [
             "戦略家"
           ],
-          "category": "speed",
+          "category": "green",
           "grade": "B",
           "effectiveness": "effective",
           "priority": 6,
           "isRecommended": true,
-          "reason": "ウマ娘ラボの2026年10月本育成論で優先度B。",
+          "reason": "緑スキル。条件を満たすとスピードとパワーが各20上昇する。",
           "conditions": [
-            "追込",
-            "京都芝2200m"
+            "中距離または長距離",
+            "スピード1000以上",
+            "パワー1000以上"
           ],
           "sourceIds": [
             "lab_oct_rear_20261013"
@@ -7482,7 +7498,7 @@
     }
   ],
   "metadata": {
-    "generatedAt": "2026-10-14T08:35:07+09:00",
+    "generatedAt": "2026-10-14T12:03:22+09:00",
     "generator": "Champions Assist data audit 2026-10-14",
     "sourceSite": "Cygames公式 / ウマ娘ラボ",
     "isComplete": true,
@@ -7499,7 +7515,9 @@
     "skillFamilyUpdatedAt": "2026-10-14",
     "skillFamilyPolicy": "表示名に上下位を併記するスキルは原記事表記を優先。",
     "skillAliasUpdatedAt": "2026-10-14",
-    "skillAliasPolicy": "金・白スキル併記は原表示名を維持し、各スキル名を単独aliasに追加。"
+    "skillAliasPolicy": "金・白スキル併記は原表示名を維持し、各スキル名を単独aliasに追加。",
+    "qualityAuditDate": "2026-10-14",
+    "qualityAuditScope": "既存333件のS/A/BとIDを維持。検証済みのカテゴリ・表示名・発動条件・説明のみ限定修正。全333件の技術検証完了は意味しない。"
   },
   "strategyGuide": {
     "contentStatus": "ready",
@@ -8848,7 +8866,7 @@
         ]
       }
     ],
-    "updatedAt": "2026-10-14T08:35:07+09:00",
+    "updatedAt": "2026-10-14T12:03:22+09:00",
     "sourceIds": [
       "lab_oct_course_20260926",
       "lab_oct_factor_20261006",
